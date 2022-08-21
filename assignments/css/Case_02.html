@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Case_02</title>
     <link rel="stylesheet" href="assets/css/normalize.css" >
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
 
         header{
@@ -15,6 +15,7 @@
         header>img{
             width: 213px;
             margin: 21px;
+
         }
         header>ul{
             position: absolute;
@@ -23,6 +24,7 @@
             font-size: 24px;
             list-style: none;
             color: black;
+
         }
         header>ul>li{
             padding: 0 10px 0 10px;
@@ -71,15 +73,17 @@
             width: calc(100% / 3);
         }
         main>section>section>div:nth-child(1){
-            left: 0;
+            left: 1;
             background: url("../../asserts/minions.gif");
             background-size: cover;
+
         }
 
         main>section>section>div:nth-child(2){
             left:calc(100% /3);
-            background: url("../../asserts/minions.gif");
+            background: url("../../asserts/minions.gif") ;
             background-size: cover;
+
         }
 
         main>section>section>div:nth-child(3){
@@ -103,6 +107,60 @@
             bottom: 0;
             margin: auto;
             color: white;
+        }
+
+        @media all and (max-width: 400px ){
+
+            header{
+                height: 90px;
+            }
+            header>img{
+                position: absolute;
+                left: 0;
+                right: 0;
+                margin: auto;
+                top: 0px;
+            }
+
+            header > ul {
+                right: 30px;
+                bottom: 10px;
+                left: 0;
+                right: 0;
+                font-size: 19px;
+                width: max-content;
+                margin: auto;
+                padding-left: 0;
+            }
+
+            main > nav {
+                display: none;
+            }
+
+            main > section {
+                margin-left: 0;
+            }
+
+            main > section > section {
+                height: 900px;
+            }
+            main>section>section>div{
+                position: absolute;
+                height:calc(100% / 3) ;
+                width: 100%;
+            }
+            main>section>section>div:nth-child(1){
+                top:0;
+                left: 0;
+            }
+            main>section>section>div:nth-child(2){
+                top:300px;
+                left: 0;
+            }
+            main>section>section>div:nth-child(3){
+                bottom:0;
+                left: 0;
+            }
         }
     </style>
 </head>
