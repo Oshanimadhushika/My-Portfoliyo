@@ -65,10 +65,27 @@
             position: relative;
         }
         main>section>section>div{
-            border: 1px solid black;
+            border: 1px solid coral;
             position: absolute;
             height: 100%;
             width: calc(100% / 3);
+        }
+        main>section>section>div:nth-child(1){
+            left: 0;
+            background: url("../../asserts/minions.gif");
+            background-size: cover;
+        }
+
+        main>section>section>div:nth-child(2){
+            left:calc(100% /3);
+            background: url("../../asserts/minions.gif");
+            background-size: cover;
+        }
+
+        main>section>section>div:nth-child(3){
+            left: calc((100% /3)*2);
+            background: url("../../asserts/minions.gif");
+            background-size: cover;
         }
     </style>
 </head>
