@@ -5,7 +5,10 @@
     <title>Case_02</title>
     <link rel="stylesheet" href="assets/css/normalize.css" >
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../../asserts/fonts/css/all.css">
+    <link rel="stylesheet" href="../../asserts/fonts/css/all.min.css">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <style>
 
         * {
@@ -47,17 +50,35 @@
             font-family: 'Poppins', sans-serif;
             color: rgba(46, 41, 41, 0.96);
         }
+        header > nav > ul > li:first-child{
+            border-left: 2px solid rgba(46, 41, 41, 0.58);
+        }
+
+        main ul>li:hover a{
+            color: #eee309;
+        }
+
+        main ul>li:hover i{
+            color: #ff9500;
+        }
+
+        header ul>li:hover a{
+            color: rgba(228, 12, 12, 0.89);
+        }
+
+        header ul>li:hover i{
+            color: #c21e1e;
+        }
+
         body>main{
             position: relative;
         }
         main>nav{
             position: absolute;
+            background: #24327f;
             top: 0;
             bottom: 0;
-            margin: auto;
-            background-color: darkblue;
-            width: 200px;
-            font-size: 25px;
+            width: 270px;
         }
         main>nav>ul{
               list-style: none;
@@ -65,6 +86,13 @@
           }
         main>nav>ul>li{
             padding-top: 15px;
+            color: white;
+            list-style: none;
+            font-size: 19px;
+            cursor: pointer;
+        }
+        main>nav>ul>li>i{
+            padding-right: 15px;
         }
 
         main>nav>ul>li{
@@ -73,6 +101,11 @@
             padding-bottom: 4px;
             margin-left: 13px;
         }
+        main>nav>ul>li>a{
+            color: #ccffcd;
+            text-decoration: none;
+        }
+
         main>section{
             margin-left: 220px;
             padding: 10px;
