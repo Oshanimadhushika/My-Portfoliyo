@@ -18,8 +18,11 @@
         header{
             background: white;
             box-shadow: 0px -1px 8px 2px #1c1717e8;
-            position: relative;
+            position: fixed;
+            width: 100%;
+            top: 0;
             height: 73px;
+            z-index: 2;
         }
         header>img{
             width: 190px;
@@ -37,11 +40,11 @@
             color: black;
 
         }
-        header > nav {
+       /* header > nav {
             position: absolute;
             right: 40px;
             top: 0;
-        }
+        }*/
 
         header>nav>ul>li{
             display: inline-block;
@@ -49,6 +52,8 @@
             padding: 10px;
             font-family: 'Poppins', sans-serif;
             color: rgba(46, 41, 41, 0.96);
+            font-size: 19px;
+            border-right: 2px solid rgba(46, 41, 41, 0.58);
         }
         header > nav > ul > li:first-child{
             border-left: 2px solid rgba(46, 41, 41, 0.58);
@@ -72,6 +77,7 @@
 
         body>main{
             position: relative;
+            margin-top: 73px;
         }
         main>nav{
             position: absolute;
