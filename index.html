@@ -17,12 +17,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Oshani Madhushika WebSite</title>
-    <link href="../../../assests/css/normalize.css" rel="stylesheet">
+    <link href="asserts/css/normalize.css" rel="stylesheet">
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
     <style>
+
+        /*::-webkit-scrollbar {
+            width: 0px;
+        }*/
       header{
           background-color: #383636;
           position: fixed;
@@ -44,7 +48,7 @@
             color: rgba(245, 240, 240, 0.96);
             font-size: 15px;
             margin-top: 15px;
-           /* border-right: 2px solid rgba(46, 41, 41, 0.58);*/
+
         }
       header>nav> ul>li>a{
           color: rgba(253, 251, 251, 0.96);
@@ -53,6 +57,35 @@
       header ul>li:hover a{
           color: rgba(145, 228, 12, 0.89);
       }
+      body>main{
+          position: relative;
+          top: 40px;
+          margin-top: -7px;
+          width: 100%;
+          height: 8932px;
+          background: #BBBABA;
+
+      }
+
+        #h>div:first-child{
+            position: absolute;
+            background:url("asserts/ash background.jpeg") no-repeat center;
+            background-size: 100% 100%;
+            z-index:2;
+            height: 100vh;
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        #h>div:first-child>div{
+            position: absolute;
+            background:url("asserts/Vector 8.png") no-repeat center;
+            background-size: 100% 100%;
+            z-index:3;
+            height: 100vh;
+            width: 100%;
+        }
+
     </style>
 </head>
 <body>
@@ -71,21 +104,25 @@
 
 </header>
 
+
 <main>
     <selection id="h">
 
+        <div class="div">
+            <div></div>
+        </div>
+
         <section>
-            <nav><img src="asserts/icons/facebook%20(2).png" alt=""></nav>
-            <nav><img src="asserts/icons/instagram%20(1).png" alt=""></nav>
-            <nav><img src="asserts/icons/twitter-sign.png" alt=""></nav>
-            <nav><img src="asserts/icons/whatsapp%20(2).png" alt=""></nav>
-            <nav><img src="asserts/icons/telegram%20(1).png" alt=""></nav>
+            <nav><img src="asserts/icons/facebook%20(2).png" alt="" height="66px" width="69px"></nav>
+            <nav><img src="asserts/icons/instagram%20(1).png" alt="" height="66px" width="69px"></nav>
+            <nav><img src="asserts/icons/twitter-sign.png" alt=""height="66px" width="69px"></nav>
+            <nav><img src="asserts/icons/whatsapp%20(2).png" alt=""height="66px" width="69px"></nav>
+            <nav><img src="asserts/icons/telegram%20(1).png" alt=""height="66px" width="69px"></nav>
 
-        <img src="asserts/PicsArt_07-22-07.12.15.png" alt="">
-
-        </section>
 
         <article>
+            <img src="asserts/PicsArt_07-22-07.12.15.png" alt="">
+
             <p><span style="color:gray;font-size: 50px">Oshani Madhushika </span>full stack developer</p>
         </article>
         <blockquote>
@@ -95,7 +132,10 @@
             </cite>
         </blockquote>
 
+        </section>
+
     </selection>
+
     <section >
      <h1><b><dfn id="a">ABOUT ME</dfn></b></h1>
 
@@ -118,6 +158,7 @@
        <li> <a href="mailto:oshanimadhushika12@gmail.com">oshanimadhushika12@gmail.com</a></li>
 
     </section>
+
     <selection>
         <h1><b><dfn id="e">EDUCATION</dfn></b></h1>
         <p>
@@ -174,6 +215,7 @@
         </p>
 
     </selection>
+
     <selection>
         <dl>
         <h1><b><dfn id="s">MY SKILLS</dfn></b></h1>
@@ -195,6 +237,7 @@
 
         </dl>
     </selection>
+
     <selection>
         <h1><b><dfn id="p">PROJECTS</dfn></b></h1>
         <dl>
@@ -236,6 +279,7 @@
 
         </dl>
     </selection>
+
     <selection>
         <h1><b><dfn id="c">CONTACT ME</dfn></b></h1>
         <dt>Location</dt>
@@ -281,6 +325,7 @@
         </form>
 
     </selection>
+
     <selection></selection>
 
 </main>
