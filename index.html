@@ -27,6 +27,8 @@
         /*::-webkit-scrollbar {
             width: 0px;
         }*/
+
+       /* <!--header details-->*/
       header{
           background-color: #383636;
           position: fixed;
@@ -35,11 +37,13 @@
           height: 39px;
           z-index: 2;
       }
+      /*  <!--header nav-->*/
         header>nav{
             position: absolute;
             right: 40px;
             top: -32px;
         }
+      /*  <!--header li(home,contact....)-->*/
         header>nav>ul>li{
             display: inline-block;
             cursor: pointer;
@@ -50,13 +54,17 @@
             margin-top: 15px;
 
         }
+        /*header home ,concact got white touch*/
       header>nav> ul>li>a{
           color: rgba(253, 251, 251, 0.96);
           text-decoration: none;
       }
+        /*header home ,concact got green touch after put the curser on*/
       header ul>li:hover a{
           color: rgba(145, 228, 12, 0.89);
       }
+
+
       body>main{
           position: relative;
           top: 40px;
@@ -66,7 +74,7 @@
           background: #BBBABA;
 
       }
-
+       /* <!--Home background image ash one-->*/
         #h>div:first-child{
             position: absolute;
             background:url("asserts/ash background.jpeg") no-repeat center;
@@ -77,6 +85,7 @@
             margin-top: 5px;
         }
 
+       /* <!--Home background image black one-->*/
         #h>div:first-child>div{
             position: absolute;
             background:url("asserts/Vector 8.png") no-repeat center;
@@ -86,13 +95,21 @@
             width: 100%;
         }
 
+       /* <!--1st page another items without backgrount image-->*/
+
+
+
     </style>
 </head>
 <body>
 
+<!--header details-->
 <header>
+    <!--header nav-->
     <nav>
+        <!--header ul-->
         <ul>
+            <!--header li-->
         <li><a href="#h">Home</a></li>
         <li><a href="#a">About</a></li>
         <li><a href="#e">Education</a></li>
@@ -106,13 +123,18 @@
 
 
 <main>
+    <!--Home 1st page-->
     <selection id="h">
 
+        <!--Home background image ash one-->
         <div class="div">
+            <!--Home background image black one-->
             <div></div>
         </div>
 
+        <!--1st page another items without backgrount image-->
         <section>
+            <!--facebook,instagram...icons-->
             <nav><img src="asserts/icons/facebook%20(2).png" alt="" height="66px" width="69px"></nav>
             <nav><img src="asserts/icons/instagram%20(1).png" alt="" height="66px" width="69px"></nav>
             <nav><img src="asserts/icons/twitter-sign.png" alt=""height="66px" width="69px"></nav>
