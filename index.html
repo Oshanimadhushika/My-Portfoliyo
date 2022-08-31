@@ -82,7 +82,7 @@
             z-index:2;
             height: 100vh;
             width: 100%;
-            margin-top:25px;
+            margin-top:27px;
         }
 
        /* <!--Home background image black one-->*/
@@ -93,7 +93,8 @@
             z-index:3;
             height: 100vh;
             width: 100%;
-            margin-top: 0px;
+            margin-top: -2px;
+            top: -4px;
         }
 
        /* <!--1st page another items without backgrount image-->*/
@@ -125,6 +126,25 @@
         main>#h>section:nth-child(2)>nav>nav:nth-child(5){
             padding: 7px;
         }
+
+        /*rectangle behind the photo*/
+        main>#h>section:nth-child(2)>article>div:first-child{
+
+        }
+        /*my 1st photo*/
+        main>#h>section:nth-child(2)>article>div:first-child>div{
+            position: absolute;
+            background: url("asserts/PicsArt_07-22-07.12.15.png");
+            background-size: cover;
+            background-position: center;
+            width: 280px;
+            height: 400px;
+            left: 242px;
+            top: 102px;
+            border-radius: 40px;
+            z-index: 4;
+        }
+
 
 
     </style>
@@ -172,7 +192,12 @@
             </nav>
 
         <article>
-            <img src="asserts/PicsArt_07-22-07.12.15.png" alt="">
+            /*rectangle behind the photo*/
+            <div>
+                /*my 1st photo*/
+                <div></div>
+            </div>
+
 
             <p><span style="color:gray;font-size: 50px">Oshani Madhushika </span>full stack developer</p>
         </article>
