@@ -1,0 +1,35 @@
+/* <!--header details-->*/
+header{
+    background-color: #383636;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 39px;
+    z-index: 10;
+}
+/*  <!--header nav-->*/
+header>nav{
+    position: absolute;
+    right: 40px;
+    top: -32px;
+}
+/*  <!--header li(home,contact....)-->*/
+header>nav>ul>li{
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: rgba(245, 240, 240, 0.96);
+    font-size: 15px;
+    margin-top: 15px;
+
+}
+/*header home ,concact got white touch*/
+header>nav> ul>li>a{
+    color: rgba(253, 251, 251, 0.96);
+    text-decoration: none;
+}
+/*header home ,concact got green touch after put the curser on*/
+header ul>li:hover a{
+    color: rgba(145, 228, 12, 0.89);
+}

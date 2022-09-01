@@ -21,47 +21,26 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    <link href="asserts/css/header/Header.css" rel="stylesheet">
+    <link href="asserts/css/footer/Footer.css" rel="stylesheet">
+    <link href="asserts/css/main/Home.css" rel="stylesheet">
+    <link href="asserts/css/main/About.css" rel="stylesheet">
+    <link href="asserts/css/main/Education.css" rel="stylesheet">
+    <link href="asserts/css/main/Project.css" rel="stylesheet">
+    <link href="asserts/css/main/Skill.css" rel="stylesheet">
+    <link href="asserts/css/main/Contact.css" rel="stylesheet">
+
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
         /*::-webkit-scrollbar {
             width: 0px;
         }*/
 
-       /* <!--header details-->*/
-      header{
-          background-color: #383636;
-          position: fixed;
-          width: 100%;
-          top: 0;
-          height: 39px;
-          z-index: 10;
-      }
-      /*  <!--header nav-->*/
-        header>nav{
-            position: absolute;
-            right: 40px;
-            top: -32px;
-        }
-      /*  <!--header li(home,contact....)-->*/
-        header>nav>ul>li{
-            display: inline-block;
-            cursor: pointer;
-            padding: 10px;
-            font-family: 'Poppins', sans-serif;
-            color: rgba(245, 240, 240, 0.96);
-            font-size: 15px;
-            margin-top: 15px;
-
-        }
-        /*header home ,concact got white touch*/
-      header>nav> ul>li>a{
-          color: rgba(253, 251, 251, 0.96);
-          text-decoration: none;
-      }
-        /*header home ,concact got green touch after put the curser on*/
-      header ul>li:hover a{
-          color: rgba(145, 228, 12, 0.89);
-      }
 
 
       body>main{
@@ -155,15 +134,16 @@
             z-index:5;
             opacity: 100%;
 
+
         }
         /*I'm Oshani*/
         main>#h>section:nth-child(2)>article>h3:nth-child(2){
             position: absolute;
             width: 664px;
             height: 132px;
-            left: 407px;
+            right: 5vw;
             top: -68px;
-            font-family:Irish Grover, serif;
+            font-family:'Irish Grover', cursive;
            /* font-style: normal;*/
             font-weight: 400;
             font-size: 106px;
@@ -177,7 +157,7 @@
             position: absolute;
             width: 500px;
             height: 122px;
-            left: 660px;
+            right: 7vw;
             top: 125px;
             font-family: Irish Grover,serif;
             font-style: normal;
@@ -193,7 +173,7 @@
             position: absolute;
             width: 300px;
             height: 57px;
-            left: 840px;
+            right: 4vw;
             top: 118px;
             font-family: Inter;
             font-style: italic;
@@ -211,7 +191,7 @@
             position: absolute;
             width: 650px;
             height: 180px;
-            left: 464px;
+            right: 5vw;
             top: 543px;
             background: rgba(47, 41, 41, 0.55);
             border-radius: 40px;
@@ -223,7 +203,7 @@
                 position: absolute;
                 width: 645px;
                 height: 204px;
-                left: 18px;
+                right: 5vw;
                 top: -5px;
                 font-family: 'IM FELL Great Primer SC';
                 font-style: normal;
@@ -286,18 +266,20 @@
             position: absolute;
             width: 835px;
             height: 71px;
-            left: -6px;
+            left: 2vw;
             top: 31px;
             background: url("asserts/Vector 7.png");
+            background-size:cover;
+            background-position: center;
             z-index: 5;
         }
 
         /*pink line about me*/
         main>section:nth-child(2)>section>div:nth-child(2){
             position: absolute;
-            width: 517px;
+            width: 50vw;
             height: 0px;
-            left: 636px;
+            right: 0vw;
             top: 45px;
             border: 3px solid #AB9697;
             transform: rotate(-0.19deg);
@@ -306,9 +288,9 @@
         /*red line about me*/
         main>section:nth-child(2)>section>div:nth-child(3){
             position: absolute;
-            width: 520px;
+            width: 50vw;
             height: 0px;
-            left: 590px;
+            right: -4vw;
             top: 74px;
             border: 2px solid #AC1F38;
             transform: rotate(-0.19deg);
@@ -320,7 +302,7 @@
             position: absolute;
             width: 730px;
             height: 115px;
-            left: 10px;
+            left: 4vw;
             top: -47px;
             font-family: 'Shippori Mincho';
             font-style: normal;
@@ -336,7 +318,7 @@
             position: absolute;
             width: 92vw;
             height: 809px;
-            left: 30px;
+            left: 2vw;
             top: 124px;
             background: #9A9090;
             opacity: 0.9;
@@ -345,20 +327,40 @@
         }
 
         /*tool behind my 2nd photo*/
-        /*main>section:nth-child(2)>section>div:nth-child(5)>div:first-child{
-           !* box-sizing: border-box;*!
+        main>section:nth-child(2)>section>div:nth-child(5)>div:first-child{
+
             position: absolute;
             background: url("asserts/Polygon 1.png");
-            width: 701.72px;
-            height: 632.17px;
-            left: 8.47px;
-            top: 1819.35px;
+            background-size:cover;
+            background-position: center;
+            width: 20vw;
+            height: 399px;
+            left: 3vw;
+            top: 36px;
             background: rgba(13, 13, 13, 0.8);
             opacity: 0.8;
             border: 3px solid #000000;
             transform: rotate(-0.97deg);
             z-index: 6;
-        }*/
+        }
+
+        /*2nd tool behind the photo*/
+        main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div{
+
+            position: absolute;
+            background: url("asserts/Polygon 1.png");
+            background-size:cover;
+            background-position: center;
+            width: 20vw;
+            height: 399px;
+            left: 4vw;
+            top: 36px;
+            background: rgba(13, 13, 13, 0.8);
+            opacity: 0.8;
+            border: 3px solid #000000;
+            transform: rotate(-0.97deg);
+            z-index: 6;
+        }
 
         /*Im oshani madhushika red one*/
         main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(2){
@@ -366,7 +368,7 @@
             position: absolute;
             width: 492px;
             height: 100px;
-            left: 445px;
+            right: 10vw;
             top: 43px;
             font-family: 'Italianno';
             font-style: normal;
@@ -388,11 +390,11 @@
             background-position: center;
             width: 311px;
             height: 399px;
-            left: 25px;
+            left: 2vw;
             top: 36px;
             border-radius: 30px;
             opacity: 100%;
-            z-index: 7;
+            z-index:8;
         }
 
         /* 1st paragraph about me*/
@@ -400,14 +402,15 @@
             position: absolute;
             width: 464px;
             height: 199px;
-            left: 590px;
+            right: 4vw;
+            /*left: 590px;*/
             top: 144px;
             font-family: 'Sansita';
             font-style: normal;
             font-weight: 400;
             font-size: 24px;
             line-height: 30px;
-            color: #4C4F4B;
+            color: #0a0a0a;
             z-index: 6;
 
         }
@@ -424,11 +427,12 @@
             font-weight: 400;
             font-size: 24px;
             line-height: 30px;
-            color: #4C4F4B;
+            color: #090808;
             z-index: 6;
 
         }
 
+        /*list in about me*/
         main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(5){
             position: absolute;
             width: 716px;
