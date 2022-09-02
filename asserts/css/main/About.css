@@ -109,7 +109,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:first-child{
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-bottom: 28.8675px solid red;
+    border-bottom: 28.8675px solid #2d2727;
 
 }
 #hexagon::after {
@@ -121,17 +121,17 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:first-child{
     height: 0;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
-    border-top: 28.8675px solid red;
+    border-top: 28.8675px solid  #2d2727;
 
 }
 
 /*2nd tool behind the photo*/
-main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div{
+/*main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div{
 
     position: absolute;
     background: url("../../Polygon 1.png") no-repeat center;
     background-size:100% 100%;
-   /* background-position: center;*/
+   !* background-position: center;*!
     width: 500px;
     height: 399px;
     left: 4vw;
@@ -141,7 +141,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div{
     border: 3px solid #000000;
     transform: rotate(-0.97deg);
     z-index: 6;
-}
+}*/
 
 /*Im oshani madhushika red one*/
 main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(2){
