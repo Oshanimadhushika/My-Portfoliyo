@@ -21,7 +21,7 @@ main>section:nth-child(3)>section>div:first-child{
     z-index: 5;
 }
 
-/*pink line about me*/
+/*pink line Education*/
 main>section:nth-child(3)>section>div:nth-child(2){
     position: absolute;
     width: 50vw;
@@ -32,7 +32,7 @@ main>section:nth-child(3)>section>div:nth-child(2){
     transform: rotate(-0.19deg);
     z-index: 6;
 }
-/*red line about me*/
+/*red line Education*/
 main>section:nth-child(3)>section>div:nth-child(3){
     position: absolute;
     width: 50vw;
@@ -58,4 +58,15 @@ main>section:nth-child(3)>section>h1:nth-child(4){
     line-height: 139px;
     color: #FFFFFF;
     z-index: 6;
+}
+main>section:nth-child(3)>section>div:nth-child(5){
+    position: absolute;
+    width: 92vw;
+    height: 809px;
+    left: 2vw;
+    top: 783px;
+    background: #9A9090;
+    opacity: 0.9;
+    border-radius: 50px;
+    z-index: 5;
 }
