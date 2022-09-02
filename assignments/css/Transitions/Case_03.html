@@ -2,9 +2,52 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>CSS Animations | IJSE</title>
+    <meta content="width=device-width initial-scale=1" name="viewport">
+    <link href="../../../asserts/css/normalize.css" rel="stylesheet">
+    <style>
+        div{
+            width: 200px;
+            height: 60px;
+            border: 2px solid black;
+            background-color: black;
+            border-radius: 20%;
+            animation-name: my-animation;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+
+        @keyframes my-animation {
+            0%{
+                background: yellow;
+                margin: 0px 0px 0px 0px;
+            }
+            25%{
+                background: blue;
+                margin: 0px 0px 0px 500px;
+            }
+            50%{
+                background: orangered;
+                margin: 400px 0px 0px 500px;
+            }
+            75%{
+                background: red;
+                margin: 400px 0px 500px 0px;
+            }
+            100%{
+                background: deeppink;
+                margin: 0px 0px 0px 0px;
+            }
+        }
+    </style>
 </head>
 <body>
+
+<div>
+
+</div>
 
 </body>
 </html>
