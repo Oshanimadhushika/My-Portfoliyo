@@ -50,12 +50,12 @@ main>section:nth-child(2)>section>h1:nth-child(4){
     position: absolute;
     width: 730px;
     height: 115px;
-    left: 4vw;
-    top: -47px;
+    left: 3vw;
+    top: -46px;
     font-family: 'Shippori Mincho', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 60px;
+    font-size: 50px;
     line-height: 139px;
     color: #FFFFFF;
     z-index: 6;
@@ -75,14 +75,15 @@ main>section:nth-child(2)>section>div:nth-child(5){
 }
 
 /*tool behind my 2nd photo*/
+/*
 main>section:nth-child(2)>section>div:nth-child(5)>div:first-child{
 
     position: absolute;
-    background: url("../../Polygon 1.png");
+    background: url("../../Polygon 1.png") ;
     background-size:cover;
     background-position: center;
-    width: 20vw;
-    height: 399px;
+    width: 500px;
+    height: 500px;
     left: 3vw;
     top: 36px;
     background: rgba(13, 13, 13, 0.8);
@@ -91,15 +92,47 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:first-child{
     transform: rotate(-0.97deg);
     z-index: 6;
 }
+*/
+#hexagon {
+    width: 100px;
+    height: 57.735px;
+    background: #2d2727;
+    position: relative;
+    z-index: 8;
+}
+#hexagon::before {
+    content: "";
+    position: absolute;
+    top: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 28.8675px solid red;
+
+}
+#hexagon::after {
+    content: "";
+    position: absolute;
+    bottom: -28.8675px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 28.8675px solid red;
+
+}
 
 /*2nd tool behind the photo*/
 main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div{
 
     position: absolute;
-    background: url("../../Polygon 1.png");
-    background-size:cover;
-    background-position: center;
-    width: 20vw;
+    background: url("../../Polygon 1.png") no-repeat center;
+    background-size:100% 100%;
+   /* background-position: center;*/
+    width: 500px;
     height: 399px;
     left: 4vw;
     top: 36px;
@@ -114,14 +147,14 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div{
 main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(2){
 
     position: absolute;
-    width: 492px;
+    width: 628px;
     height: 100px;
     right: 10vw;
     top: 43px;
     font-family: 'Italianno', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 46px;
+    font-size: 86px;
     line-height: 51px;
     color: #AC1F38;
     z-index: 6;
