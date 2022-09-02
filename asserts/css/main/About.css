@@ -94,57 +94,35 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:first-child{
 }
 */
 #hexagon {
-    width: 100px;
-    height: 57.735px;
+    width: 30vw;
+    height: 312.735px;
     background: #2d2727;
     position: relative;
     z-index: 8;
-}
-#hexagon::before {
-    content: "";
-    position: absolute;
-    top: -28.8675px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 28.8675px solid #2d2727;
-
-}
-#hexagon::after {
-    content: "";
-    position: absolute;
-    bottom: -28.8675px;
-    left: 0;
-    width: 0;
-    height: 0;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-top: 28.8675px solid  #2d2727;
-
+    left: 10vw;
+    top: 18vh;
+    background: url("../../Polygon 1.png");
+    background-size: cover;
+    background-position: center;
 }
 
 /*2nd tool behind the photo*/
-/*main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div{
+#hexagon>div{
 
-    position: absolute;
-    background: url("../../Polygon 1.png") no-repeat center;
-    background-size:100% 100%;
-   !* background-position: center;*!
-    width: 500px;
-    height: 399px;
-    left: 4vw;
-    top: 36px;
-    background: rgba(13, 13, 13, 0.8);
-    opacity: 0.8;
-    border: 3px solid #000000;
-    transform: rotate(-0.97deg);
-    z-index: 6;
-}*/
+    width: 30vw;
+    height: 312.735px;
+    background: #2d2727;
+    position: relative;
+    z-index: 8;
+    left: -6vw;
+    top: 16vh;
+    background: url("../../Polygon 1.png");
+    background-size: cover;
+    background-position: center;
+}
 
 /*Im oshani madhushika red one*/
-main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(2){
+main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(3){
 
     position: absolute;
     width: 628px;
@@ -164,7 +142,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(2){
 }
 
 /*My 2nd 4to*/
-main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div>div{
+main>section:nth-child(2)>section>div:nth-child(5)>div:nth-child(2){
     position: absolute;
     background:linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
     background-size:cover;
@@ -179,7 +157,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:first-child>div>div{
 }
 
 /* 1st paragraph about me*/
-main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(3){
+main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
     position: absolute;
     width: 464px;
     height: 199px;
@@ -197,7 +175,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(3){
 }
 
 <!-- /* 2st paragraph about me*/-->
-main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
+main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
     position: absolute;
     width: 462px;
     height: 307px;
@@ -214,7 +192,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
 }
 
 /*list in about me*/
-main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(5){
+main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
     position: absolute;
     width: 716px;
     height: 249px;
