@@ -258,3 +258,17 @@ main>section:nth-child(4)>section>div:nth-child(5)>h1:nth-child(9){
     line-height: 83px;
     color: #000000;
 }
+
+
+/*VS*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(10){
+    position: absolute;
+    width: 5vw;
+    height: 52px;
+    left: 72vw;
+    top: 152px;
+    background: url("../../Ellipse 20.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
