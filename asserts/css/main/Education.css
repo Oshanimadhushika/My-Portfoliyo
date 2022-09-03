@@ -366,7 +366,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(21){
 /*IJSE details*/
 main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(22){
     position: absolute;
-    width: 26vw;
+    width: 20vw;
     height: 114px;
     left: 67vw;
     top: 13px;
@@ -395,11 +395,39 @@ main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(23){
 /*BW details*/
 main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(24){
     position: absolute;
-    width: 21vw;
+    width: 17vw;
     height: 114px;
     left: 3vw;
     top: 151px;
     font-family: 'Sansita',cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 26px;
+    color: #0D0D0D;
+    z-index: 8;
+}
+/*AL GCC */
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(25){
+    position: absolute;
+    width: 25vw;
+    height: 127px;
+    left: 67vw;
+    top: 272px;
+    background: url("../../Rectangle 9.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 1.5;
+    z-index: 7;
+}
+/*AL details*/
+main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(26) {
+    position: absolute;
+    width: 21vw;
+    height: 114px;
+    left: 68vw;
+    top: 267px;
+    font-family: 'Sansita', cursive;
     font-style: normal;
     font-weight: 800;
     font-size: 21px;
