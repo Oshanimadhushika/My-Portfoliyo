@@ -63,7 +63,7 @@ main>section:nth-child(3)>section>h1:nth-child(4){
 /*rectangle Education*/
 main>section:nth-child(3)>section>div:nth-child(5){
     position: absolute;
-    width: 92vw;
+    width: 94vw;
     height: 1130px;
     left: 2vw;
     top: 783px;
@@ -256,7 +256,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(14){
     z-index: 6;
 }
 
-/*2019 -2rd*/
+/*2019 -2nd*/
 main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(15){
     position: absolute;
     width: 15vw;
@@ -347,4 +347,34 @@ main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(20){
     line-height: 88px;
     color: #0D0D0D;
     z-index: 6;
+}
+
+/*IJSE */
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(21){
+    position: absolute;
+    width: 25vw;
+    height: 111px;
+    left: 67vw;
+    top: 23px;
+    background: url("../../Rectangle 11.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.5;
+    z-index: 7;
+}
+
+/*IJSE details*/
+main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(22){
+    position: absolute;
+    width: 26vw;
+    height: 114px;
+    left: 67vw;
+    top: 13px;
+    font-family: 'Sansita',cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 26px;
+    color: #0D0D0D;
+    z-index: 8;
 }
