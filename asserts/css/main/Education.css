@@ -271,3 +271,19 @@ main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(15){
     color: #0D0D0D;
     z-index: 6;
 }
+
+/*2019 -3rd*/
+main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(16){
+    position: absolute;
+    width: 15vw;
+    height: 80px;
+    left: 52vw;
+    top: 189px;
+    font-family: 'Sail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 88px;
+    color: #0D0D0D;
+    z-index: 6;
+}
