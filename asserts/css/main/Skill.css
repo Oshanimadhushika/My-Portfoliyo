@@ -19,3 +19,25 @@ main>section:nth-child(4)>section>div:first-child{
     background-position: center;
     z-index: 6;
 }
+/*pink line skills*/
+main>section:nth-child(4)>section>div:nth-child(2){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: 0vw;
+    top: 7px;
+    border: 3px solid #AB9697;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
+/*red line Skills*/
+main>section:nth-child(4)>section>div:nth-child(3){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: -7vw;
+    top: 40px;
+    border: 2px solid #AC1F38;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
