@@ -83,5 +83,21 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:first-child{
     border: 3px solid #000000;
     border-radius: 60px;
 }
+/*rectangle Design*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2){
+    box-sizing: border-box;
+    position: absolute;
+    width: 26vw;
+    height: 265px;
+    left: 13vw;
+    top: 228px;
+    background: url("../../Rectangle 49.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+    border: 3px solid #000000;
+    border-radius: 60px;
+}
+
 
 
