@@ -285,3 +285,15 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(11){
     background-position: center;
     z-index: 6;
 }
+/*GitHub*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(12){
+    position: absolute;
+    width: 8vw;
+    height: 52px;
+    left: 85vw;
+    top: 241px;
+    background: url("../../Ellipse 22.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
