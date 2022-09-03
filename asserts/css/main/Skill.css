@@ -336,3 +336,15 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(15){
     background-position: center;
     z-index: 6;
 }
+/*SceneBuilder*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(16){
+    position: absolute;
+    width: 6vw;
+    height: 55px;
+    left: 60vw;
+    top: 241px;
+    background: url("../../Ellipse 16.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
