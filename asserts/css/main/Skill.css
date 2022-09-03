@@ -202,3 +202,17 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(5){
     z-index: 6;
 
 }
+
+/*CSS icon*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(6){
+    position: absolute;
+    width: 5vw;
+    height: 59px;
+    left: 30vw;
+    top: 158px;
+    background: url("../../Rectangle 54.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+
+}
