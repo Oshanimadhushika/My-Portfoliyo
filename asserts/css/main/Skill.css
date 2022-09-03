@@ -216,3 +216,17 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(6){
     z-index: 6;
 
 }
+
+/*Hibernate icon*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(7){
+    position: absolute;
+    width: 5vw;
+    height: 74px;
+    left: 38vw;
+    top: 152px;
+    background: url("../../Rectangle 55.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+
+}
