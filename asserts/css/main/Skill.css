@@ -83,7 +83,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:first-child{
     border: 3px solid #000000;
     border-radius: 60px;
 }
-/*rectangle Design*/
+/*rectangle Others*/
 main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2){
     box-sizing: border-box;
     position: absolute;
@@ -99,5 +99,19 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2){
     border-radius: 60px;
 }
 
-
+/*title Design*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:first-child>dt{
+    position: absolute;
+    width: 26vw;
+    height: 265px;
+    left: 6vw;
+    top: -3px;
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    z-index: 7;
+}
 
