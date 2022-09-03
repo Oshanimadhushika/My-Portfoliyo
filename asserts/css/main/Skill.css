@@ -230,3 +230,16 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(7){
     z-index: 6;
 
 }
+/*HTML icon*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(8){
+    position: absolute;
+    width: 7vw;
+    height: 72px;
+    left: 46vw;
+    top: 152px;
+    background: url("../../Rectangle 57.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+
+}
