@@ -318,3 +318,33 @@ main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(18){
     color: #0D0D0D;
     z-index: 6;
 }
+/*2011 */
+main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(19){
+    position: absolute;
+    width: 15vw;
+    height: 80px;
+    left: 32vw;
+    top: 633px;
+    font-family: 'Sail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 88px;
+    color: #0D0D0D;
+    z-index: 6;
+}
+/*2006 */
+main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(20){
+    position: absolute;
+    width: 15vw;
+    height: 80px;
+    left: 52vw;
+    top: 778px;
+    font-family: 'Sail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 88px;
+    color: #0D0D0D;
+    z-index: 6;
+}
