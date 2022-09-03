@@ -287,3 +287,34 @@ main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(16){
     color: #0D0D0D;
     z-index: 6;
 }
+
+/*2016 */
+main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(17){
+    position: absolute;
+    width: 15vw;
+    height: 80px;
+    left: 31vw;
+    top: 331px;
+    font-family: 'Sail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 88px;
+    color: #0D0D0D;
+    z-index: 6;
+}
+/*2013 */
+main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(18){
+    position: absolute;
+    width: 15vw;
+    height: 80px;
+    left: 52vw;
+    top: 472px;
+    font-family: 'Sail', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 73px;
+    line-height: 88px;
+    color: #0D0D0D;
+    z-index: 6;
+}
