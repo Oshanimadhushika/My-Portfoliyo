@@ -442,7 +442,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(27){
     height: 127px;
     left: 2vw;
     top: 409px;
-    background: url("../../Rectangle 6.png");
+    background: url("../../Rectangle 10.png");
     background-size: cover;
     background-position: center;
     opacity: 1.5;
@@ -454,7 +454,35 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(28) {
     width: 19vw;
     height: 114px;
     left: 3vw;
-    top: 407px;
+    top: 400px;
+    font-family: 'Sansita', cursive;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 26px;
+    color: #0D0D0D;
+    z-index: 8;
+}
+/*Secondary GCC */
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(29){
+    position: absolute;
+    width: 25vw;
+    height: 127px;
+    left: 67vw;
+    top: 556px;
+    background: url("../../Rectangle 6.png");
+    background-size: cover;
+    background-position: center;
+    opacity: 1.5;
+    z-index: 7;
+}
+/*Secondary details*/
+main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(30) {
+    position: absolute;
+    width: 17vw;
+    height: 114px;
+    left: 68vw;
+    top: 550px;
     font-family: 'Sansita', cursive;
     font-style: normal;
     font-weight: 800;
