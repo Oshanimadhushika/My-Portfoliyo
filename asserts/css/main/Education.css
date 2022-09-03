@@ -59,14 +59,183 @@ main>section:nth-child(3)>section>h1:nth-child(4){
     color: #FFFFFF;
     z-index: 6;
 }
+
+/*rectangle Education*/
 main>section:nth-child(3)>section>div:nth-child(5){
     position: absolute;
     width: 92vw;
-    height: 809px;
+    height: 1130px;
     left: 2vw;
     top: 783px;
     background: #9A9090;
     opacity: 0.9;
     border-radius: 50px;
     z-index: 5;
+}
+
+/*Line y*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:first-child{
+    position: absolute;
+    width: 7px;
+    height: 1040px;
+    left: 47vw;
+    top: 51px;
+    background: url("../../Line 3.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Line X1*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(2){
+    position: absolute;
+    width: 20vw;
+    height: 7px;
+    left: 47vw;
+    top: 83px;
+    background: url("../../Line 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Line X2*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(3){
+    position: absolute;
+    width: 20vw;
+    height: 7px;
+    left: 27vw;
+    top: 211px;
+    background: url("../../Line 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Line X3*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(4){
+    position: absolute;
+    width: 20vw;
+    height: 7px;
+    left: 47vw;
+    top:341px;
+    background: url("../../Line 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+/*Line X4*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(5){
+    position: absolute;
+    width: 20vw;
+    height: 7px;
+    left: 27vw;
+    top: 475px;
+    background: url("../../Line 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Line X5*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(6){
+    position: absolute;
+    width: 20vw;
+    height: 7px;
+    left: 47vw;
+    top:624px;
+    background: url("../../Line 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Line X6*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(7){
+    position: absolute;
+    width: 20vw;
+    height: 7px;
+    left: 27vw;
+    top: 774px;
+    background: url("../../Line 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Line X7*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(8){
+    position: absolute;
+    width: 20vw;
+    height: 7px;
+    left: 47vw;
+    top:921px;
+    background: url("../../Line 4.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+/*circle 1*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(9){
+    position: absolute;
+    width: 3vw;
+    height: 43px;
+    left: 46vw;
+    top: 193px;
+    background: url("../../Ellipse 15.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*circle 2*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(10){
+    position: absolute;
+    width: 3vw;
+    height: 43px;
+    left: 46vw;
+    top: 455px;
+    background: url("../../Ellipse 15.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*circle 3*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(11){
+    position: absolute;
+    width: 3vw;
+    height: 43px;
+    left: 46vw;
+    top:752px;
+    background: url("../../Ellipse 15.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*circle 4*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(12){
+    position: absolute;
+    width: 3vw;
+    height: 43px;
+    left: 46vw;
+    top:1050px;
+    background: url("../../Ellipse 15.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*graduation icon*/
+main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(13){
+    position: absolute;
+    width: 5vw;
+    height: 56px;
+    left: 45vw;
+    top: 2px;
+    background: url("../../Ellipse 10.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
 }
