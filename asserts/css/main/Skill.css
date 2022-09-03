@@ -56,4 +56,16 @@ main>section:nth-child(4)>section>h1:nth-child(4){
     color: #FFFFFF;
     z-index: 6;
 }
+/*rectangle Skills*/
+main>section:nth-child(4)>section>div:nth-child(5){
+    position: absolute;
+    width: 94vw;
+    height: 508px;
+    left: 2vw;
+    top: 96px;
+    background: #9A9090;
+    opacity: 0.9;
+    border-radius: 50px;
+    z-index: 5;
+}
 
