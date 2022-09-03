@@ -1,0 +1,9 @@
+/*Skill section*/
+main>section:nth-child(4){
+    position: relative;
+    height: calc(100vh /6) ;
+    width: 87vw;
+    top: 2758px;
+    left: 22px;
+    z-index:6;
+}
