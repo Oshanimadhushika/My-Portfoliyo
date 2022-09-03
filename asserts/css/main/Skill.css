@@ -7,3 +7,15 @@ main>section:nth-child(4){
     left: 22px;
     z-index:6;
 }
+/*vector 7 black*/
+main>section:nth-child(4)>section>div:first-child{
+    position: absolute;
+    width: 835px;
+    height: 71px;
+    left: 2vw;
+    top: -12px;
+    background: url("../../Vector 7.png");
+    background-size:cover;
+    background-position: center;
+    z-index: 6;
+}
