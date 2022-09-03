@@ -73,7 +73,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:first-child{
     box-sizing: border-box;
     position: absolute;
     width: 26vw;
-    height: 265px;
+    height: 285px;
     left: 2vw;
     top: 48px;
     background: url("../../Rectangle 49.png");
@@ -88,9 +88,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2){
     box-sizing: border-box;
     position: absolute;
     width: 26vw;
-    height: 265px;
-    left: 13vw;
-    top: 228px;
+    height: 285px;
+    left: 18vw;
+    top: 245px;
     background: url("../../Rectangle 49.png");
     background-size: cover;
     background-position: center;
@@ -115,3 +115,18 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:first-child>dt{
     z-index: 7;
 }
 
+/*detail Design*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:first-child>div:nth-child(2){
+    position: absolute;
+    width: 26vw;
+    height: 265px;
+    left: -1vw;
+    top: 61px;
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 35px;
+    color: #000000;
+    z-index: 7;
+}
