@@ -348,3 +348,16 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(16){
     background-position: center;
     z-index: 6;
 }
+
+/*NetBeans*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
+    position: absolute;
+    width: 8vw;
+    height: 55px;
+    left: 62vw;
+    top: 161px;
+    background: url("../../Ellipse 19.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
