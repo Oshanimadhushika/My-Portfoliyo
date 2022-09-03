@@ -125,7 +125,38 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:first-child>div:nth-child
     font-family: 'IM Fell English', serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 33px;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    z-index: 7;
+}
+/*title Others*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2)>dt{
+    position: absolute;
+    width: 26vw;
+    height: 265px;
+    left: 7vw;
+    top: -2px;
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 61px;
+    color: #000000;
+    z-index: 7;
+}
+
+/*detail others*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2)>div:nth-child(2){
+    position: absolute;
+    width: 26vw;
+    height: 265px;
+    left: 3vw;
+    top: 61px;
+    font-family: 'IM Fell English', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
     line-height: 35px;
     color: #000000;
     z-index: 7;
