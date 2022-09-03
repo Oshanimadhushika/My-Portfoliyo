@@ -173,5 +173,18 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(3){
     background-position: center;
     z-index: 6;
 
+}
+
+/*JS icon*/
+main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(4){
+    position: absolute;
+    width: 5vw;
+    height: 70px;
+    left: 38vw;
+    top: 54px;
+    background: url("../../Rectangle 53.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
 
 }
