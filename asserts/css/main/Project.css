@@ -14,7 +14,7 @@ main>section:nth-child(5)>section>div:first-child{
     width: 835px;
     height: 71px;
     left: 2vw;
-    top: -56px;
+    top: -30px;
     background: url("../../Vector 7.png");
     background-size:cover;
     background-position: center;
@@ -27,7 +27,7 @@ main>section:nth-child(5)>section>div:nth-child(2){
     width: 50vw;
     height: 0px;
     right: 0vw;
-    top: -39px;
+    top: -13px;
     border: 3px solid #AB9697;
     transform: rotate(-0.19deg);
     z-index: 6;
@@ -38,7 +38,7 @@ main>section:nth-child(5)>section>div:nth-child(3){
     width: 50vw;
     height: 0px;
     right: -4vw;
-    top: -9px;
+    top: 16px;
     border: 2px solid #AC1F38;
     transform: rotate(-0.19deg);
     z-index: 6;
@@ -49,7 +49,7 @@ main>section:nth-child(5)>section>h1:nth-child(4){
     width: 730px;
     height: 115px;
     left: 3vw;
-    top: -126px;
+    top: -103px;
     font-family: 'Shippori Mincho', serif;
     font-style: normal;
     font-weight: 400;
@@ -62,11 +62,26 @@ main>section:nth-child(5)>section>h1:nth-child(4){
 main>section:nth-child(5)>section>div:nth-child(5){
     position: absolute;
     width: 94vw;
-    height: 600px;
+    height: 888px;
     left: 2vw;
     top: 74px;
     background: #9A9090;
     opacity: 0.9;
     border-radius: 50px;
     z-index: 5;
+}
+/*1st paragraph*/
+main>section:nth-child(5)>section>div:nth-child(5)>p:first-child{
+    position: absolute;
+    width: 86vw;
+    height: 111px;
+    left: 63px;
+    top: -22px;
+    font-family: 'Sansita',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+
 }
