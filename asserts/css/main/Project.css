@@ -234,3 +234,17 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>button{
     font-family:'Sigmar One',cursive;
     font-size:20px ;
 }
+
+/*Git Hub rectangle*/
+main>section:nth-child(5)>section>div:nth-child(5)>article:nth-child(6){
+    position: absolute;
+    width: 24vw;
+    height: 582px;
+    left: 61vw;
+    top: 230px;
+    background: #000000;
+    border-radius: 80px;
+    z-index: 6;
+}
+/*Git Hub Paragraph*/
+main>section:nth-child(5)>section>div:nth-child(5)>article:nth-child(6)>p{}
