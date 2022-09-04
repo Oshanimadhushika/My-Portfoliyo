@@ -236,7 +236,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>button{
 }
 
 /*Git Hub rectangle*/
-main>section:nth-child(5)>section>div:nth-child(5)>article:nth-child(6){
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6){
     position: absolute;
     width: 24vw;
     height: 582px;
@@ -246,5 +246,69 @@ main>section:nth-child(5)>section>div:nth-child(5)>article:nth-child(6){
     border-radius: 80px;
     z-index: 6;
 }
-/*Git Hub Paragraph*/
-main>section:nth-child(5)>section>div:nth-child(5)>article:nth-child(6)>p{}
+/*
+!*Git Hub Paragraph*!
+main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
+    position: absolute;
+    width: 18vw;
+    height: 582px;
+    left: 65vw;
+    top: 230px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 53px;
+    color: #FFFFFF;
+    z-index: 8;
+
+}
+
+!*Git Hub button*!
+main>section:nth-child(5)>section>div:nth-child(5)>button:nth-child(8){
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 582px;
+    left: 65vw;
+    top: 230px;
+    background: #11817A;
+    border-radius: 100%;
+    font-family: 'Signika', sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    z-index: 8;
+
+}*/
+
+/*github paragraph*/
+main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
+    position: absolute;
+    width: 18vw;
+    height: 582px;
+    left: 65vw;
+    top: 230px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 39px;
+    line-height: 46px;
+    color: #FFFFFF;
+    z-index: 7;
+}
+/*github Button*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6)>button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 117px;
+    left: 6vw;
+    top: 416px;
+    background: #11817A;
+    z-index: 7;
+    color: whitesmoke;
+    border-radius: 100%;
+    font-family: 'Signika', sans-serif;
+    font-size: 31px;
+
+}
