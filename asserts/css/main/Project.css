@@ -85,7 +85,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>p:first-child{
     color: #000000;
 
 }
-/*1st paragraph*/
+/*2nd paragraph*/
 main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(2){
     position: absolute;
     width: 86vw;
@@ -98,4 +98,18 @@ main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(2){
     font-size: 34px;
     line-height: 38px;
     color: #000000;
+}
+
+/*Car Parking*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3){
+    position: absolute;
+    width: 44vw;
+    height: 181px;
+    left: 74px;
+    top: 218px;
+    background: url("../../Ellipse 2.png");
+    opacity: 0.8;
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
 }
