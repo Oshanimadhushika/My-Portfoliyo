@@ -144,3 +144,49 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>button{
     font-family:'Sigmar One',cursive;
     font-size:20px ;
 }
+
+
+/*Cake Bakery*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4){
+    position: absolute;
+    width: 44vw;
+    height: 181px;
+    left: 74px;
+    top: 447px;
+    background: url("../../Ellipse 3.png");
+    opacity: 1.8;
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Cake Bakery Topic*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>dd{
+    position: absolute;
+    width: 86vw;
+    height: 111px;
+    left: 26px;
+    top: 40px;
+    font-family: 'Sigmar One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+    z-index: 7;
+}
+/*Cake Bakery View Button*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 50px;
+    left: 182px;
+    top: 100px;
+    background: #0D0D0D;
+    border: 1px solid #22FAD3;
+    z-index: 7;
+    color: whitesmoke;
+    font-family:'Sigmar One',cursive;
+    font-size:20px ;
+}
