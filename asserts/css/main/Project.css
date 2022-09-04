@@ -108,8 +108,39 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3){
     left: 74px;
     top: 218px;
     background: url("../../Ellipse 2.png");
-    opacity: 0.8;
+    opacity: 1.8;
     background-size: cover;
     background-position: center;
     z-index: 6;
+}
+
+/*Car Parking Topic*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>dd{
+    position: absolute;
+    width: 86vw;
+    height: 111px;
+    left: 26px;
+    top: 34px;
+    font-family: 'Sigmar One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+    z-index: 7;
+}
+/*Car Parking View Button*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 50px;
+    left: 182px;
+    top: 93px;
+    background: #0D0D0D;
+    border: 1px solid #22FAD3;
+    z-index: 7;
+    color: whitesmoke;
+    font-family:'Sigmar One',cursive;
+    font-size:20px ;
 }
