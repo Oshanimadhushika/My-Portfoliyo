@@ -43,3 +43,18 @@ main>section:nth-child(5)>section>div:nth-child(3){
     transform: rotate(-0.19deg);
     z-index: 6;
 }
+/*Projects banner*/
+main>section:nth-child(5)>section>h1:nth-child(4){
+    position: absolute;
+    width: 730px;
+    height: 115px;
+    left: 3vw;
+    top: -126px;
+    font-family: 'Shippori Mincho', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 139px;
+    color: #FFFFFF;
+    z-index: 6;
+}
