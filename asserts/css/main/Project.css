@@ -1,0 +1,45 @@
+/*Project section*/
+main>section:nth-child(5){
+    position: relative;
+    height: calc(100vh /6) ;
+    width: 87vw;
+    top: 3412px;
+    left: 22px;
+    z-index:6;
+}
+
+/*vector 7 black*/
+main>section:nth-child(5)>section>div:first-child{
+    position: absolute;
+    width: 835px;
+    height: 71px;
+    left: 2vw;
+    top: -56px;
+    background: url("../../Vector 7.png");
+    background-size:cover;
+    background-position: center;
+    z-index: 5;
+}
+
+/*pink line Education*/
+main>section:nth-child(5)>section>div:nth-child(2){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: 0vw;
+    top: -39px;
+    border: 3px solid #AB9697;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
+/*red line Education*/
+main>section:nth-child(5)>section>div:nth-child(3){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: -4vw;
+    top: -9px;
+    border: 2px solid #AC1F38;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
