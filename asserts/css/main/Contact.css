@@ -306,7 +306,7 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7){
     box-sizing: border-box;
     position: absolute;
     width: 55vw;
-    height: 501px;
+    height: 563px;
     left: 36vw;
     top: 70px;
     background: rgba(0, 0, 0, 0.4);
@@ -319,8 +319,8 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>div:firs
     position: absolute;
     width: 23vw;
     height: 501px;
-    left: 14vw;
-    top: 31px;
+    left: 18vw;
+    top: 17px;
     font-family: 'Sigmar One',cursive;
     font-style: normal;
     font-weight: 400;
@@ -377,12 +377,12 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>inp
     color: #FFFFFF;
 }
 /*messege*/
-main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(3){
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>textarea:nth-child(4){
     position: absolute;
     width: 45vw;
-    height: 43px;
+    height: 110px;
     left: 2vw;
-    top: 287px;
+    top: 358px;
     background: rgba(0, 0, 0, 0.4);
     border: 3px solid #557729;
     font-family: 'Share',cursive;
@@ -391,4 +391,20 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>inp
     font-size: 26px;
     line-height: 41px;
     color: #FFFFFF;
+}
+/*Done button*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>button:nth-child(5){
+    position: absolute;
+    width: 13vw;
+    height: 51px;
+    left: 21vw;
+    top: 491px;
+    font-family:  'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+    background: #11817A;
+    border-radius: 60px;
 }

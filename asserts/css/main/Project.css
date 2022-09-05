@@ -117,7 +117,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3){
 /*Car Parking Topic*/
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>dd{
     position: absolute;
-    width: 86vw;
+    width: 46vw;
     height: 111px;
     left: 26px;
     top: 34px;
@@ -163,7 +163,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4){
 /*Cake Bakery Topic*/
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>dd{
     position: absolute;
-    width: 86vw;
+    width: 46vw;
     height: 111px;
     left: 26px;
     top: 40px;
@@ -292,7 +292,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
 /*Topic Asssignment*/
 main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(9){
     position: absolute;
-    width: 42vw;
+    width: 36vw;
     height: 111px;
     left: 56vw;
     top: 608px;
