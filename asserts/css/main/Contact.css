@@ -104,3 +104,52 @@ main>section:nth-child(6)>section>div:nth-child(7) {
     border-radius: 50px;
     z-index: 5;
 }
+/*Location*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 174px;
+    left: 9vw;
+    top: 67px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000000;
+    font-family: 'Stick', sans-serif;
+    color: #FFFFFF;
+
+}
+/*Location*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>dt:first-child{
+    position: absolute;
+    left: 2vw;
+    width: 4vw;
+    top: 15px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 26px;
+}
+/*white line*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>div:nth-child(2){
+    position: absolute;
+    left: 1vw;
+    width: 11vw;
+    top: 45px;
+    height: 4px;
+    background: url("../../Line 20.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 8;
+}
+
+
+/*Location detail*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>div:nth-child(3){
+    position: absolute;
+    left: -1vw;
+    width: 4vw;
+    top: 53px;
+    height: 100px;
+    font-size: 18px;
+    line-height: 26px;
+
+}
