@@ -361,12 +361,28 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>inp
     color: #FFFFFF;
 }
 /*Subject*/
-main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(2){
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(3){
     position: absolute;
     width: 45vw;
     height: 43px;
     left: 2vw;
-    top: 170px;
+    top: 267px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #557729;
+    font-family: 'Share',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+/*messege*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(3){
+    position: absolute;
+    width: 45vw;
+    height: 43px;
+    left: 2vw;
+    top: 287px;
     background: rgba(0, 0, 0, 0.4);
     border: 3px solid #557729;
     font-family: 'Share',cursive;
