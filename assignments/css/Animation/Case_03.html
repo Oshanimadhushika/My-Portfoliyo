@@ -6,6 +6,9 @@
     <meta content="width=device-width initial-scale=1" name="viewport">
     <link href="../../../asserts/css/normalize.css" rel="stylesheet">
     <style>
+        body{
+            background-color: #cfcfcf;
+        }
         main {
             width: 900px;
             height: 480px;
@@ -16,13 +19,17 @@
             top: 0;
             bottom: 0;
             margin: auto;
-            overflow-x: scroll;
+            overflow: hidden;
         }
-
         main > section {
             height: 100%;
             width: 400%;
             display: flex;
+            animation-name: slider-animation;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            animation-timing-function: linear;
         }
 
         main > section > div {
