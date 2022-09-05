@@ -292,32 +292,33 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
 /*Topic Asssignment*/
 main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(9){
     position: absolute;
-    width: 86vw;
+    width: 42vw;
     height: 111px;
-    left: 26px;
-    top: 118px;
+    left: 56vw;
+    top: 608px;
     font-family: 'Irish Grover',sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 32px;
     line-height: 38px;
     color: #000000;
 }
-/*Case of basic*/
+/*Case of basic Rectangle*/
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(10) {
     box-sizing: border-box;
     position: absolute;
-    width: 86vw;
-    height: 111px;
-    left: 26px;
-    top: 118px;
+    width: 21vw;
+    height: 81px;
+    left: 55vw;
+    top: 689px;
     background: #000000;
     border: 3px solid #22FAD3;
-    border-radius: 50px;
+    border-radius: 22px;
     font-family: 'Sigmar One',cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 29px;
-    line-height: 46px;
-    color: #FFFFFF;
+    font-size: 27px;
+    line-height: 44px;
+    color: #ebcb12;
+
 }
