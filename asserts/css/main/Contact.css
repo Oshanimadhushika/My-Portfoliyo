@@ -1,0 +1,44 @@
+/*Project section*/
+main>section:nth-child(6){
+    position: relative;
+    height: calc(100vh /6) ;
+    width: 87vw;
+    top: 4380px;
+    left: 22px;
+    z-index:6;
+}
+/*vector 7 black*/
+main>section:nth-child(6)>section>div:first-child{
+    position: absolute;
+    width: 835px;
+    height: 71px;
+    left: 2vw;
+    top: -69px;
+    background: url("../../Vector 7.png");
+    background-size:cover;
+    background-position: center;
+    z-index: 5;
+}
+
+/*pink line Contact me*/
+main>section:nth-child(6)>section>div:nth-child(2){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: 0vw;
+    top: -49px;
+    border: 3px solid #AB9697;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
+/*red line Contact me*/
+main>section:nth-child(6)>section>div:nth-child(3){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: -4vw;
+    top: -16px;
+    border: 2px solid #AC1F38;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
