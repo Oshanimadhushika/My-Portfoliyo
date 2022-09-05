@@ -13,7 +13,7 @@ main>section:nth-child(6)>section>div:first-child{
     width: 835px;
     height: 71px;
     left: 2vw;
-    top: -69px;
+    top: -54px;
     background: url("../../Vector 7.png");
     background-size:cover;
     background-position: center;
@@ -26,7 +26,7 @@ main>section:nth-child(6)>section>div:nth-child(2){
     width: 50vw;
     height: 0px;
     right: 0vw;
-    top: -49px;
+    top: -33px;
     border: 3px solid #AB9697;
     transform: rotate(-0.19deg);
     z-index: 6;
@@ -37,8 +37,58 @@ main>section:nth-child(6)>section>div:nth-child(3){
     width: 50vw;
     height: 0px;
     right: -4vw;
-    top: -16px;
+    top: -9px;
     border: 2px solid #AC1F38;
     transform: rotate(-0.19deg);
     z-index: 6;
+}
+/*Contact banner*/
+main>section:nth-child(6)>section>h1:nth-child(4){
+    position: absolute;
+    width: 730px;
+    height: 115px;
+    left: 3vw;
+    top: -123px;
+    font-family: 'Shippori Mincho', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 139px;
+    color: #FFFFFF;
+    z-index: 6;
+}
+/*TOP*/
+main>section:nth-child(6)>section>div:nth-child(5){
+    position: absolute;
+    width: 7vw;
+    height: 60px;
+    left: 51vw;
+    top: -122px;
+    background: url("../../Ellipse 25.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 7;
+    font-family:  'Strong',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+#top{
+    color: #FFFFFF;
+}
+/*Arrow white*/
+main>section:nth-child(6)>section>div:nth-child(6){
+    position: absolute;
+    width: 1vw;
+    height: 22px;
+    left: 54vw;
+    top: -88px;
+    background: url("../../Arrow 1.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 7;
 }
