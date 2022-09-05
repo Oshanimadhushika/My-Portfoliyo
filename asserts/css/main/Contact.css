@@ -92,3 +92,15 @@ main>section:nth-child(6)>section>div:nth-child(6){
     background-position: center;
     z-index: 7;
 }
+/*rectangle Contact me*/
+main>section:nth-child(6)>section>div:nth-child(7) {
+    position: absolute;
+    width: 94vw;
+    height: 918px;
+    left: 2vw;
+    top: 49px;
+    background: rgba(13, 13, 13, 0.8);
+    opacity: 0.9;
+    border-radius: 50px;
+    z-index: 5;
+}
