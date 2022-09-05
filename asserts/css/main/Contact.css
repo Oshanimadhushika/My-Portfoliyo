@@ -263,3 +263,16 @@ main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>div:nth-chil
 #number2{
     color: white;
 }
+
+/*Home icon*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(4){
+    position: absolute;
+    width: 3vw;
+    height: 37px;
+    left: 14vw;
+    top: 44px;
+    background: url("../../Rectangle 29.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 9;
+}
