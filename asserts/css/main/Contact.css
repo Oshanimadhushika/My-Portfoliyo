@@ -301,14 +301,14 @@ main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(6){
     z-index: 9;
 }
 
-/*Form*/
-main>section:nth-child(6)>section>div:nth-child(7)>form:nth-child(7){
+/*section form*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7){
     box-sizing: border-box;
     position: absolute;
-    width: 73vw;
-    height: 318px;
-    left: 20vw;
-    top: 150px;
+    width: 55vw;
+    height: 501px;
+    left: 36vw;
+    top: 70px;
     background: rgba(0, 0, 0, 0.4);
     border: 3px solid #000000;
     z-index: 7;
