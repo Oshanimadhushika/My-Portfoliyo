@@ -1,0 +1,27 @@
+footer {
+    position: absolute;
+    width: 100vw;
+    height: 62px;
+    left: 0px;
+    top: 5540px;
+    background: rgba(117, 114, 114, 0.46);
+}
+
+footer > h4 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 20px;
+    color: #0a0a0a;
+}
+/*
+footer>div{
+    position: absolute;
+    width: 3vw;
+    height: 37px;
+    left: 14vw;
+    top: 421px;
+    background: url("../../Ellipse 8.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 9;
+}*/

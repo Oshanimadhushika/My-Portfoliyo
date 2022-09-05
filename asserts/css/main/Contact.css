@@ -300,3 +300,16 @@ main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(6){
     background-position: center;
     z-index: 9;
 }
+
+/*Form*/
+main>section:nth-child(6)>section>div:nth-child(7)>form:nth-child(7){
+    box-sizing: border-box;
+    position: absolute;
+    width: 73vw;
+    height: 318px;
+    left: 20vw;
+    top: 150px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000000;
+    z-index: 7;
+}
