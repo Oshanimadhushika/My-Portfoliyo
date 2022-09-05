@@ -239,7 +239,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>button{
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6){
     position: absolute;
     width: 24vw;
-    height: 582px;
+    height: 393px;
     left: 61vw;
     top: 230px;
     background: #000000;
@@ -250,14 +250,14 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6){
 /*github paragraph*/
 main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
     position: absolute;
-    width: 18vw;
-    height: 582px;
+    width: 17vw;
+    height: 266px;
     left: 65vw;
     top: 230px;
     font-family: 'Sigmar One',cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 39px;
+    font-size: 29px;
     line-height: 46px;
     color: #FFFFFF;
     z-index: 7;
@@ -269,7 +269,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6)>button{
     width: 13vw;
     height: 117px;
     left: 6vw;
-    top: 416px;
+    top: 263px;
     background: #11817A;
     z-index: 7;
     color: whitesmoke;
@@ -278,7 +278,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6)>button{
     font-size: 31px;
 
 }
-/*Rectangle black*/
+/*Rectangle black */
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
     position: absolute;
     width: 49vw;
@@ -288,4 +288,36 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
     background: #000000;
     border-radius: 80px;
     z-index: 5;
+}
+/*Topic Asssignment*/
+main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(9){
+    position: absolute;
+    width: 86vw;
+    height: 111px;
+    left: 26px;
+    top: 118px;
+    font-family: 'Irish Grover',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+}
+/*Case of basic*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(10) {
+    box-sizing: border-box;
+    position: absolute;
+    width: 86vw;
+    height: 111px;
+    left: 26px;
+    top: 118px;
+    background: #000000;
+    border: 3px solid #22FAD3;
+    border-radius: 50px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 46px;
+    color: #FFFFFF;
 }
