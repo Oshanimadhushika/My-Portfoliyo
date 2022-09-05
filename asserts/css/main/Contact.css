@@ -96,7 +96,7 @@ main>section:nth-child(6)>section>div:nth-child(6){
 main>section:nth-child(6)>section>div:nth-child(7) {
     position: absolute;
     width: 94vw;
-    height: 918px;
+    height: 670px;
     left: 2vw;
     top: 49px;
     background: rgba(13, 13, 13, 0.8);
@@ -204,5 +204,62 @@ main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>dd:nth-child
 
 }
 #mail{
+    color: white;
+}
+
+/*Contact*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3){
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 174px;
+    left: 9vw;
+    top: 443px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000000;
+    font-family: 'Stick', sans-serif;
+    color: #FFFFFF;
+
+}
+/*Contact Topic*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>dt:first-child{
+    position: absolute;
+    left: 3vw;
+    width: 6vw;
+    top: 12px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 26px;
+}
+/*white line*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>div:nth-child(2){
+    position: absolute;
+    left: 1vw;
+    width: 11vw;
+    top: 48px;
+    height: 4px;
+    background: url("../../Line 20.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 8;
+}
+
+
+/*Contact detail*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>div:nth-child(3){
+    position: absolute;
+    left: -2vw;
+    width: 13vw;
+    top: 76px;
+    height: 100px;
+    font-size: 15px;
+    line-height: 29px;
+
+}
+
+#number1{
+    color: white;
+}
+#number2{
     color: white;
 }
