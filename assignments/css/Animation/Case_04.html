@@ -29,6 +29,7 @@
             animation-iteration-count: infinite;
             display: flex;
             flex-direction: row;
+
         }
 
         section:nth-child(2)>div{
@@ -120,6 +121,15 @@
             }
             100% {
                 transform: rotate(0deg);
+            }
+        }
+
+        @keyframes road_animation {
+            0% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(-50%);
             }
         }
 
