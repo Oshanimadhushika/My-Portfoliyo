@@ -33,3 +33,15 @@ header>nav> ul>li>a{
 header ul>li:hover a{
     color: rgba(145, 228, 12, 0.89);
 }
+/*================================== 320->Mobile -S ==================================*/
+@media all and (max-width: 320px){
+    /* <!--header details-->*/
+    header{
+        background-color: #383636;
+        /*position: fixed;*/
+        width: 100%;
+        top: 0;
+        height: 66px;
+        z-index: 10;
+    }
+}
