@@ -241,7 +241,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         background:url("../../ash background.jpeg") no-repeat center;
         background-size: 100% 100%;
         z-index:2;*/
-        height: 99vh;
+        height: 94vh;
         width: 100%;
         margin-top:27px;
     }
@@ -251,10 +251,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
        /* position: absolute;
         background:url("../../Vector 8.png") no-repeat center;
         background-size: 100% 100%;*/
-        z-index: 3;
         height: 65vh;
-        width: 96%;
+        width: 100%;
         margin-top: -2px;
-        top: -4px;
+        top: -2px;
+
     }
 }
