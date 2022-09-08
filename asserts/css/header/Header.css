@@ -7,6 +7,7 @@ header{
     height: 39px;
     z-index: 10;
 }
+
 /*  <!--header nav-->*/
 header>nav{
     position: absolute;
@@ -34,6 +35,7 @@ header ul>li:hover a{
     color: rgba(145, 228, 12, 0.89);
 }
 /*================================== 320->Mobile -S ==================================*/
+
 @media all and (max-width: 320px){
     /* <!--header details-->*/
     header{
@@ -44,4 +46,24 @@ header ul>li:hover a{
         height: 66px;
         z-index: 10;
     }
-}
+
+    /*  <!--header nav-->*/
+    header>nav{
+       /* position: absolute;*/
+        left: -13vw;
+        top: -8px;
+    }
+    /*  <!--header li(home,contact....)-->*/
+    header>nav>ul>li{
+        display: inline-block;
+        cursor: pointer;
+        padding: 5px;
+        font-family: 'Poppins', sans-serif;
+        color: rgba(245, 240, 240, 0.96);
+        font-size: 13px;
+        margin-top: 15px;
+
+    }
+
+
+    }
