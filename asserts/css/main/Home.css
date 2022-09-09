@@ -87,10 +87,10 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(5){
 /*rectangle behind the photo*/
 main>#h>section:nth-child(2)>article>div:first-child{
     position: absolute;
-    width: 243px;
-    height: 246px;
-    left: 146px;
-    top: 121px;
+    width: 18vw;
+    height: 40vh;
+    left: 12vw;
+    top: 20vh;
     background: rgba(217, 217, 217, 0.8);
     opacity: 0.8;
     border-radius: 67px;
@@ -323,5 +323,16 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         top: 24vh;
     }
 
-
+    /*rectangle behind the photo*/
+    main>#h>section:nth-child(2)>article>div:first-child{
+        position: absolute;
+        width: 41vw;
+        height: 22vh;
+        left: 12vw;
+        top: 13vh;
+        background: rgba(217, 217, 217, 0.8);
+        opacity: 0.8;
+        border-radius: 26px;
+        z-index: 4;
+    }
 }
