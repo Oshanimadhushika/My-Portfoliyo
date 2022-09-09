@@ -48,14 +48,14 @@ main>#h>section:nth-child(2)>nav>nav:first-child{
     background: url("../../../asserts/icons/facebook (2).png");
     background-position: center;
     background-size: cover;
-    padding: 7px;
+    padding: 1%;
 }
 /*instagram icon*/
 main>#h>section:nth-child(2)>nav>nav:nth-child(2){
     background: url("../../../asserts/icons/instagram (1).png");
     background-position: center;
     background-size: cover;
-    padding: 7px;
+    padding: 1%;
     top: 9vh;
 
 }
@@ -64,7 +64,7 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(3){
     background: url("../../../asserts/icons/twitter-sign.png");
     background-position: center;
     background-size: cover;
-    padding: 7px;
+    padding:1%;
     top: 18vh;
 }
 /*whatsapp icon*/
@@ -72,7 +72,7 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(4){
     background: url("../../../asserts/icons/whatsapp (2).png");
     background-position: center;
     background-size: cover;
-    padding: 7px;
+    padding:1%;
     top: 27vh;
 }
 /*telegram icon*/
@@ -80,7 +80,7 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(5){
     background: url("../../../asserts/icons/telegram (1).png");
     background-position: center;
     background-size: cover;
-    padding: 7px;
+    padding: 1%;
     top: 36vh;
 }
 
@@ -295,5 +295,33 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         left: 0;
 
     }
+    /*facebook icon*/
+    main>#h>section:nth-child(2)>nav>nav:first-child{
+
+        padding: 2%;
+    }
+    /*instagram icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(2){
+
+        padding: 2%;
+        top: 6vh;
+
+    }
+    /*twitter icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(3){
+        padding: 2%;
+        top: 12vh;
+    }
+    /*whatsapp icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(4){
+        padding: 2%;
+        top: 18vh;
+    }
+    /*telegram icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(5){
+        padding: 2%;
+        top: 24vh;
+    }
+
 
 }
