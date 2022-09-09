@@ -288,10 +288,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         position: absolute;
         top: 0;
         z-index: 4;
-        margin-top: 50px;
-        margin-left: 10px;
-        width: 2vw;
-        height: 3vh;
+        margin-top: 8vh;
+        margin-left: 1vh;
+        width: 1vw;
+        height: 1vh;
         left: 0;
 
     }

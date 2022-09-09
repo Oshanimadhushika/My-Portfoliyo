@@ -13,6 +13,7 @@ header>nav{
     position: absolute;
     right: 40px;
     top: -32px;
+
 }
 /*  <!--header li(home,contact....)-->*/
 header>nav>ul>li{
@@ -41,7 +42,7 @@ header ul>li:hover a{
     header{
         background-color: #383636;
         /*position: fixed;*/
-        width: 100%;
+        width: 100vw;
         top: 0;
         height: 66px;
         z-index: 10;
@@ -49,9 +50,9 @@ header ul>li:hover a{
 
     /*  <!--header nav-->*/
     header>nav{
-       /* position: absolute;*/
-        left: -13vw;
-        top: -8px;
+
+        left: -11vw;
+        top: -20px;
     }
     /*  <!--header li(home,contact....)-->*/
     header>nav>ul>li{
