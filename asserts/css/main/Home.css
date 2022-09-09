@@ -88,9 +88,9 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(5){
 main>#h>section:nth-child(2)>article>div:first-child{
     position: absolute;
     width: 18vw;
-    height: 40vh;
+    height: 42vh;
     left: 12vw;
-    top: 20vh;
+    top: 21vh;
     background: rgba(217, 217, 217, 0.8);
     opacity: 0.8;
     border-radius: 67px;
@@ -105,10 +105,10 @@ main>#h>section:nth-child(2)>article>div:first-child>div{
     background: linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-07.12.15.crop.png");
     background-size:cover;
     background-position: center;
-    width: 155px;
-    height: 328px;
-    left: 43px;
-    top: -78px;
+    width: 15vw;
+    height: 53vh;
+    left: 2vw;
+    top: -11vh;
     border-radius: 22px;
     z-index:5;
     opacity: 100%;
@@ -326,10 +326,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     /*rectangle behind the photo*/
     main>#h>section:nth-child(2)>article>div:first-child{
         position: absolute;
-        width: 41vw;
-        height: 22vh;
+        width: 31vw;
+        height: 19vh;
         left: 12vw;
-        top: 13vh;
+        top: 12vh;
         background: rgba(217, 217, 217, 0.8);
         opacity: 0.8;
         border-radius: 26px;
