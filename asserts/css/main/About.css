@@ -107,9 +107,9 @@ main>section:nth-child(2)>section>div:nth-child(5){
 main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(3){
 
     position: absolute;
-    width: 628px;
-    height: 100px;
-    right: 10vw;
+    width: 59vw;
+    height: 20vh;
+    right: 4vw;
     top: 43px;
     font-family: 'Italianno', cursive;
     font-style: normal;
@@ -141,11 +141,10 @@ main>section:nth-child(2)>section>div:nth-child(5)>div:nth-child(2){
 /* 1st paragraph about me*/
 main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
     position: absolute;
-    width: 464px;
-    height: 199px;
+    width: 39vw;
+    height: 34vh;
     right: 3vw;
-    /*left: 590px;*/
-    top: 144px;
+    top: 135px;
     font-family:'Sansita', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -159,8 +158,8 @@ main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
 <!-- /* 2st paragraph about me*/-->
 main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
     position: absolute;
-    width: 462px;
-    height: 307px;
+    width: 39vw;
+    height: 34vh;
     right: 6vw;
     top: 361px;
     font-family: 'Sansita', sans-serif;
@@ -317,13 +316,66 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         background:linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
         background-size:cover;
         background-position: center;
-        width: 24vw;
-        height: 70vh;
-        left: 9vw;
-        top: 13px;
+        width: 30vw;
+        height: 27vh;
+        left: 7vw;
+        top: 17px;
         border-radius: 20%;
         opacity: 100%;
         z-index:8;
     }
+
+    /*Im oshani madhushika red one*/
+    main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(3){
+
+        position: absolute;
+        width: 64vw;
+        height: 20vh;
+        right: -17vw;
+        top: -17px;
+        font-family: 'Italianno', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 31px;
+        line-height: 27px;
+        color: #AC1F38;
+        z-index: 6;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    /* 1st paragraph about me*/
+    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
+        position: absolute;
+        width: 49vw;
+        height: 34vh;
+        right: 1vw;
+        top: 67px;
+        font-family: 'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #0a0a0a;
+        z-index: 6;
+
+    }
+<!-- /* 2st paragraph about me*/-->
+    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
+        position: absolute;
+        width: 49vw;
+        height: 34vh;
+        right: 1vw;
+        top: 75px;
+        font-family: 'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 12px;
+        color: #090808;
+        z-index: 6;
+
+    }
+
 
 }
