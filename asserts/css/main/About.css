@@ -256,15 +256,15 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*About me banner*/
     main>section:nth-child(2)>section>h1:nth-child(4){
         position: absolute;
-        width: 50vw;
+        width: 53vw;
         height: 20vh;
-        left: 3vw;
-        top: -46px;
+        left: -2vw;
+        top: 5px;
         font-family: 'Shippori Mincho', serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 50px;
-        line-height: 139px;
+        font-size: 19px;
+        line-height: 53px;
         color: #FFFFFF;
         z-index: 6;
     }
@@ -285,13 +285,13 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 
     /*1st hexogan*/
     #hexagon {
-        width: 25vw;
-        height: 56vh;
+        width: 28vw;
+        height: 19vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
-        left: 11vw;
-        top: 18vh;
+        left: 13vw;
+        top: 4vh;
         background: url("../../Polygon 1.png");
         background-size: cover;
         background-position: center;
@@ -300,13 +300,13 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*2nd tool behind the photo*/
     #hexagon>div{
 
-        width: 25vw;
-        height: 56vh;
+        width: 28vw;
+        height: 19vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
         left: -6vw;
-        top: 16vh;
+        top: 10vh;
         background: url("../../Polygon 1.png");
         background-size: cover;
         background-position: center;
@@ -319,8 +319,8 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         background-position: center;
         width: 24vw;
         height: 70vh;
-        left: 5vw;
-        top: 98px;
+        left: 9vw;
+        top: 13px;
         border-radius: 20%;
         opacity: 100%;
         z-index:8;
