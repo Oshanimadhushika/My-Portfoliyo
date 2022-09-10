@@ -50,7 +50,7 @@ header ul>li:hover a{
 
     /*  <!--header nav-->*/
     header>nav{
-
+        width: 124vw;
         left: -11vw;
         top: -20px;
     }
