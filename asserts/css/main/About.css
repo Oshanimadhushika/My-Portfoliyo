@@ -272,7 +272,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     main>section:nth-child(2)>section>div:nth-child(5){
         position: absolute;
         width: 92vw;
-        height: 128vh;
+        height: 104vh;
         left: -2vw;
         top: 86px;
         background: #9A9090;
@@ -360,6 +360,23 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         z-index: 6;
 
     }
+/*2nd paragrph*/
+    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
+        position: absolute;
+        width: 59vw;
+        height: 34vh;
+        right: 17vw;
+        top: 187px;
+        font-family: 'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        color: #090808;
+        z-index: 6;
+
+    }
+
 
     /*list in about me*/
     main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
@@ -367,7 +384,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         width: 58vw;
         height: 16vh;
         left: -7vw;
-        top: 339px;
+        top: 368px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -378,22 +395,6 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         list-style: none;
 
     }
-<!-- /* 2st paragraph about me*/-->
-   /* main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
-        position: absolute;
-        width: 59vw;
-        height: 34vh;
-        right: 6vw;
-        top: 187px;
-        font-family: 'Sansita', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
-        color: #090808;
-        z-index: 6;
-
-    }*/
 
     /*Download Cv btn*/
     main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
@@ -401,7 +402,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         width: 34vw;
         height: 10vh;
         left: 55vw;
-        top: 366px;
+        top: 381px;
         background: #AC1F38;
         border: 4px solid #060606;
         border-radius: 20px;
