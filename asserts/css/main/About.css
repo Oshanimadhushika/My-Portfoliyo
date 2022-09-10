@@ -12,8 +12,8 @@ main>section:nth-child(2){
 /*vector 7 black*/
 main>section:nth-child(2)>section>div:first-child{
     position: absolute;
-    width: 835px;
-    height: 71px;
+    width: 80vw;
+    height: 11vh;
     left: 2vw;
     top: 31px;
     background: url("../../Vector 7.png");
@@ -206,17 +206,29 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     color: whitesmoke;
     font-size: 25px;
 }
-/*
 
-!*================================== 320->Mobile -S ==================================*!
+/*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
-    !*About me section*!
+    /*About me section*/
     main>section:nth-child(2){
         height: calc(100vh / 6) ;
         width: 87vw;
-        top: 720px;
+        top: 400px;
         left: 22px;
         z-index:6;
     }
-}*/
+
+    /*vector 7 black*/
+    main>section:nth-child(2)>section>div:first-child{
+        position: absolute;
+        width: 62vw;
+        height: 6vh;
+        left: -3vw;
+        top: 31px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 5;
+    }
+}
