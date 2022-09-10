@@ -109,7 +109,7 @@ main>#h>section:nth-child(2)>article>div:first-child>div{
     height: 53vh;
     left: 2vw;
     top: -11vh;
-    border-radius: 22px;
+    border-radius: 10%;
     z-index:5;
     opacity: 100%;
 
@@ -118,10 +118,10 @@ main>#h>section:nth-child(2)>article>div:first-child>div{
 /*I'm Oshani*/
 main>#h>section:nth-child(2)>article>h3:nth-child(2){
     position: absolute;
-    width: 664px;
-    height: 132px;
+    width: 57vw;
+    height: 24vh;
     right: 5vw;
-    top: -68px;
+    top: -12vh;
     font-family:'Irish Grover', cursive;
     /* font-style: normal;*/
     font-weight: 400;
@@ -134,10 +134,10 @@ main>#h>section:nth-child(2)>article>h3:nth-child(2){
 /*Madhushika*/
 main>#h>section:nth-child(2)>article>h3:nth-child(3){
     position: absolute;
-    width: 500px;
-    height: 122px;
-    right: 8vw;
-    top: 125px;
+    width: 57vw;
+    height: 24vh;
+    right: -4vw;
+    top: 20vh;
     font-family: Irish Grover,serif;
     font-style: normal;
     font-weight: 400;
@@ -150,10 +150,10 @@ main>#h>section:nth-child(2)>article>h3:nth-child(3){
 /*full stack developer*/
 main>#h>section:nth-child(2)>article>h4:nth-child(4){
     position: absolute;
-    width: 300px;
-    height: 57px;
-    right: 14vw;
-    top: 118px;
+    width: 27vw;
+    height: 14vh;
+    right: 12vw;
+    top: 18vh;
     font-style: italic;
     font-weight: 900;
     font-size: 32px;
@@ -183,7 +183,7 @@ main>#h>section:nth-child(2)>blockquote>cite>q:first-child{
     height: 204px;
     right: -2vw;
     top: -5px;
-    font-family: 'IM FELL Great Primer SC';
+    font-family: 'IM FELL Great Primer SC',serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -335,4 +335,34 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         border-radius: 26px;
         z-index: 4;
     }
+
+    /*my 1st photo*/
+
+    main>#h>section:nth-child(2)>article>div:first-child>div{
+        position: absolute;
+        width: 22vw;
+        height: 26vh;
+        left: 5vw;
+        top: -7vh;
+        border-radius: 10%;
+        z-index:5;
+        opacity: 100%;
+
+
+    }
+    /*I'm Oshani*/
+    main>#h>section:nth-child(2)>article>h3:nth-child(2){
+        position: absolute;
+        width: 81vw;
+        height: 24vh;
+        right: -25vw;
+        top: -1vh;
+        font-family: 'Irish Grover', cursive;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 73px;
+        color: #FFFFFF;
+        z-index: 5;
+    }
+
 }
