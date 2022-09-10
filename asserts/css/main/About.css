@@ -175,8 +175,8 @@ main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
 /*list in about me*/
 main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
     position: absolute;
-    width: 716px;
-    height: 249px;
+    width: 30vw;
+    height: 16vh;
     left: 2vw;
     top: 553px;
     font-family: 'Sansita', sans-serif;
@@ -360,22 +360,40 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         z-index: 6;
 
     }
-<!-- /* 2st paragraph about me*/-->
-    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
+
+    /*list in about me*/
+    main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
         position: absolute;
-        width: 49vw;
+        width: 58vw;
+        height: 16vh;
+        left: -7vw;
+        top: 339px;
+        font-family: 'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: #0a0a0a;
+        z-index: 6;
+        list-style: none;
+
+    }
+<!-- /* 2st paragraph about me*/-->
+   /* main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
+        position: absolute;
+        width: 59vw;
         height: 34vh;
-        right: 1vw;
-        top: 75px;
+        right: 6vw;
+        top: 187px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 12px;
-        line-height: 12px;
+        line-height: 14px;
         color: #090808;
         z-index: 6;
 
-    }
+    }*/
 
 
 }
