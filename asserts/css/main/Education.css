@@ -548,3 +548,52 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     color: #0D0D0D;
     z-index: 8;
 }
+
+/*================================== 320->Mobile -S ==================================*/
+
+@media all and (max-width: 320px){
+    /*Education section*/
+    main>section:nth-child(3){
+        position: relative;
+        height: calc(100vh /6) ;
+        width: 87vw;
+        top: 929px;
+        left: 22px;
+        z-index:6;
+    }
+    /*vector 7 black*/
+    main>section:nth-child(3)>section>div:first-child{
+        position: absolute;
+        width: 62vw;
+        height: 6vh;
+        left: -3vw;
+        top: 18px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 5;
+    }
+
+    /*pink line Education*/
+    main>section:nth-child(3)>section>div:nth-child(2){
+        position: absolute;
+        width: 50vw;
+        height: 0vh;
+        right: 0vw;
+        top: 23px
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*red line Education*/
+    main>section:nth-child(3)>section>div:nth-child(3){
+        position: absolute;
+        width: 45vw;
+        height: 0vh;
+        left: 43vw;
+        top: 38px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+}
