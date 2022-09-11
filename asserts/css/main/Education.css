@@ -1012,10 +1012,10 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*Secondary GCC */
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(29){
         position: absolute;
-        width: 25vw;
-        height: 127px;
-        left: 67vw;
-        top: 556px;
+        width: 24vw;
+        height: 42px;
+        left: 65vw;
+        top: 371px;
         background: url("../../Rectangle 6.png");
         background-size: cover;
         background-position: center;
@@ -1028,7 +1028,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
         width: 17vw;
         height: 114px;
         left: 68vw;
-        top: 550px;
+        top: 406px;
         font-family: 'Sansita', cursive;
         font-style: normal;
         font-weight: 800;
