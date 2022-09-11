@@ -361,3 +361,65 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     background-position: center;
     z-index: 6;
 }
+/*================================== 320->Mobile -S ==================================*/
+
+@media all and (max-width: 320px){
+    /*Skill section*/
+    main>section:nth-child(4){
+        position: relative;
+        height: calc(100vh /6) ;
+        width: 87vw;
+        top: 1692px;
+        left: 22px;
+        z-index:6;
+    }
+    /*vector 7 black*/
+    main>section:nth-child(4)>section>div:first-child{
+        position: absolute;
+        width: 62vw;
+        height: 6vh;
+        left: -3vw;
+        top: -4px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 6;
+    }
+    /*pink line skills*/
+    main>section:nth-child(4)>section>div:nth-child(2){
+        position: absolute;
+        width: 44vw;
+        height: 0vh;
+        right: 0vw;
+        top: 2px;
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*red line Skills*/
+    main>section:nth-child(4)>section>div:nth-child(3){
+        position: absolute;
+        width: 39vw;
+        height: 0vh;
+        left: 46vw;
+        top: 16px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*My Skills banner*/
+    main>section:nth-child(4)>section>h1:nth-child(4){
+        position: absolute;
+        width: 53vw;
+        height: 20vh;
+        left: -2vw;
+        top: -28px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 53px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+}
