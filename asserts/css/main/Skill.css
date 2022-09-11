@@ -501,12 +501,12 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 26vw;
         height: 265px;
-        left: 7vw;
-        top: -2px;
+        left: 14vw;
+        top: -13px;
         font-family: 'IM Fell English', serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 48px;
+        font-size: 31px;
         line-height: 61px;
         color: #000000;
         z-index: 7;
@@ -515,15 +515,15 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*detail others*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
-        width: 26vw;
+        width: 47vw;
         height: 265px;
         left: 3vw;
-        top: 61px;
+        top: 34px;
         font-family: 'IM Fell English', serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
-        line-height: 35px;
+        font-size: 15px;
+        line-height: 19px;
         color: #000000;
         z-index: 7;
     }
