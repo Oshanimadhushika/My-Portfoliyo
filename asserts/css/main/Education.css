@@ -577,10 +577,10 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*pink line Education*/
     main>section:nth-child(3)>section>div:nth-child(2){
         position: absolute;
-        width: 50vw;
+        width: 44vw;
         height: 0vh;
         right: 0vw;
-        top: 23px
+        top: 23px;
         border: 3px solid #AB9697;
         transform: rotate(-0.19deg);
         z-index: 6;
@@ -588,12 +588,52 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*red line Education*/
     main>section:nth-child(3)>section>div:nth-child(3){
         position: absolute;
-        width: 45vw;
+        width: 39vw;
         height: 0vh;
-        left: 43vw;
+        left: 46vw;
         top: 38px;
         border: 2px solid #AC1F38;
         transform: rotate(-0.19deg);
         z-index: 6;
     }
+    /*Education banner*/
+    main>section:nth-child(3)>section>h1:nth-child(4){
+        position: absolute;
+        width: 53vw;
+        height: 20vh;
+        left: -2vw;
+        top: -8px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 53px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+    /*rectangle Education*/
+    main>section:nth-child(3)>section>div:nth-child(5){
+        position: absolute;
+        width: 92vw;
+        height: 136vh;
+        left: -2vw;
+        top: 96px;
+        background: #9A9090;
+        opacity: 0.9;
+        border-radius: 50px;
+        z-index: 5;
+    }
+    /*Line y*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:first-child{
+        position: absolute;
+        width: 7px;
+        height: 573px;
+        left: 47vw;
+        top: 51px;
+        background: url("../../Line 3.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
 }
