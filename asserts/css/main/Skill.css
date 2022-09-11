@@ -422,4 +422,47 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         color: #FFFFFF;
         z-index: 6;
     }
+    /*rectangle Skills*/
+    main>section:nth-child(4)>section>div:nth-child(5){
+        position: absolute;
+        width: 92vw;
+        height: 145vh;
+        left: -2vw;
+        top: 55px;
+        background: #9A9090;
+        opacity: 0.9;
+        border-radius: 50px;
+        z-index: 5;
+    }
+    /*rectangle Design*/
+    main>section:nth-child(4)>section>div:nth-child(5)>div:first-child{
+        box-sizing: border-box;
+        position: absolute;
+        width: 26vw;
+        height: 285px;
+        left: 2vw;
+        top: 48px;
+        background: url("../../Rectangle 49.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+        border: 3px solid #000000;
+        border-radius: 60px;
+    }
+    /*rectangle Others*/
+    main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(2){
+        box-sizing: border-box;
+        position: absolute;
+        width: 26vw;
+        height: 285px;
+        left: 18vw;
+        top: 245px;
+        background: url("../../Rectangle 49.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+        border: 3px solid #000000;
+        border-radius: 60px;
+    }
+
 }
