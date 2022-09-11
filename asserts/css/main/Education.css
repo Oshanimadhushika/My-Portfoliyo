@@ -1042,9 +1042,9 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(31){
         position: absolute;
         width: 25vw;
-        height: 127px;
-        left: 2vw;
-        top: 711px;
+        height: 42px;
+        left: 5vw;
+        top: 489px;
         background: url("../../Rectangle 7.png");
         background-size: cover;
         background-position: center;
@@ -1056,8 +1056,8 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
         position: absolute;
         width: 18vw;
         height: 114px;
-        left: 3vw;
-        top: 694px;
+        left: 8vw;
+        top: 524px;
         font-family: 'Sansita', cursive;
         font-style: normal;
         font-weight: 800;
