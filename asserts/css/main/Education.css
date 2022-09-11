@@ -615,7 +615,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5){
         position: absolute;
         width: 92vw;
-        height: 136vh;
+        height: 145vh;
         left: -2vw;
         top: 96px;
         background: #9A9090;
@@ -627,12 +627,164 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5)>div:first-child{
         position: absolute;
         width: 7px;
-        height: 573px;
+        height: 631px;
         left: 47vw;
         top: 51px;
         background: url("../../Line 3.png");
         background-size: cover;
         background-position: center;
+        z-index: 6;
+    }
+    /*Line X1*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(2){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 83px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X2*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(3){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 32vw;
+        top: 151px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X3*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(4){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 238px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+    /*Line X4*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(5){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 32vw;
+        top: 322px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X5*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(6){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 411px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X6*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(7){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 32vw;
+        top: 527px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X7*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(8){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 623px;
+        /* background: url("../../Line 4.png");
+         background-size: cover;
+         background-position: center;*/
+        z-index: 6;
+    }
+    /*graduation icon*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(13){
+        position: absolute;
+        width: 13vw;
+        height: 50px;
+        left: 42vw;
+        top: 2px;
+        /*background: url("../../Ellipse 10.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+    /*circle 1*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(9){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top: 145px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*circle 2*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(10){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top: 319px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*circle 3*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(11){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top:752px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*circle 4*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(12){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top: 681px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
         z-index: 6;
     }
 
