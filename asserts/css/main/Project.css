@@ -453,7 +453,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 197vh;
+        height: 209vh;
         left: -3vw;
         top: 13px;
         background: #9A9090;
@@ -684,14 +684,14 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Topic Asssignment*/
     main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(9){
         position: absolute;
-        width: 36vw;
+        width: 74vw;
         height: 111px;
-        left: 56vw;
-        top: 608px;
+        left: 8vw;
+        top: 787px;
         font-family: 'Irish Grover',sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 32px;
+        font-size: 19px;
         line-height: 38px;
         color: #000000;
     }
@@ -699,18 +699,18 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(10) {
         box-sizing: border-box;
         position: absolute;
-        width: 21vw;
-        height: 81px;
-        left: 55vw;
-        top: 689px;
+        font-size: 14px;
+        line-height: 26px;
+        width: 32vw;
+        height: 66px;
+        left: 10vw;
+        top: 845px;
         background: #000000;
         border: 3px solid #22FAD3;
         border-radius: 22px;
         font-family: 'Sigmar One',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 27px;
-        line-height: 44px;
         color: #ebcb12;
 
     }
@@ -718,18 +718,18 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(11){
         box-sizing: border-box;
         position: absolute;
-        width: 21vw;
-        height: 81px;
-        right:3vw;
-        top: 748px;
+        font-size: 14px;
+        line-height: 26px;
+        width: 32vw;
+        height: 66px;
+        right: 20vw;
+        top: 884px;
         background: #000000;
         border: 3px solid #22FAD3;
         border-radius: 22px;
         font-family: 'Sigmar One',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 32px;
         color: #ebcb12;
         z-index:7;
     }
@@ -737,18 +737,18 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(12){
         box-sizing: border-box;
         position: absolute;
-        width: 21vw;
-        height: 81px;
-        right: 18vw;
-        top: 790px;
+        font-size: 14px;
+        line-height: 26px;
+        width: 32vw;
+        height: 66px;
+        right: 45vw;
+        top: 931px;
         background: #000000;
         border: 3px solid #22FAD3;
         border-radius: 22px;
         font-family: 'Sigmar One',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 24px;
-        line-height: 32px;
         color: #ebcb12;
 
     }
