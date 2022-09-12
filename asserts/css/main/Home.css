@@ -933,7 +933,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         width: 45vw;
         height: 10vh;
         left: 25vw;
-        top: 18vw;
+        top: 11vh;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -957,7 +957,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         position: absolute;
         width: 7vw;
         height: 0;
-        left: 59vw;
+        left: 51vw;
         top: 20vh;
         border: 2px solid #000000;
         z-index:6;
