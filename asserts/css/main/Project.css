@@ -396,7 +396,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         height: calc(100vh /6) ;
         width: 87vw;
         top: 2293px;
-        left: 22px;
+        left: 0;
         z-index:6;
     }
     /*vector 7 black*/
@@ -404,7 +404,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
         width: 62vw;
         height: 6vh;
-        left: -3vw;
+        left: 1vw;
         top: -40px;
         background: url("../../Vector 7.png");
         background-size:cover;
@@ -417,7 +417,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
         width: 36vw;
         height: 0px;
-        right: 7vw;
+        right: -3vw;
         top: -33px;
         border: 3px solid #AB9697;
         transform: rotate(-0.19deg);
@@ -454,7 +454,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
         width: 88vw;
         height: 209vh;
-        left: -3vw;
+        left: 3vw;
         top: 13px;
         background: #9A9090;
         opacity: 0.9;

@@ -370,7 +370,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         height: calc(100vh /6) ;
         width: 87vw;
         top: 1692px;
-        left: 22px;
+        left: 0;
         z-index:6;
     }
     /*vector 7 black*/
@@ -378,7 +378,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 62vw;
         height: 6vh;
-        left: -3vw;
+        left: 1vw;
         top: -4px;
         background: url("../../Vector 7.png");
         background-size:cover;
@@ -390,7 +390,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 44vw;
         height: 0vh;
-        right: 0vw;
+        right: 3vw;
         top: 2px;
         border: 3px solid #AB9697;
         transform: rotate(-0.19deg);
@@ -412,7 +412,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 53vw;
         height: 20vh;
-        left: -2vw;
+        left: 1vw;
         top: -28px;
         font-family: 'Shippori Mincho', serif;
         font-style: normal;
@@ -427,7 +427,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 88vw;
         height: 114vh;
-        left: -3vw;
+        left: 3vw;
         top: 55px;
         background: #9A9090;
         opacity: 0.9;

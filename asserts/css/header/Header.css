@@ -35,14 +35,15 @@ header>nav> ul>li>a{
 header ul>li:hover a{
     color: rgba(145, 228, 12, 0.89);
 }
+
 /*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
     /* <!--header details-->*/
     header{
         background-color: #383636;
-        /*position: fixed;*/
-        width: 100vw;
+        position: fixed;
+        width: 100%;
         top: 0;
         height: 66px;
         z-index: 10;
@@ -50,7 +51,7 @@ header ul>li:hover a{
 
     /*  <!--header nav-->*/
     header>nav{
-        width: 124vw;
+        width: 91vw;
         left: -11vw;
         top: -20px;
     }
@@ -68,3 +69,37 @@ header ul>li:hover a{
 
 
     }
+
+/*================================== 375->Mobile -M ==================================*/
+
+@media all and (max-width: 375px){
+    /* <!--header details-->*/
+    header{
+        background-color: #383636;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        height: 34px;
+        z-index: 10;
+    }
+
+    /*  <!--header nav-->*/
+    header>nav{
+        width: 95vw;
+        left: -2vw;
+        top: -20px;
+    }
+    /*  <!--header li(home,contact....)-->*/
+    header>nav>ul>li{
+        display: inline-block;
+        cursor: pointer;
+        padding: 3px;
+        font-family: 'Poppins', sans-serif;
+        color: rgba(245, 240, 240, 0.96);
+        font-size: 11px;
+        margin-top: 15px;
+
+    }
+
+
+}

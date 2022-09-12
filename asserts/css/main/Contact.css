@@ -419,7 +419,7 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         height: calc(100vh /6) ;
         width: 87vw;
         top: 3356px;
-        left: 22px;
+        left: 0;
         z-index:6;
     }
     /*vector 7 black*/
@@ -427,7 +427,7 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         position: absolute;
         width: 62vw;
         height: 6vh;
-        left: -3vw;
+        left: 1vw;
         top: -54px;
         background: url("../../Vector 7.png");
         background-size:cover;
@@ -440,7 +440,7 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         position: absolute;
         width: 36vw;
         height: 0px;
-        right: 7vw;
+        right: -3vw;
         top: -49px;
         border: 3px solid #AB9697;
         transform: rotate(-0.19deg);
@@ -462,7 +462,7 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         position: absolute;
         width: 53vw;
         height: 20vh;
-        left: -3vw;
+        left: 1vw;
         top: -84px;
         font-family: 'Shippori Mincho', serif;
         font-style: normal;
@@ -509,8 +509,8 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     main>section:nth-child(6)>section>div:nth-child(7) {
         position: absolute;
         width: 88vw;
-        height: 670px;
-        left: -3vw;
+        height: 767px;
+        left: 3vw;
         top: 3px;
         background: rgba(13, 13, 13, 0.8);
         opacity: 0.9;
@@ -709,7 +709,7 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         box-sizing: border-box;
         position: absolute;
         width: 79vw;
-        height: 563px;
+        height: 443px;
         left: 4vw;
         top: 291px;
         background: rgba(0, 0, 0, 0.4);
