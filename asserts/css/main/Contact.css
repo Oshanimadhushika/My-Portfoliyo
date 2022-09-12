@@ -708,10 +708,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7){
         box-sizing: border-box;
         position: absolute;
-        width: 55vw;
+        width: 79vw;
         height: 563px;
-        left: 36vw;
-        top: 70px;
+        left: 4vw;
+        top: 291px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #000000;
         z-index: 7;
@@ -720,14 +720,14 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>div:first-child{
         box-sizing: border-box;
         position: absolute;
-        width: 23vw;
+        width: 49vw;
         height: 501px;
-        left: 18vw;
-        top: 17px;
+        left: 16vw;
+        top: 9px;
         font-family: 'Sigmar One',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 29px;
+        font-size: 23px;
         line-height: 32px;
         color: #fcfcfc;
     }
