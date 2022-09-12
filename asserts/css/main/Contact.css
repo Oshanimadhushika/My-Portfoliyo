@@ -798,14 +798,14 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Done button*/
     main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>button:nth-child(5){
         position: absolute;
-        width: 13vw;
-        height: 51px;
+        width: 32vw;
+        height: 47px;
         left: 21vw;
-        top: 491px;
-        font-family:  'Sigmar One',cursive;
+        top: 368px;
+        font-family: 'Sigmar One',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
+        font-size: 22px;
         line-height: 41px;
         color: #FFFFFF;
         background: #11817A;
