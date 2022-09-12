@@ -717,12 +717,12 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*1st hexogan*/
     #hexagon {
         width: 26vw;
-        height: 21vh;
+        height: 24vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
         left: 1vw;
-        top: 4vh;
+        top: 7vh;
         background: url("../../Polygon 1.png");
         background-size: cover;
         background-position: center;
@@ -734,7 +734,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     #hexagon>div{
 
         width: 28vw;
-        height: 23vh;
+        height: 25vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
@@ -750,10 +750,10 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         background:linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
         background-size:cover;
         background-position: center;
-        width: 30vw;
-        height: 31vh;
-        left: 0vw;
-        top: 10px;
+        width: 28vw;
+        height: 34vh;
+        left: 2vw;
+        top: 12px;
         border-radius: 20%;
         opacity: 100%;
         z-index:8;
