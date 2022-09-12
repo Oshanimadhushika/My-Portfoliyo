@@ -616,7 +616,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
         position: absolute;
         width: 88vw;
         height: 145vh;
-        left: -2vw;
+        left: -3vw;
         top: 96px;
         background: #9A9090;
         opacity: 0.9;
@@ -1012,9 +1012,9 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*Secondary GCC */
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(29){
         position: absolute;
-        width: 24vw;
+        width: 22vw;
         height: 42px;
-        left: 65vw;
+        left: 64vw;
         top: 371px;
         background: url("../../Rectangle 6.png");
         background-size: cover;
@@ -1069,9 +1069,9 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*Primary  */
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(33){
         position: absolute;
-        width: 24vw;
-        height: 38px;
-        left: 65vw;
+        width: 22vw;
+        height: 42px;
+        left: 64vw;
         top: 587px;
         background: url("../../Rectangle 5.png");
         background-size: cover;

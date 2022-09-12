@@ -244,9 +244,9 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*red line about me*/
     main>section:nth-child(2)>section>div:nth-child(3){
         position: absolute;
-        width: 50vw;
+        width: 39vw;
         height: 0vh;
-        right: -4vw;
+        right: 2vw;
         top: 52px;
         border: 2px solid #AC1F38;
         transform: rotate(-0.19deg);
@@ -273,7 +273,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         position: absolute;
         width: 88vw;
         height: 104vh;
-        left: -2vw;
+        left: -3vw;
         top: 86px;
         background: #9A9090;
         opacity: 0.9;
@@ -401,7 +401,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         position: absolute;
         width: 34vw;
         height: 10vh;
-        left: 55vw;
+        left: 52vw;
         top: 381px;
         background: #AC1F38;
         border: 4px solid #060606;
