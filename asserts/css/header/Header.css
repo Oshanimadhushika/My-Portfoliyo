@@ -73,6 +73,7 @@ header ul>li:hover a{
 /*================================== 375->Mobile -M ==================================*/
 
 @media all and (max-width: 375px){
+
     /* <!--header details-->*/
     header{
         background-color: #383636;

@@ -551,6 +551,554 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
 
 /*================================== 320->Mobile -S ==================================*/
 
+@media all and (max-width: 375px){
+    /*Education section*/
+    main>section:nth-child(3){
+        position: relative;
+        height: calc(100vh /6) ;
+        width: 87vw;
+        top: 929px;
+        left: 0;
+        z-index:6;
+    }
+    /*vector 7 black*/
+    main>section:nth-child(3)>section>div:first-child{
+        position: absolute;
+        width: 62vw;
+        height: 6vh;
+        left: 1vw;
+        top: 18px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 5;
+    }
+
+    /*pink line Education*/
+    main>section:nth-child(3)>section>div:nth-child(2){
+        position: absolute;
+        width: 44vw;
+        height: 0vh;
+        right: -3vw;
+        top: 23px;
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*red line Education*/
+    main>section:nth-child(3)>section>div:nth-child(3){
+        position: absolute;
+        width: 39vw;
+        height: 0vh;
+        left: 46vw;
+        top: 38px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*Education banner*/
+    main>section:nth-child(3)>section>h1:nth-child(4){
+        position: absolute;
+        width: 53vw;
+        height: 20vh;
+        left: 1vw;
+        top: -8px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 53px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+    /*rectangle Education*/
+    main>section:nth-child(3)>section>div:nth-child(5){
+        position: absolute;
+        width: 88vw;
+        height: 145vh;
+        left: 3vw;
+        top: 96px;
+        background: #9A9090;
+        opacity: 0.9;
+        border-radius: 50px;
+        z-index: 5;
+    }
+    /*Line y*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:first-child{
+        position: absolute;
+        width: 7px;
+        height: 631px;
+        left: 47vw;
+        top: 51px;
+        background: url("../../Line 3.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+    /*Line X1*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(2){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 83px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X2*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(3){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 32vw;
+        top: 151px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X3*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(4){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 238px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+    /*Line X4*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(5){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 32vw;
+        top: 322px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X5*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(6){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 411px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X6*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(7){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 32vw;
+        top: 527px;
+        /*background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*Line X7*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(8){
+        position: absolute;
+        width: 16vw;
+        height: 7px;
+        left: 47vw;
+        top: 623px;
+        /* background: url("../../Line 4.png");
+         background-size: cover;
+         background-position: center;*/
+        z-index: 6;
+    }
+    /*graduation icon*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(13){
+        position: absolute;
+        width: 13vw;
+        height: 50px;
+        left: 42vw;
+        top: 2px;
+        /*background: url("../../Ellipse 10.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+    /*circle 1*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(9){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top: 145px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*circle 2*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(10){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top: 319px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*circle 3*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(11){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top: 524px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+
+    /*circle 4*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(12){
+        position: absolute;
+        width: 5vw;
+        height: 16px;
+        left: 46vw;
+        top: 681px;
+        /*background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;*/
+        z-index: 6;
+    }
+    /*2021*/
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(14){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 49vw;
+        top: -6px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+
+    /*2019 -2nd*/
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(15){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 32vw;
+        top: 58px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+
+    /*2019 -3rd*/
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(16){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 49vw;
+        top: 150px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+
+    /*2016 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(17){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 32vw;
+        top: 234px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+    /*2013 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(18){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 49vw;
+        top: 321px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+    /*2011 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(19){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 33vw;
+        top: 441px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+    /*2006 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(20){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 48vw;
+        top: 538px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+    /*IJSE */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(21){
+        position: absolute;
+        width: 21vw;
+        height: 28px;
+        left: 65vw;
+        top: 52px;
+        background: url("../../Rectangle 11.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+
+    /*IJSE details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(22){
+        position: absolute;
+        width: 20vw;
+        height: 114px;
+        left: 67vw;
+        top: 72px;
+        font-family: 'Sansita',cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+
+    /*Britishway */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(23){
+        position: absolute;
+        width: 24vw;
+        height: 33px;
+        left: 4vw;
+        top: 114px;
+        background: url("../../Rectangle 8.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*BW details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(24){
+        position: absolute;
+        width: 17vw;
+        height: 114px;
+        left: 7vw;
+        top: 141px;
+        font-family: 'Sansita',cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*AL GCC */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(25){
+        position: absolute;
+        width: 24vw;
+        height: 39px;
+        left: 64vw;
+        top: 195px;
+        background: url("../../Rectangle 9.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*AL details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(26) {
+        position: absolute;
+        width: 21vw;
+        height: 114px;
+        left: 68vw;
+        top: 233px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*OL GCC */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(27){
+        position: absolute;
+        width: 24vw;
+        height: 36px;
+        left: 4vw;
+        top: 284px;
+        background: url("../../Rectangle 10.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*OL details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(28) {
+        position: absolute;
+        width: 19vw;
+        height: 114px;
+        left: 6vw;
+        top: 318px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*Secondary GCC */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(29){
+        position: absolute;
+        width: 22vw;
+        height: 42px;
+        left: 64vw;
+        top: 371px;
+        background: url("../../Rectangle 6.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*Secondary details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(30) {
+        position: absolute;
+        width: 17vw;
+        height: 114px;
+        left: 68vw;
+        top: 406px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+
+    /*Secondary VMV */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(31){
+        position: absolute;
+        width: 25vw;
+        height: 42px;
+        left: 5vw;
+        top: 489px;
+        background: url("../../Rectangle 7.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*Secondary details VMV*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(32) {
+        position: absolute;
+        width: 18vw;
+        height: 114px;
+        left: 8vw;
+        top: 524px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*Primary  */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(33){
+        position: absolute;
+        width: 22vw;
+        height: 42px;
+        left: 64vw;
+        top: 587px;
+        background: url("../../Rectangle 5.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*Primary details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
+        position: absolute;
+        width: 17vw;
+        height: 114px;
+        left: 68vw;
+        top: 620px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+
+}
+
+/*================================== 375->Mobile -L ==================================*/
+
 @media all and (max-width: 320px){
     /*Education section*/
     main>section:nth-child(3){
