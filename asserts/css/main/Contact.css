@@ -734,64 +734,64 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Your name*/
     main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:first-child{
         position: absolute;
-        width: 45vw;
-        height: 43px;
+        width: 69vw;
+        height: 30px;
+        font-size: 19px;
         left: 2vw;
-        top: 73px;
+        top: 59px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #557729;
         font-family: 'Share',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
         line-height: 41px;
         color: #FFFFFF;
     }
     /*email*/
     main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(2){
         position: absolute;
-        width: 45vw;
-        height: 43px;
+        width: 69vw;
+        height: 30px;
+        font-size: 19px;
         left: 2vw;
-        top: 170px;
+        top: 126px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #557729;
         font-family: 'Share',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
         line-height: 41px;
         color: #FFFFFF;
     }
     /*Subject*/
     main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(3){
         position: absolute;
-        width: 45vw;
-        height: 43px;
+        width: 69vw;
+        height: 30px;
+        font-size: 19px;
         left: 2vw;
-        top: 267px;
+        top: 192px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #557729;
         font-family: 'Share',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
         line-height: 41px;
         color: #FFFFFF;
     }
     /*messege*/
     main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>textarea:nth-child(4){
         position: absolute;
-        width: 45vw;
-        height: 110px;
+        width: 68vw;
+        height: 81px;
         left: 2vw;
-        top: 358px;
+        top: 255px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #557729;
         font-family: 'Share',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 26px;
+        font-size: 19px;
         line-height: 41px;
         color: #FFFFFF;
     }
