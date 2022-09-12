@@ -766,3 +766,383 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         z-index: 6;
     }
 }
+
+/*================================== 375->Mobile -M ==================================*/
+
+@media all and (max-width: 375px){
+    /*Project section*/
+    main>section:nth-child(5){
+        position: relative;
+        height: calc(100vh /6) ;
+        width: 87vw;
+        top: 2293px;
+        left: 0;
+        z-index:6;
+    }
+    /*vector 7 black*/
+    main>section:nth-child(5)>section>div:first-child{
+        position: absolute;
+        width: 62vw;
+        height: 6vh;
+        left: 1vw;
+        top: -40px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 5;
+    }
+
+    /*pink line Project*/
+    main>section:nth-child(5)>section>div:nth-child(2){
+        position: absolute;
+        width: 36vw;
+        height: 0px;
+        right: -3vw;
+        top: -33px;
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*red line Project*/
+    main>section:nth-child(5)>section>div:nth-child(3){
+        position: absolute;
+        width: 39vw;
+        height: 0px;
+        right: 2vw;
+        top: -19px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*Projects banner*/
+    main>section:nth-child(5)>section>h1:nth-child(4){
+        position: absolute;
+        width: 53vw;
+        height: 20vh;
+        left: 1vw;
+        top: -68px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 53px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+    /*rectangle Project*/
+    main>section:nth-child(5)>section>div:nth-child(5){
+        position: absolute;
+        width: 88vw;
+        height: 209vh;
+        left: 3vw;
+        top: 13px;
+        background: #9A9090;
+        opacity: 0.9;
+        border-radius: 50px;
+        z-index: 5;
+    }
+    /*1st paragraph*/
+    main>section:nth-child(5)>section>div:nth-child(5)>p:first-child{
+        position: absolute;
+        width: 83vw;
+        height: 111px;
+        left: 4vw;
+        top: 6px;
+        font-family: 'Sansita',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 24px;
+        color: #000000;
+
+    }
+    /*2nd paragraph*/
+    main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(2){
+        position: absolute;
+        width: 80vw;
+        height: 111px;
+        left: 3vw;
+        top: 101px;
+        font-family: 'Irish Grover',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 38px;
+        color: #000000;
+    }
+
+    /*Car Parking*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3){
+        position: absolute;
+        width: 78vw;
+        height: 85px;
+        left: 20px;
+        top: 201px;
+        background: url("../../Ellipse 2.png");
+        opacity: 1.8;
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Car Parking Topic*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>dd{
+        position: absolute;
+        font-size: 15px;
+        line-height: 33px;
+        width: 61vw;
+        height: 111px;
+        left: 3vw;
+        top: 12px;
+        font-family: 'Sigmar One', cursive;
+        font-style: normal;
+        font-weight: 400;
+        color: white;
+        z-index: 7;
+    }
+    /*Car Parking View Button*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>button{
+        box-sizing: border-box;
+        position: absolute;
+        font-size: 16px;
+        width: 28vw;
+        height: 30px;
+        left: 24vw;
+        top: 46px;
+        background: #0D0D0D;
+        border: 1px solid #22FAD3;
+        z-index: 7;
+        color: whitesmoke;
+        font-family: 'Sigmar One',cursive;
+
+    }
+
+    /*Cake Bakery*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4){
+        position: absolute;
+        width: 78vw;
+        height: 95px;
+        left: 6vw;
+        top: 317px;
+        background: url("../../Ellipse 3.png");
+        opacity: 1.8;
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Cake Bakery Topic*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>dd{
+        position: absolute;
+        font-size: 15px;
+        line-height: 33px;
+        width: 61vw;
+        height: 111px;
+        left: 3vw;
+        top: 8px;
+        font-family: 'Sigmar One', cursive;
+        font-style: normal;
+        font-weight: 400;
+        color: #000000;
+        z-index: 7;
+    }
+    /*Cake Bakery View Button*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>button{
+        box-sizing: border-box;
+        position: absolute;
+        font-size: 16px;
+        width: 28vw;
+        height: 30px;
+        left: 24vw;
+        top: 50px;
+        background: #0D0D0D;
+        border: 1px solid #22FAD3;
+        z-index: 7;
+        color: whitesmoke;
+        font-family:'Sigmar One',cursive;
+
+    }
+    /*Hostel*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5){
+        position: absolute;
+        width: 78vw;
+        height: 96px;
+        left: 6vw;
+        top: 438px;
+        background: url("../../Ellipse 4.png");
+        opacity: 1.8;
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Hostel Topic*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>dd{
+        position: absolute;
+        font-size: 11px;
+        line-height: 33px;
+        width: 61vw;
+        height: 111px;
+        left: -1vw;
+        top: 17px;
+        font-family: 'Sigmar One', cursive;
+        font-style: normal;
+        font-weight: 400;
+        color: white;
+        z-index: 7;
+    }
+    /*Hostel View Button*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>button{
+        box-sizing: border-box;
+        position: absolute;
+        font-size: 16px;
+        width: 28vw;
+        height: 30px;
+        left: 24vw;
+        top: 57px;
+        background: #0D0D0D;
+        border: 1px solid #22FAD3;
+        z-index: 7;
+        color: whitesmoke;
+        font-family:'Sigmar One',cursive;
+    }
+
+    /*Git Hub rectangle*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6){
+        position: absolute;
+        width: 75vw;
+        height: 232px;
+        left: 7vw;
+        top: 571px;
+        background: #000000;
+        border-radius: 50px;
+        z-index: 6;
+    }
+
+    /*github paragraph*/
+    main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
+        position: absolute;
+        width: 60vw;
+        height: 266px;
+        left: 18vw;
+        top: 561px;
+        font-family: 'Sigmar One',cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 30px;
+        color: #FFFFFF;
+        z-index: 7;
+    }
+    /*github Button*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6)>button{
+        box-sizing: border-box;
+        position: absolute;
+        width: 23vw;
+        height: 84px;
+        left: 26vw;
+        top: 137px;
+        background: #11817A;
+        z-index: 7;
+        color: whitesmoke;
+        border-radius: 100%;
+        font-family: 'Signika', sans-serif;
+        font-size: 19px;
+
+    }
+    /*Rectangle black */
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
+        position: absolute;
+        width: 81vw;
+        height: 394px;
+        left: 4vw;
+        top: 166px;
+        background: #000000;
+        border-radius: 52px;
+        z-index: 5;
+    }
+    /*Topic Asssignment*/
+    main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(9){
+        position: absolute;
+        width: 74vw;
+        height: 111px;
+        left: 8vw;
+        top: 787px;
+        font-family: 'Irish Grover',sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 38px;
+        color: #000000;
+    }
+    /*Case of basic */
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(10) {
+        box-sizing: border-box;
+        position: absolute;
+        font-size: 14px;
+        line-height: 26px;
+        width: 32vw;
+        height: 66px;
+        left: 10vw;
+        top: 845px;
+        background: #000000;
+        border: 3px solid #22FAD3;
+        border-radius: 22px;
+        font-family: 'Sigmar One',cursive;
+        font-style: normal;
+        font-weight: 400;
+        color: #ebcb12;
+
+    }
+    /*Case of Transition*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(11){
+        box-sizing: border-box;
+        position: absolute;
+        font-size: 14px;
+        line-height: 26px;
+        width: 32vw;
+        height: 66px;
+        right: 20vw;
+        top: 884px;
+        background: #000000;
+        border: 3px solid #22FAD3;
+        border-radius: 22px;
+        font-family: 'Sigmar One',cursive;
+        font-style: normal;
+        font-weight: 400;
+        color: #ebcb12;
+        z-index:7;
+    }
+    /*Case of Animation*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(12){
+        box-sizing: border-box;
+        position: absolute;
+        font-size: 14px;
+        line-height: 26px;
+        width: 32vw;
+        height: 66px;
+        right: 45vw;
+        top: 931px;
+        background: #000000;
+        border: 3px solid #22FAD3;
+        border-radius: 22px;
+        font-family: 'Sigmar One',cursive;
+        font-style: normal;
+        font-weight: 400;
+        color: #ebcb12;
+
+    }
+    /*Arrow*/
+    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+        position: absolute;
+        width: 13vw;
+        height: 18px;
+        right: 4vw;
+        top: 903px;
+        background: url("../../Arrow 2.png");
+        opacity: 1.8;
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+}
