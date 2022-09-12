@@ -453,7 +453,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 122vh;
+        height: 197vh;
         left: -3vw;
         top: 13px;
         background: #9A9090;
@@ -588,7 +588,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         width: 78vw;
         height: 96px;
         left: 6vw;
-        top: 438px
+        top: 438px;
         background: url("../../Ellipse 4.png");
         opacity: 1.8;
         background-size: cover;
@@ -630,27 +630,27 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Git Hub rectangle*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6){
         position: absolute;
-        width: 24vw;
-        height: 393px;
-        left: 61vw;
-        top: 230px;
+        width: 75vw;
+        height: 232px;
+        left: 7vw;
+        top: 571px;
         background: #000000;
-        border-radius: 80px;
+        border-radius: 50px;
         z-index: 6;
     }
 
     /*github paragraph*/
     main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
         position: absolute;
-        width: 17vw;
+        width: 60vw;
         height: 266px;
-        left: 65vw;
-        top: 230px;
+        left: 18vw;
+        top: 561px;
         font-family: 'Sigmar One',cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 29px;
-        line-height: 46px;
+        font-size: 21px;
+        line-height: 30px;
         color: #FFFFFF;
         z-index: 7;
     }
@@ -658,23 +658,23 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6)>button{
         box-sizing: border-box;
         position: absolute;
-        width: 13vw;
-        height: 117px;
-        left: 6vw;
-        top: 263px;
+        width: 23vw;
+        height: 84px;
+        left: 26vw;
+        top: 137px;
         background: #11817A;
         z-index: 7;
         color: whitesmoke;
         border-radius: 100%;
         font-family: 'Signika', sans-serif;
-        font-size: 31px;
+        font-size: 19px;
 
     }
     /*Rectangle black */
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
         position: absolute;
         width: 81vw;
-        height: 665px;
+        height: 394px;
         left: 4vw;
         top: 166px;
         background: #000000;
