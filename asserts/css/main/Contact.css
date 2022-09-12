@@ -682,8 +682,8 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*mail icon*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(5){
         position: absolute;
-        width: 3vw;
-        height: 37px;
+        width: 11vw;
+        height: 32px;
         left: 14vw;
         top: 257px;
         background: url("../../Rectangle 31.png");
@@ -694,10 +694,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Phone icon*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(6){
         position: absolute;
-        width: 3vw;
-        height: 37px;
-        left: 14vw;
-        top: 421px;
+        width: 11vw;
+        height: 32px;
+        left: 61vw;
+        top: 18px;
         background: url("../../Rectangle 33.png");
         background-size: cover;
         background-position: center;
