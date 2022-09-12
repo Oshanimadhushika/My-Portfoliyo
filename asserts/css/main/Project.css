@@ -755,10 +755,10 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Arrow*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
-        width: 8vw;
-        height: 42px;
-        right: 6vw;
-        top: 835px;
+        width: 13vw;
+        height: 18px;
+        right: 4vw;
+        top: 903px;
         background: url("../../Arrow 2.png");
         opacity: 1.8;
         background-size: cover;
