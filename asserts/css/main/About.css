@@ -420,7 +420,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 
 }
 
-/*================================== 375->Mobile -L ==================================*/
+/*================================== 375->Mobile -M ==================================*/
 
 @media all and (max-width: 375px){
     /*About me section*/

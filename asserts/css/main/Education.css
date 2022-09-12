@@ -551,7 +551,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
 
 /*================================== 320->Mobile -S ==================================*/
 
-@media all and (max-width: 375px){
+@media all and (max-width: 320px){
     /*Education section*/
     main>section:nth-child(3){
         position: relative;
@@ -1097,9 +1097,9 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
 
 }
 
-/*================================== 375->Mobile -L ==================================*/
+/*================================== 375->Mobile -M ==================================*/
 
-@media all and (max-width: 320px){
+@media all and (max-width: 375px){
     /*Education section*/
     main>section:nth-child(3){
         position: relative;
@@ -1288,7 +1288,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(9){
         position: absolute;
         width: 5vw;
-        height: 16px;
+        height: 4vh;
         left: 46vw;
         top: 145px;
         /*background: url("../../Ellipse 15.png");
@@ -1301,7 +1301,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(10){
         position: absolute;
         width: 5vw;
-        height: 16px;
+        height: 4vh;
         left: 46vw;
         top: 319px;
         /*background: url("../../Ellipse 15.png");
@@ -1314,7 +1314,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(11){
         position: absolute;
         width: 5vw;
-        height: 16px;
+        height: 4vh;
         left: 46vw;
         top: 524px;
         /*background: url("../../Ellipse 15.png");
@@ -1327,7 +1327,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(12){
         position: absolute;
         width: 5vw;
-        height: 16px;
+        height: 4vh;
         left: 46vw;
         top: 681px;
         /*background: url("../../Ellipse 15.png");
