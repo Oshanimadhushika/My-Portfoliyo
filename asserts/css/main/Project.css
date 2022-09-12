@@ -586,9 +586,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5){
         position: absolute;
         width: 78vw;
-        height: 85px;
-        left: 74px;
-        top: 677px;
+        height: 96px;
+        left: 6vw;
+        top: 438px
         background: url("../../Ellipse 4.png");
         opacity: 1.8;
         background-size: cover;
@@ -599,12 +599,12 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Hostel Topic*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>dd{
         position: absolute;
-        font-size: 15px;
+        font-size: 11px;
         line-height: 33px;
         width: 61vw;
         height: 111px;
-        left: 3vw;
-        top: 28px;
+        left: -1vw;
+        top: 17px;
         font-family: 'Sigmar One', cursive;
         font-style: normal;
         font-weight: 400;
@@ -619,7 +619,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         width: 28vw;
         height: 30px;
         left: 24vw;
-        top: 107px;
+        top: 57px;
         background: #0D0D0D;
         border: 1px solid #22FAD3;
         z-index: 7;
