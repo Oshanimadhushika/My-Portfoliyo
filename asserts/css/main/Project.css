@@ -494,10 +494,10 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Car Parking*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3){
         position: absolute;
-        width: 44vw;
-        height: 181px;
-        left: 74px;
-        top: 218px;
+        width: 78vw;
+        height: 85px;
+        left: 20px;
+        top: 201px;
         background: url("../../Ellipse 2.png");
         opacity: 1.8;
         background-size: cover;
@@ -508,15 +508,15 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Car Parking Topic*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>dd{
         position: absolute;
-        width: 46vw;
+        width: 61vw;
         height: 111px;
-        left: 26px;
-        top: 34px;
+        left: 1px;
+        top: 12px;
         font-family: 'Sigmar One', cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 34px;
-        line-height: 38px;
+        font-size: 15px;
+        line-height: 33px;
         color: white;
         z-index: 7;
     }
@@ -524,18 +524,17 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>button{
         box-sizing: border-box;
         position: absolute;
-        width: 13vw;
-        height: 50px;
-        left: 182px;
-        top: 93px;
+        width: 28vw;
+        height: 30px;
+        left: 24vw;
+        top: 46px;
         background: #0D0D0D;
         border: 1px solid #22FAD3;
         z-index: 7;
         color: whitesmoke;
-        font-family:'Sigmar One',cursive;
-        font-size:20px ;
+        font-family: 'Sigmar One',cursive;
+        font-size: 16px;
     }
-
 
     /*Cake Bakery*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4){
