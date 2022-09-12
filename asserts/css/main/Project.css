@@ -479,14 +479,14 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*2nd paragraph*/
     main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(2){
         position: absolute;
-        width: 86vw;
+        width: 80vw;
         height: 111px;
-        left: 26px;
-        top: 118px;
+        left: 3vw;
+        top: 101px;
         font-family: 'Irish Grover',sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 34px;
+        font-size: 18px;
         line-height: 38px;
         color: #000000;
     }
