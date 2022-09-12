@@ -725,3 +725,243 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 
 }
+
+
+/*================================== 425->Mobile -L ==================================*/
+
+@media all and (min-width: 376px) and (max-width: 425px){
+
+    body>main{
+
+        top: 67px;
+        margin-top: -56px;
+        width: 100%;
+        height: 4538px;
+        /*background: #BBBABA;*/
+
+    }
+
+    /* <!--Home background image ash one-->*/
+    #h>div:first-child{
+        /* position: absolute;
+         background:url("../../ash background.jpeg") no-repeat center;
+         background-size: 100% 100%;
+         z-index:2;*/
+        height: 64vh;
+        width: 100%;
+        margin-top:27px;
+    }
+
+    /* <!--Home background image black one-->*/
+    #h>div:first-child>div{
+        /* position: absolute;
+         background:url("../../Vector 8.png") no-repeat center;
+         background-size: 100% 100%;*/
+        height: 65vh;
+        width: 100%;
+        margin-top: -2px;
+        top: -2px;
+
+    }
+
+    /* <!--1st page another items without backgrount image-->*/
+
+    main>#h>section:nth-child(2)>nav>nav{
+        position: absolute;
+        top: 0;
+        z-index: 4;
+        margin-top: 8vh;
+        margin-left: 1vh;
+        width: 1vw;
+        height: 1vh;
+        left: 0;
+
+    }
+    /*facebook icon*/
+    main>#h>section:nth-child(2)>nav>nav:first-child{
+
+        padding: 2%;
+    }
+    /*instagram icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(2){
+
+        padding: 2%;
+        top: 6vh;
+
+    }
+    /*twitter icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(3){
+        padding: 2%;
+        top: 12vh;
+    }
+    /*whatsapp icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(4){
+        padding: 2%;
+        top: 18vh;
+    }
+    /*telegram icon*/
+    main>#h>section:nth-child(2)>nav>nav:nth-child(5){
+        padding: 2%;
+        top: 24vh;
+    }
+
+    /*rectangle behind the photo*/
+    main>#h>section:nth-child(2)>article>div:first-child{
+        position: absolute;
+        width: 29vw;
+        height: 22vh;
+        left: 10vw;
+        top: 12vh;
+        background: rgba(217, 217, 217, 0.8);
+        opacity: 0.8;
+        border-radius: 26px;
+        z-index: 4;
+    }
+
+    /*my 1st photo*/
+
+    main>#h>section:nth-child(2)>article>div:first-child>div{
+        position: absolute;
+        width: 18vw;
+        height: 26vh;
+        left: 6vw;
+        top: -4vh;
+        border-radius: 10%;
+        z-index:5;
+        opacity: 100%;
+
+
+    }
+    /*I'm Oshani*/
+    main>#h>section:nth-child(2)>article>h3:nth-child(2){
+        position: absolute;
+        width: 47vw;
+        height: 24vh;
+        right: 4vw;
+        top: 2vh;
+        font-family: 'Irish Grover', cursive;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 73px;
+        color: #FFFFFF;
+        z-index: 5;
+    }
+
+
+    /*Madhushika*/
+    main>#h>section:nth-child(2)>article>h3:nth-child(3){
+        position: absolute;
+        width: 32vw;
+        height: 14vh;
+        right: 15vw;
+        top: 15vh;
+        font-family: Irish Grover,serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 73px;
+        color: #3E3E3E;
+        z-index: 5;
+    }
+
+    /*full stack developer*/
+    main>#h>section:nth-child(2)>article>h4:nth-child(4){
+        position: absolute;
+        width: 33vw;
+        height: 14vh;
+        right: 10vw;
+        top: 13vh;
+        font-style: italic;
+        font-weight: 900;
+        font-size: 11px;
+        line-height: 39px;
+        color: #d0b1b2;
+        z-index: 5;
+
+    }
+    .btnHireme{
+        position: absolute;
+        width: 28vw;
+        height: 8vh;
+        right: 4vw;
+        top: 40vh;
+        background: #000000;
+        border: 4px solid #060606;
+        border-radius: 10%;
+        transform: rotate(-0.35deg);
+        color: whitesmoke;
+        font-family: 'Inter', sans-serif;
+        z-index: 6;
+        font-size: 16px;
+
+    }
+    /*   <!--rectangle behind the quote of niklaus-->*/
+    main>#h>section:nth-child(2)>blockquote{
+
+        position: absolute;
+        width: 77vw;
+        height: 25vh;
+        right: 2vw;
+        top: 59vh;
+        background: rgba(47, 41, 41, 0.55);
+        border-radius: 11%;
+        z-index: 5;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    /* <!--the quote of niklaus-->*/
+    main>#h>section:nth-child(2)>blockquote>cite>q:first-child{
+        position: absolute;
+        width: 71vw;
+        height: 27vh;
+        right: 0;
+        top: 5px;
+        font-family: 'IM FELL Great Primer SC',serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 12px;
+        color: #000000;
+        z-index: 6;
+    }
+
+    /*Niklaus Wirth*/
+    main>#h>section:nth-child(2)>blockquote>cite>h4{
+
+        position: absolute;
+        width: 45vw;
+        height: 10vh;
+        left: 25vw;
+        top: 18vw;
+        font-family: 'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 40px;
+        color: #060606;
+    }
+
+    /*line befofe niklaus*/
+    main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(3){
+        position: absolute;
+        width: 7vw;
+        height: 0;
+        left: 15vw;
+        top: 20vh;
+        border: 2px solid #000000;
+        z-index:6;
+    }
+    /*line after Wirth*/
+    main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
+        position: absolute;
+        width: 7vw;
+        height: 0;
+        left: 59vw;
+        top: 20vh;
+        border: 2px solid #000000;
+        z-index:6;
+    }
+
+
+}
