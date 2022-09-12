@@ -672,12 +672,12 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Rectangle black */
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
         position: absolute;
-        width: 49vw;
+        width: 81vw;
         height: 665px;
-        left: 5vw;
-        top: 208px;
+        left: 4vw;
+        top: 166px;
         background: #000000;
-        border-radius: 80px;
+        border-radius: 52px;
         z-index: 5;
     }
     /*Topic Asssignment*/
