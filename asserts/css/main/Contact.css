@@ -399,6 +399,17 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
 #top{
     color: white;
 }
+
+#number1{
+    color: white;
+}
+#number2{
+    color: white;
+}
+#mail{
+    color: white;
+}
+
 /*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
@@ -524,8 +535,8 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>dt:first-child{
         position: absolute;
         left: 6vw;
-        width: 4vw;
         top: 6px;
+        width: 4vw;
         height: 100px;
         font-size: 15px;
         line-height: 26px;
@@ -533,10 +544,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*white line*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>div:nth-child(2){
         position: absolute;
-        left: 1vw;
-        width: 11vw;
-        top: 45px;
-        height: 4px;
+        left: 6vw;
+        top: 35px;
+        width: 20vw;
+        height: 3px;
         background: url("../../Line 20.png");
         background-size: cover;
         background-position: center;
@@ -547,12 +558,12 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Location detail*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>div:nth-child(3){
         position: absolute;
-        left: -1vw;
-        width: 4vw;
-        top: 53px;
+        left: -3vw;
+        width: 5vw;
+        top: 42px;
         height: 100px;
-        font-size: 18px;
-        line-height: 26px;
+        font-size: 12px;
+        line-height: 19px;
 
     }
 
@@ -574,19 +585,19 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>dt:first-child{
         position: absolute;
         left: 10vw;
-        width: 6vw;
         top: 12px;
+        width: 4vw;
         height: 100px;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 26px;
     }
     /*white line*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
         left: 7vw;
-        width: 11vw;
         top: 50px;
-        height: 4px;
+        width: 20vw;
+        height: 3px;
         background: url("../../Line 20.png");
         background-size: cover;
         background-position: center;
@@ -601,22 +612,19 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         width: 4vw;
         top: 60px;
         height: 100px;
-        font-size: 18px;
+        font-size: 12px;
         line-height: 26px;
 
-    }
-    #mail{
-        color: white;
     }
 
     /*Contact*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3){
         box-sizing: border-box;
         position: absolute;
-        width: 13vw;
-        height: 174px;
-        left: 9vw;
-        top: 443px;
+        width: 34vw;
+        height: 127px;
+        left: 48vw;
+        top: 42px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #000000;
         font-family: 'Stick', sans-serif;
@@ -626,20 +634,20 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Contact Topic*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>dt:first-child{
         position: absolute;
-        left: 3vw;
-        width: 6vw;
-        top: 12px;
+        left: 9vw;
+        top: 4px;
+        width: 4vw;
         height: 100px;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 26px;
     }
     /*white line*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>div:nth-child(2){
         position: absolute;
-        left: 1vw;
-        width: 11vw;
-        top: 48px;
-        height: 4px;
+        left: 8vw;
+        top: 32px;
+        width: 20vw;
+        height: 3px;
         background: url("../../Line 20.png");
         background-size: cover;
         background-position: center;
@@ -650,21 +658,15 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Contact detail*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>div:nth-child(3){
         position: absolute;
-        left: -2vw;
-        width: 13vw;
-        top: 76px;
+        left: -8vw;
+        width: 39vw;
+        top: 38px;
         height: 100px;
-        font-size: 15px;
-        line-height: 29px;
+        height: 100px;
+        font-size: 11px;
 
     }
 
-    #number1{
-        color: white;
-    }
-    #number2{
-        color: white;
-    }
 
     /*Home icon*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(4){
