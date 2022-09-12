@@ -571,10 +571,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2){
         box-sizing: border-box;
         position: absolute;
-        width: 27vw;
-        height: 115px;
-        left: 3vw;
-        top: 282px;
+        width: 60vw;
+        height: 89px;
+        left: 13vw;
+        top: 188px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #000000;
         font-family: 'Stick', sans-serif;
@@ -584,9 +584,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Email Topic*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>dt:first-child{
         position: absolute;
-        left: 10vw;
-        top: 12px;
-        width: 4vw;
+        left: 21vw;
+        top: 4px;
+        width: 21vw;
         height: 100px;
         font-size: 15px;
         line-height: 26px;
@@ -594,8 +594,8 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*white line*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>div:nth-child(2){
         position: absolute;
-        left: 7vw;
-        top: 50px;
+        left: 18vw;
+        top: 36px;
         width: 20vw;
         height: 3px;
         background: url("../../Line 20.png");
@@ -608,9 +608,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Email detail*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>dd:nth-child(3){
         position: absolute;
-        left: -1vw;
+        left: -11vw;
         width: 4vw;
-        top: 60px;
+        top: 45px;
         height: 100px;
         font-size: 12px;
         line-height: 26px;
@@ -661,7 +661,6 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         left: -8vw;
         width: 39vw;
         top: 38px;
-        height: 100px;
         height: 100px;
         font-size: 11px;
 
