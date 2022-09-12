@@ -1,4 +1,4 @@
-/*Project section*/
+/*contact section*/
 main>section:nth-child(6){
     position: relative;
     height: calc(100vh /6) ;
@@ -396,7 +396,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     background: #11817A;
     border-radius: 60px;
 }
-
+#top{
+    color: white;
+}
 /*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
@@ -495,10 +497,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*rectangle Contact me*/
     main>section:nth-child(6)>section>div:nth-child(7) {
         position: absolute;
-        width: 94vw;
+        width: 88vw;
         height: 670px;
-        left: 2vw;
-        top: 49px;
+        left: -3vw;
+        top: 3px;
         background: rgba(13, 13, 13, 0.8);
         opacity: 0.9;
         border-radius: 50px;
@@ -508,10 +510,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     main>section:nth-child(6)>section>div:nth-child(7)>div:first-child{
         box-sizing: border-box;
         position: absolute;
-        width: 13vw;
-        height: 174px;
-        left: 9vw;
-        top: 67px;
+        width: 34vw;
+        height: 127px;
+        left: 6vw;
+        top: 39px;
         background: rgba(0, 0, 0, 0.4);
         border: 3px solid #000000;
         font-family: 'Stick', sans-serif;
@@ -521,11 +523,11 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Location Topic*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>dt:first-child{
         position: absolute;
-        left: 2vw;
+        left: 6vw;
         width: 4vw;
-        top: 15px;
+        top: 6px;
         height: 100px;
-        font-size: 20px;
+        font-size: 15px;
         line-height: 26px;
     }
     /*white line*/
