@@ -614,7 +614,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*rectangle Education*/
     main>section:nth-child(3)>section>div:nth-child(5){
         position: absolute;
-        width: 92vw;
+        width: 88vw;
         height: 145vh;
         left: -2vw;
         top: 96px;

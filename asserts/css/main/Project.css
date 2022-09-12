@@ -385,3 +385,69 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     color: #eac80f;
 
 }
+
+
+/*================================== 320->Mobile -S ==================================*/
+
+@media all and (max-width: 320px){
+    /*Project section*/
+    main>section:nth-child(5){
+        position: relative;
+        height: calc(100vh /6) ;
+        width: 87vw;
+        top: 2293px;
+        left: 22px;
+        z-index:6;
+    }
+    /*vector 7 black*/
+    main>section:nth-child(5)>section>div:first-child{
+        position: absolute;
+        width: 62vw;
+        height: 6vh;
+        left: -3vw;
+        top: -40px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 5;
+    }
+
+    /*pink line Project*/
+    main>section:nth-child(5)>section>div:nth-child(2){
+        position: absolute;
+        width: 36vw;
+        height: 0px;
+        right: 7vw;
+        top: -33px;
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*red line Project*/
+    main>section:nth-child(5)>section>div:nth-child(3){
+        position: absolute;
+        width: 39vw;
+        height: 0px;
+        right: 2vw;
+        top: -19px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*Projects banner*/
+    main>section:nth-child(5)>section>h1:nth-child(4){
+        position: absolute;
+        width: 53vw;
+        height: 20vh;
+        left: 1vw;
+        top: -68px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 53px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+
+}
