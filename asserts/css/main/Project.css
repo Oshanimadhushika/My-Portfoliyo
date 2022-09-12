@@ -769,7 +769,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
 
 /*================================== 375->Mobile -M ==================================*/
 
-@media all and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px){
     /*Project section*/
     main>section:nth-child(5){
         position: relative;

@@ -489,7 +489,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 /*================================== 375->Mobile -M ==================================*/
 
-@media all and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px){
 
     body>main{
 

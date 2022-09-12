@@ -413,7 +413,7 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
 /*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
-    /*Project section*/
+    /*contact section*/
     main>section:nth-child(6){
         position: relative;
         height: calc(100vh /6) ;
@@ -803,6 +803,430 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         left: 21vw;
         top: 368px;
         font-family: 'Sigmar One',cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 22px;
+        line-height: 41px;
+        color: #FFFFFF;
+        background: #11817A;
+        border-radius: 60px;
+    }
+
+}
+
+/*================================== 375->Mobile -L ==================================*/
+
+@media all and (min-width: 321px) and (max-width: 375px) {
+    /*contact section*/
+    main > section:nth-child(6) {
+        position: relative;
+        height: calc(100vh / 6);
+        width: 87vw;
+        top: 3356px;
+        left: 0;
+        z-index: 6;
+    }
+
+    /*vector 7 black*/
+    main > section:nth-child(6) > section > div:first-child {
+        position: absolute;
+        width: 62vw;
+        height: 6vh;
+        left: 1vw;
+        top: -54px;
+        background: url("../../Vector 7.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 5;
+    }
+
+    /*pink line Contact me*/
+    main > section:nth-child(6) > section > div:nth-child(2) {
+        position: absolute;
+        width: 36vw;
+        height: 0px;
+        right: -3vw;
+        top: -49px;
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+
+    /*red line Contact me*/
+    main > section:nth-child(6) > section > div:nth-child(3) {
+        position: absolute;
+        width: 39vw;
+        height: 0px;
+        right: 2vw;
+        top: -35px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+
+    /*Contact banner*/
+    main > section:nth-child(6) > section > h1:nth-child(4) {
+        position: absolute;
+        width: 53vw;
+        height: 20vh;
+        left: 1vw;
+        top: -84px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 53px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+
+    /*TOP*/
+    main > section:nth-child(6) > section > div:nth-child(5) {
+        position: absolute;
+        width: 19vw;
+        height: 47px;
+        left: 36vw;
+        top: -109px;
+        background: url("../../Ellipse 25.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 7;
+        font-family: 'Strong', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 46px;
+        color: #FFFFFF;
+        text-align: center;
+
+    }
+
+    /*Arrow white*/
+    main > section:nth-child(6) > section > div:nth-child(6) {
+        position: absolute;
+        width: 3vw;
+        height: 18px;
+        left: 51vw;
+        top: -95px;
+        background: url("../../Arrow 1.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 7;
+    }
+
+    /*rectangle Contact me*/
+    main > section:nth-child(6) > section > div:nth-child(7) {
+        position: absolute;
+        width: 88vw;
+        height: 767px;
+        left: 3vw;
+        top: 3px;
+        background: rgba(13, 13, 13, 0.8);
+        opacity: 0.9;
+        border-radius: 50px;
+        z-index: 5;
+    }
+
+    /*Location*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:first-child {
+        box-sizing: border-box;
+        position: absolute;
+        width: 34vw;
+        height: 127px;
+        left: 6vw;
+        top: 39px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #000000;
+        font-family: 'Stick', sans-serif;
+        color: #FFFFFF;
+
+    }
+
+    /*Location Topic*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:first-child > dt:first-child {
+        position: absolute;
+        left: 6vw;
+        top: 6px;
+        width: 4vw;
+        height: 100px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    /*white line*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:first-child > div:nth-child(2) {
+        position: absolute;
+        left: 6vw;
+        top: 35px;
+        width: 20vw;
+        height: 3px;
+        background: url("../../Line 20.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 8;
+    }
+
+
+    /*Location detail*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:first-child > div:nth-child(3) {
+        position: absolute;
+        left: -3vw;
+        width: 5vw;
+        top: 42px;
+        height: 100px;
+        font-size: 12px;
+        line-height: 19px;
+
+    }
+
+    /*Email*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(2) {
+        box-sizing: border-box;
+        position: absolute;
+        width: 60vw;
+        height: 89px;
+        left: 13vw;
+        top: 188px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #000000;
+        font-family: 'Stick', sans-serif;
+        color: #FFFFFF;
+
+    }
+
+    /*Email Topic*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(2) > dt:first-child {
+        position: absolute;
+        left: 21vw;
+        top: 4px;
+        width: 21vw;
+        height: 100px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    /*white line*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(2) > div:nth-child(2) {
+        position: absolute;
+        left: 18vw;
+        top: 36px;
+        width: 20vw;
+        height: 3px;
+        background: url("../../Line 20.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 8;
+    }
+
+
+    /*Email detail*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(2) > dd:nth-child(3) {
+        position: absolute;
+        left: -11vw;
+        width: 4vw;
+        top: 45px;
+        height: 100px;
+        font-size: 12px;
+        line-height: 26px;
+
+    }
+
+    /*Contact*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(3) {
+        box-sizing: border-box;
+        position: absolute;
+        width: 34vw;
+        height: 127px;
+        left: 48vw;
+        top: 42px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #000000;
+        font-family: 'Stick', sans-serif;
+        color: #FFFFFF;
+
+    }
+
+    /*Contact Topic*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(3) > dt:first-child {
+        position: absolute;
+        left: 9vw;
+        top: 4px;
+        width: 4vw;
+        height: 100px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+
+    /*white line*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) {
+        position: absolute;
+        left: 8vw;
+        top: 32px;
+        width: 20vw;
+        height: 3px;
+        background: url("../../Line 20.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 8;
+    }
+
+
+    /*Contact detail*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) {
+        position: absolute;
+        left: -8vw;
+        width: 39vw;
+        top: 38px;
+        height: 100px;
+        font-size: 11px;
+
+    }
+
+
+    /*Home icon*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(4) {
+        position: absolute;
+        width: 11vw;
+        height: 32px;
+        left: 17vw;
+        top: 18px;
+        background: url("../../Rectangle 29.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 9;
+    }
+
+    /*mail icon*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(5) {
+        position: absolute;
+        width: 11vw;
+        height: 32px;
+        left: 37vw;
+        top: 169px;
+        background: url("../../Rectangle 31.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 9;
+    }
+
+    /*Phone icon*/
+    main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(6) {
+        position: absolute;
+        width: 11vw;
+        height: 32px;
+        left: 61vw;
+        top: 18px;
+        background: url("../../Rectangle 33.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 9;
+    }
+
+    /*section form*/
+    main > section:nth-child(6) > section > div:nth-child(7) > section:nth-child(7) {
+        box-sizing: border-box;
+        position: absolute;
+        width: 79vw;
+        height: 443px;
+        left: 4vw;
+        top: 291px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #000000;
+        z-index: 7;
+    }
+
+    /*Contact me banner*/
+    main > section:nth-child(6) > section > div:nth-child(7) > section:nth-child(7) > div:first-child {
+        box-sizing: border-box;
+        position: absolute;
+        width: 49vw;
+        height: 501px;
+        left: 16vw;
+        top: 9px;
+        font-family: 'Sigmar One', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 23px;
+        line-height: 32px;
+        color: #fcfcfc;
+    }
+
+    /*Your name*/
+    main > section:nth-child(6) > section > div:nth-child(7) > section:nth-child(7) > form > input:first-child {
+        position: absolute;
+        width: 69vw;
+        height: 30px;
+        font-size: 19px;
+        left: 2vw;
+        top: 59px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #557729;
+        font-family: 'Share', cursive;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 41px;
+        color: #FFFFFF;
+    }
+
+    /*email*/
+    main > section:nth-child(6) > section > div:nth-child(7) > section:nth-child(7) > form > input:nth-child(2) {
+        position: absolute;
+        width: 69vw;
+        height: 30px;
+        font-size: 19px;
+        left: 2vw;
+        top: 126px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #557729;
+        font-family: 'Share', cursive;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 41px;
+        color: #FFFFFF;
+    }
+
+    /*Subject*/
+    main > section:nth-child(6) > section > div:nth-child(7) > section:nth-child(7) > form > input:nth-child(3) {
+        position: absolute;
+        width: 69vw;
+        height: 30px;
+        font-size: 19px;
+        left: 2vw;
+        top: 192px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #557729;
+        font-family: 'Share', cursive;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 41px;
+        color: #FFFFFF;
+    }
+
+    /*messege*/
+    main > section:nth-child(6) > section > div:nth-child(7) > section:nth-child(7) > form > textarea:nth-child(4) {
+        position: absolute;
+        width: 68vw;
+        height: 81px;
+        left: 2vw;
+        top: 255px;
+        background: rgba(0, 0, 0, 0.4);
+        border: 3px solid #557729;
+        font-family: 'Share', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 19px;
+        line-height: 41px;
+        color: #FFFFFF;
+    }
+
+    /*Done button*/
+    main > section:nth-child(6) > section > div:nth-child(7) > section:nth-child(7) > form > button:nth-child(5) {
+        position: absolute;
+        width: 32vw;
+        height: 47px;
+        left: 21vw;
+        top: 368px;
+        font-family: 'Sigmar One', cursive;
         font-style: normal;
         font-weight: 400;
         font-size: 22px;

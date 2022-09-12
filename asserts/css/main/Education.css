@@ -1099,7 +1099,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
 
 /*================================== 375->Mobile -M ==================================*/
 
-@media all and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px){
     /*Education section*/
     main>section:nth-child(3){
         position: relative;

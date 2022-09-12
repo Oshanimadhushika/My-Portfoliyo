@@ -732,7 +732,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
 
 /*================================== 375->Mobile -M ==================================*/
 
-@media all and (max-width: 375px){
+@media all and (min-width: 321px) and (max-width: 375px){
     /*Skill section*/
     main>section:nth-child(4){
         position: relative;
