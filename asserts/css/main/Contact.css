@@ -462,10 +462,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*TOP*/
     main>section:nth-child(6)>section>div:nth-child(5){
         position: absolute;
-        width: 7vw;
-        height: 60px;
-        left: 51vw;
-        top: -122px;
+        width: 19vw;
+        height: 47px;
+        left: 36vw;
+        top: -109px;
         background: url("../../Ellipse 25.png");
         background-size: cover;
         background-position: center;
@@ -473,22 +473,20 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         font-family:  'Strong',sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 20px;
+        font-size: 14px;
         line-height: 46px;
         color: #FFFFFF;
         text-align: center;
 
     }
-    #top{
-        color: #FFFFFF;
-    }
+
     /*Arrow white*/
     main>section:nth-child(6)>section>div:nth-child(6){
         position: absolute;
-        width: 1vw;
-        height: 22px;
-        left: 54vw;
-        top: -88px;
+        width: 3vw;
+        height: 18px;
+        left: 51vw;
+        top: -95px;
         background: url("../../Arrow 1.png");
         background-size: cover;
         background-position: center;
