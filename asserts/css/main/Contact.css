@@ -670,10 +670,10 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Home icon*/
     main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(4){
         position: absolute;
-        width: 3vw;
-        height: 37px;
-        left: 14vw;
-        top: 44px;
+        width: 11vw;
+        height: 32px;
+        left: 17vw;
+        top: 18px;
         background: url("../../Rectangle 29.png");
         background-size: cover;
         background-position: center;
