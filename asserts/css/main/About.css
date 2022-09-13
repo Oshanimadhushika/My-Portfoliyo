@@ -931,13 +931,13 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 
     /*1st hexogan*/
     #hexagon {
-        width: 26vw;
-        height: 24vh;
+        width: 21vw;
+        height: 34vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
         left: 1vw;
-        top: 7vh;
+        top: 8vh;
         background: url("../../Polygon 1.png");
         background-size: cover;
         background-position: center;
@@ -948,8 +948,8 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*2nd tool behind the photo*/
     #hexagon>div{
 
-        width: 28vw;
-        height: 25vh;
+        width: 22vw;
+        height: 36vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
@@ -965,9 +965,9 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         background:linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
         background-size:cover;
         background-position: center;
-        width: 28vw;
-        height: 34vh;
-        left: 2vw;
+        width: 21vw;
+        height: 46vh;
+        left: 5vw;
         top: 12px;
         border-radius: 20%;
         opacity: 100%;
@@ -978,14 +978,14 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(3){
 
         position: absolute;
-        width: 50vw;
+        width: 38vw;
         height: 20vh;
-        right: -1vw;
-        top: -17px;
+        right: 8vw;
+        top: 8px;
         font-family: 'Italianno', cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 31px;
+        font-size: 39px;
         line-height: 27px;
         color: #AC1F38;
         z-index: 6;
