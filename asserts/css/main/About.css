@@ -1135,7 +1135,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     main > section:nth-child(2) > section > div:nth-child(5) {
         position: absolute;
         width: 92vw;
-        height: 128vh;
+        height: 164vh;
         left: 2vw;
         top: 124px;
         background: #9A9090;
@@ -1202,7 +1202,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         width: 24vw;
         height: 70vh;
         left: 5vw;
-        top: 98px;
+        top: 69px;
         border-radius: 20%;
         opacity: 100%;
         z-index: 8;
