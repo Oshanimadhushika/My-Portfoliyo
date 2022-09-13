@@ -3283,4 +3283,555 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
 
 /*================================== 1440->Laptop-L ==================================*/
 
-@media all and (min-width: 1025px) and (max-width: 1440px)
+@media all and (min-width: 1025px) and (max-width: 1440px){
+    /*Education section*/
+    main>section:nth-child(3){
+        position: relative;
+        height: calc(100vh /6) ;
+        width: 87vw;
+        top: 900px;
+        left: 22px;
+        z-index:6;
+    }
+
+    /*vector 7 black*/
+    main>section:nth-child(3)>section>div:first-child{
+        position: absolute;
+        width: 835px;
+        height: 71px;
+        left: 2vw;
+        top: 679px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 5;
+    }
+
+    /*pink line Education*/
+    main>section:nth-child(3)>section>div:nth-child(2){
+        position: absolute;
+        width: 50vw;
+        height: 0px;
+        right: 0vw;
+        top: 695px;
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*red line Education*/
+    main>section:nth-child(3)>section>div:nth-child(3){
+        position: absolute;
+        width: 50vw;
+        height: 0px;
+        right: -4vw;
+        top: 723px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+
+    /*Education banner*/
+    main>section:nth-child(3)>section>h1:nth-child(4){
+        position: absolute;
+        width: 730px;
+        height: 115px;
+        left: 3vw;
+        top: 611px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 139px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+
+    /*rectangle Education*/
+    main>section:nth-child(3)>section>div:nth-child(5){
+        position: absolute;
+        width: 94vw;
+        height: 1130px;
+        left: 2vw;
+        top: 783px;
+        background: #9A9090;
+        opacity: 0.9;
+        border-radius: 50px;
+        z-index: 5;
+    }
+
+    /*Line y*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:first-child{
+        position: absolute;
+        width: 7px;
+        height: 1040px;
+        left: 47vw;
+        top: 51px;
+        background: url("../../Line 3.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Line X1*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(2){
+        position: absolute;
+        width: 20vw;
+        height: 7px;
+        left: 47vw;
+        top: 83px;
+        background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Line X2*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(3){
+        position: absolute;
+        width: 20vw;
+        height: 7px;
+        left: 27vw;
+        top: 211px;
+        background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Line X3*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(4){
+        position: absolute;
+        width: 20vw;
+        height: 7px;
+        left: 47vw;
+        top:341px;
+        background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+    /*Line X4*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(5){
+        position: absolute;
+        width: 20vw;
+        height: 7px;
+        left: 27vw;
+        top: 475px;
+        background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Line X5*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(6){
+        position: absolute;
+        width: 20vw;
+        height: 7px;
+        left: 47vw;
+        top:624px;
+        background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Line X6*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(7){
+        position: absolute;
+        width: 20vw;
+        height: 7px;
+        left: 27vw;
+        top: 774px;
+        background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*Line X7*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(8){
+        position: absolute;
+        width: 20vw;
+        height: 7px;
+        left: 47vw;
+        top:921px;
+        background: url("../../Line 4.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+    /*circle 1*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(9){
+        position: absolute;
+        width: 3vw;
+        height: 43px;
+        left: 46vw;
+        top: 193px;
+        background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*circle 2*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(10){
+        position: absolute;
+        width: 3vw;
+        height: 43px;
+        left: 46vw;
+        top: 455px;
+        background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*circle 3*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(11){
+        position: absolute;
+        width: 3vw;
+        height: 43px;
+        left: 46vw;
+        top:752px;
+        background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*circle 4*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(12){
+        position: absolute;
+        width: 3vw;
+        height: 43px;
+        left: 46vw;
+        top:1050px;
+        background: url("../../Ellipse 15.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*graduation icon*/
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(13){
+        position: absolute;
+        width: 5vw;
+        height: 56px;
+        left: 45vw;
+        top: 2px;
+        background: url("../../Ellipse 10.png");
+        background-size: cover;
+        background-position: center;
+        z-index: 6;
+    }
+
+    /*2021*/
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(14){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 51vw;
+        top: -57px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 73px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+
+    /*2019 -2nd*/
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(15){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 32vw;
+        top: 58px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 73px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+
+    /*2019 -3rd*/
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(16){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 52vw;
+        top: 189px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 73px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+
+    /*2016 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(17){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 31vw;
+        top: 331px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 73px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+    /*2013 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(18){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 52vw;
+        top: 472px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 73px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+    /*2011 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(19){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 32vw;
+        top: 633px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 73px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+    /*2006 */
+    main>section:nth-child(3)>section>div:nth-child(5)>h3:nth-child(20){
+        position: absolute;
+        width: 15vw;
+        height: 80px;
+        left: 52vw;
+        top: 778px;
+        font-family: 'Sail', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 73px;
+        line-height: 88px;
+        color: #0D0D0D;
+        z-index: 6;
+    }
+
+    /*IJSE */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(21){
+        position: absolute;
+        width: 25vw;
+        height: 111px;
+        left: 67vw;
+        top: 23px;
+        background: url("../../Rectangle 11.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+
+    /*IJSE details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(22){
+        position: absolute;
+        width: 20vw;
+        height: 114px;
+        left: 67vw;
+        top: 13px;
+        font-family: 'Sansita',cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 21px;
+        line-height: 26px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+
+    /*Britishway */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(23){
+        position: absolute;
+        width: 25vw;
+        height: 127px;
+        left: 2vw;
+        top: 151px;
+        background: url("../../Rectangle 8.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*BW details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(24){
+        position: absolute;
+        width: 17vw;
+        height: 114px;
+        left: 3vw;
+        top: 151px;
+        font-family: 'Sansita',cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 26px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*AL GCC */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(25){
+        position: absolute;
+        width: 25vw;
+        height: 127px;
+        left: 67vw;
+        top: 272px;
+        background: url("../../Rectangle 9.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*AL details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(26) {
+        position: absolute;
+        width: 21vw;
+        height: 114px;
+        left: 68vw;
+        top: 267px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 21px;
+        line-height: 26px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*OL GCC */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(27){
+        position: absolute;
+        width: 25vw;
+        height: 127px;
+        left: 2vw;
+        top: 409px;
+        background: url("../../Rectangle 10.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*OL details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(28) {
+        position: absolute;
+        width: 19vw;
+        height: 114px;
+        left: 3vw;
+        top: 400px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 26px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*Secondary GCC */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(29){
+        position: absolute;
+        width: 25vw;
+        height: 127px;
+        left: 67vw;
+        top: 556px;
+        background: url("../../Rectangle 6.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*Secondary details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(30) {
+        position: absolute;
+        width: 17vw;
+        height: 114px;
+        left: 68vw;
+        top: 550px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 26px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+
+    /*Secondary VMV */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(31){
+        position: absolute;
+        width: 25vw;
+        height: 127px;
+        left: 2vw;
+        top: 711px;
+        background: url("../../Rectangle 7.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*Secondary details VMV*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(32) {
+        position: absolute;
+        width: 18vw;
+        height: 114px;
+        left: 3vw;
+        top: 694px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 26px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+    /*Primary GCC */
+    main>section:nth-child(3)>section>div:nth-child(5)>div:nth-child(33){
+        position: absolute;
+        width: 25vw;
+        height: 127px;
+        left: 67vw;
+        top: 853px;
+        background: url("../../Rectangle 5.png");
+        background-size: cover;
+        background-position: center;
+        opacity: 1.5;
+        z-index: 7;
+    }
+    /*Primary details*/
+    main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
+        position: absolute;
+        width: 17vw;
+        height: 114px;
+        left: 68vw;
+        top: 839px;
+        font-family: 'Sansita', cursive;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 22px;
+        line-height: 26px;
+        color: #0D0D0D;
+        z-index: 8;
+    }
+}
