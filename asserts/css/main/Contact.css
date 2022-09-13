@@ -1795,11 +1795,11 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Location Topic*/
     main > section:nth-child(6) > section > div:nth-child(7) > div:first-child > dt:first-child {
         position: absolute;
-        left: 6vw;
-        top: 6px;
+        left: 12vw;
+        top: 12px;
         width: 4vw;
         height: 100px;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 26px;
     }
 
@@ -1847,19 +1847,19 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Email Topic*/
     main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(2) > dt:first-child {
         position: absolute;
-        left: 21vw;
-        top: 4px;
+        left: 27vw;
+        top: 14px;
         width: 21vw;
         height: 100px;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 26px;
     }
 
     /*white line*/
     main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(2) > div:nth-child(2) {
         position: absolute;
-        left: 18vw;
-        top: 36px;
+        left: 24vw;
+        top: 40px;
         width: 12vw;
         height: 2px;
         background: url("../../Line 20.png");
@@ -1872,9 +1872,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Email detail*/
     main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(2) > dd:nth-child(3) {
         position: absolute;
-        left: -11vw;
+        left: 9vw;
         width: 4vw;
-        top: 45px;
+        top: 47px;
         height: 100px;
         font-size: 15px;
         line-height: 26px;
@@ -1899,19 +1899,19 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Contact Topic*/
     main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(3) > dt:first-child {
         position: absolute;
-        left: 9vw;
-        top: 4px;
+        left: 13vw;
+        top: 9px;
         width: 4vw;
         height: 100px;
-        font-size: 15px;
+        font-size: 17px;
         line-height: 26px;
     }
 
     /*white line*/
     main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(3) > div:nth-child(2) {
         position: absolute;
-        left: 8vw;
-        top: 32px;
+        left: 11vw;
+        top: 37px;
         width: 12vw;
         height: 2px;
         background: url("../../Line 20.png");
@@ -1924,9 +1924,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*Contact detail*/
     main > section:nth-child(6) > section > div:nth-child(7) > div:nth-child(3) > div:nth-child(3) {
         position: absolute;
-        left: -8vw;
-        width: 39vw;
-        top: 38px;
+        left: 5vw;
+        width: 30vw;
+        top: 46px;
         height: 100px;
         font-size: 15px;
 
@@ -1991,12 +1991,12 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
         position: absolute;
         width: 49vw;
         height: 501px;
-        left: 16vw;
+        left: 27vw;
         top: 9px;
         font-family: 'Sigmar One', cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 23px;
+        font-size: 28px;
         line-height: 32px;
         color: #fcfcfc;
     }
