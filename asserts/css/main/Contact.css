@@ -2087,3 +2087,408 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     }
 
 }
+
+
+/*================================== 1024->Laptop==================================*/
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+
+/*contact section*/
+main>section:nth-child(6){
+    position: relative;
+    height: calc(100vh /6) ;
+    width: 87vw;
+    top: 4380px;
+    left: 22px;
+    z-index:6;
+}
+/*vector 7 black*/
+main>section:nth-child(6)>section>div:first-child{
+    position: absolute;
+    width: 835px;
+    height: 71px;
+    left: 2vw;
+    top: -54px;
+    background: url("../../Vector 7.png");
+    background-size:cover;
+    background-position: center;
+    z-index: 5;
+}
+
+/*pink line Contact me*/
+main>section:nth-child(6)>section>div:nth-child(2){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: -5vw;
+    top: -33px;
+    border: 3px solid #AB9697;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
+/*red line Contact me*/
+main>section:nth-child(6)>section>div:nth-child(3){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: -4vw;
+    top: -9px;
+    border: 2px solid #AC1F38;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
+/*Contact banner*/
+main>section:nth-child(6)>section>h1:nth-child(4){
+    position: absolute;
+    width: 730px;
+    height: 115px;
+    left: 3vw;
+    top: -123px;
+    font-family: 'Shippori Mincho', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 139px;
+    color: #FFFFFF;
+    z-index: 6;
+}
+/*TOP*/
+main>section:nth-child(6)>section>div:nth-child(5){
+    position: absolute;
+    width: 8vw;
+    height: 63px;
+    left: 51vw;
+    top: -122px;
+    background: url("../../Ellipse 25.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 7;
+    font-family:  'Strong',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 46px;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+/*Arrow white*/
+main>section:nth-child(6)>section>div:nth-child(6){
+    position: absolute;
+    width: 1vw;
+    height: 22px;
+    left: 54vw;
+    top: -88px;
+    background: url("../../Arrow 1.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 7;
+}
+/*rectangle Contact me*/
+main>section:nth-child(6)>section>div:nth-child(7) {
+    position: absolute;
+    width: 94vw;
+    height: 670px;
+    left: 2vw;
+    top: 49px;
+    background: rgba(13, 13, 13, 0.8);
+    opacity: 0.9;
+    border-radius: 50px;
+    z-index: 5;
+}
+/*Location*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 174px;
+    left: 9vw;
+    top: 67px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000000;
+    font-family: 'Stick', sans-serif;
+    color: #FFFFFF;
+
+}
+/*Location Topic*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>dt:first-child{
+    position: absolute;
+    left: 2vw;
+    width: 4vw;
+    top: 15px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 26px;
+}
+/*white line*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>div:nth-child(2){
+    position: absolute;
+    left: 1vw;
+    width: 11vw;
+    top: 45px;
+    height: 4px;
+    background: url("../../Line 20.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 8;
+}
+
+
+/*Location detail*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:first-child>div:nth-child(3){
+    position: absolute;
+    left: -1vw;
+    width: 4vw;
+    top: 53px;
+    height: 100px;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+/*Email*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2){
+    box-sizing: border-box;
+    position: absolute;
+    width: 27vw;
+    height: 115px;
+    left: 3vw;
+    top: 282px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000000;
+    font-family: 'Stick', sans-serif;
+    color: #FFFFFF;
+
+}
+/*Email Topic*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>dt:first-child{
+    position: absolute;
+    left: 10vw;
+    width: 6vw;
+    top: 12px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 26px;
+}
+/*white line*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>div:nth-child(2){
+    position: absolute;
+    left: 7vw;
+    width: 11vw;
+    top: 50px;
+    height: 4px;
+    background: url("../../Line 20.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 8;
+}
+
+
+/*Email detail*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(2)>dd:nth-child(3){
+    position: absolute;
+    left: -1vw;
+    width: 4vw;
+    top: 60px;
+    height: 100px;
+    font-size: 18px;
+    line-height: 26px;
+
+}
+
+/*Contact*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3){
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 174px;
+    left: 9vw;
+    top: 443px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000000;
+    font-family: 'Stick', sans-serif;
+    color: #FFFFFF;
+
+}
+/*Contact Topic*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>dt:first-child{
+    position: absolute;
+    left: 3vw;
+    width: 6vw;
+    top: 12px;
+    height: 100px;
+    font-size: 20px;
+    line-height: 26px;
+}
+/*white line*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>div:nth-child(2){
+    position: absolute;
+    left: 1vw;
+    width: 11vw;
+    top: 48px;
+    height: 4px;
+    background: url("../../Line 20.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 8;
+}
+
+
+/*Contact detail*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(3)>div:nth-child(3){
+    position: absolute;
+    left: -2vw;
+    width: 13vw;
+    top: 76px;
+    height: 100px;
+    font-size: 15px;
+    line-height: 29px;
+
+}
+
+/*Home icon*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(4){
+    position: absolute;
+    width: 3vw;
+    height: 37px;
+    left: 14vw;
+    top: 44px;
+    background: url("../../Rectangle 29.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 9;
+}
+/*mail icon*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(5){
+    position: absolute;
+    width: 3vw;
+    height: 37px;
+    left: 14vw;
+    top: 257px;
+    background: url("../../Rectangle 31.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 9;
+}
+/*Phone icon*/
+main>section:nth-child(6)>section>div:nth-child(7)>div:nth-child(6){
+    position: absolute;
+    width: 3vw;
+    height: 37px;
+    left: 14vw;
+    top: 421px;
+    background: url("../../Rectangle 33.png");
+    background-size: cover;
+    background-position: center;
+    z-index: 9;
+}
+
+/*section form*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7){
+    box-sizing: border-box;
+    position: absolute;
+    width: 55vw;
+    height: 563px;
+    left: 36vw;
+    top: 70px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #000000;
+    z-index: 7;
+}
+/*Contact me banner*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>div:first-child{
+    box-sizing: border-box;
+    position: absolute;
+    width: 23vw;
+    height: 501px;
+    left: 18vw;
+    top: 17px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 32px;
+    color: #fcfcfc;
+}
+/*Your name*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:first-child{
+    position: absolute;
+    width: 45vw;
+    height: 43px;
+    left: 2vw;
+    top: 73px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #557729;
+    font-family: 'Share',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+/*email*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(2){
+    position: absolute;
+    width: 45vw;
+    height: 43px;
+    left: 2vw;
+    top: 170px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #557729;
+    font-family: 'Share',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+/*Subject*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>input:nth-child(3){
+    position: absolute;
+    width: 45vw;
+    height: 43px;
+    left: 2vw;
+    top: 267px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #557729;
+    font-family: 'Share',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+/*messege*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>textarea:nth-child(4){
+    position: absolute;
+    width: 45vw;
+    height: 110px;
+    left: 2vw;
+    top: 358px;
+    background: rgba(0, 0, 0, 0.4);
+    border: 3px solid #557729;
+    font-family: 'Share',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+}
+/*Done button*/
+main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>button:nth-child(5){
+    position: absolute;
+    width: 13vw;
+    height: 51px;
+    left: 21vw;
+    top: 491px;
+    font-family:  'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 41px;
+    color: #FFFFFF;
+    background: #11817A;
+    border-radius: 60px;
+}
+}
