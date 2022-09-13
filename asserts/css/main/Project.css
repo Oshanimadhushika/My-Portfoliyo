@@ -2019,7 +2019,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(2){
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3){
     position: absolute;
     width: 44vw;
-    height: 181px;
+    height: 154px;
     left: 74px;
     top: 218px;
     background: url("../../Ellipse 2.png");
@@ -2039,7 +2039,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>dd{
     font-family: 'Sigmar One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 38px;
     color: white;
     z-index: 7;
@@ -2050,7 +2050,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>button{
     position: absolute;
     width: 13vw;
     height: 50px;
-    left: 182px;
+    left: 153px;
     top: 93px;
     background: #0D0D0D;
     border: 1px solid #22FAD3;
@@ -2065,7 +2065,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>button{
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4){
     position: absolute;
     width: 44vw;
-    height: 181px;
+    height: 170px;
     left: 74px;
     top: 447px;
     background: url("../../Ellipse 3.png");
@@ -2085,7 +2085,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>dd{
     font-family: 'Sigmar One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 24px;
     line-height: 38px;
     color: #000000;
     z-index: 7;
@@ -2096,7 +2096,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>button{
     position: absolute;
     width: 13vw;
     height: 50px;
-    left: 182px;
+    left: 153px;
     top: 100px;
     background: #0D0D0D;
     border: 1px solid #22FAD3;
@@ -2109,7 +2109,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>button{
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5){
     position: absolute;
     width: 44vw;
-    height: 181px;
+    height: 171px;
     left: 74px;
     top: 677px;
     background: url("../../Ellipse 4.png");
@@ -2129,7 +2129,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>dd{
     font-family: 'Sigmar One', cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 34px;
+    font-size: 21px;
     line-height: 38px;
     color: white;
     z-index: 7;
@@ -2140,7 +2140,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>button{
     position: absolute;
     width: 13vw;
     height: 50px;
-    left: 182px;
+    left: 153px;
     top: 107px;
     background: #0D0D0D;
     border: 1px solid #22FAD3;
@@ -2173,7 +2173,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
     font-style: normal;
     font-weight: 400;
     font-size: 29px;
-    line-height: 46px;
+    line-height: 37px;
     color: #FFFFFF;
     z-index: 7;
 }
@@ -2214,7 +2214,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(9){
     font-family: 'Irish Grover',sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 28px;
     line-height: 38px;
     color: #000000;
 }
@@ -2232,7 +2232,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(10) {
     font-family: 'Sigmar One',cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 27px;
+    font-size: 23px;
     line-height: 44px;
     color: #ebcb12;
 
@@ -2251,7 +2251,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(11){
     font-family: 'Sigmar One',cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 32px;
     color: #ebcb12;
     z-index:7;
@@ -2270,7 +2270,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(12){
     font-family: 'Sigmar One',cursive;
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 23px;
     line-height: 32px;
     color: #ebcb12;
 
@@ -2278,7 +2278,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(12){
 /*Arrow*/
 main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     position: absolute;
-    width: 8vw;
+    width: 9vw;
     height: 42px;
     right: 6vw;
     top: 835px;
