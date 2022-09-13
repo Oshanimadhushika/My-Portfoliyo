@@ -1909,3 +1909,383 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         z-index: 6;
     }
 }
+
+/*================================== 1024->Laptop ==================================*/
+
+@media all and (min-width: 769px) and (max-width: 1024px){
+/*Project section*/
+main>section:nth-child(5){
+    position: relative;
+    height: calc(100vh /6) ;
+    width: 87vw;
+    top: 3373px;
+    left: 22px;
+    z-index:6;
+}
+
+/*vector 7 black*/
+main>section:nth-child(5)>section>div:first-child{
+    position: absolute;
+    width: 835px;
+    height: 71px;
+    left: 2vw;
+    top: -30px;
+    background: url("../../Vector 7.png");
+    background-size:cover;
+    background-position: center;
+    z-index: 5;
+}
+
+/*pink line Project*/
+main>section:nth-child(5)>section>div:nth-child(2){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: 0vw;
+    top: -13px;
+    border: 3px solid #AB9697;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
+/*red line Project*/
+main>section:nth-child(5)>section>div:nth-child(3){
+    position: absolute;
+    width: 50vw;
+    height: 0px;
+    right: -4vw;
+    top: 16px;
+    border: 2px solid #AC1F38;
+    transform: rotate(-0.19deg);
+    z-index: 6;
+}
+/*Projects banner*/
+main>section:nth-child(5)>section>h1:nth-child(4){
+    position: absolute;
+    width: 730px;
+    height: 115px;
+    left: 3vw;
+    top: -103px;
+    font-family: 'Shippori Mincho', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 139px;
+    color: #FFFFFF;
+    z-index: 6;
+}
+/*rectangle Project*/
+main>section:nth-child(5)>section>div:nth-child(5){
+    position: absolute;
+    width: 94vw;
+    height: 918px;
+    left: 2vw;
+    top: 74px;
+    background: #9A9090;
+    opacity: 0.9;
+    border-radius: 50px;
+    z-index: 5;
+}
+/*1st paragraph*/
+main>section:nth-child(5)>section>div:nth-child(5)>p:first-child{
+    position: absolute;
+    width: 86vw;
+    height: 111px;
+    left: 63px;
+    top: -22px;
+    font-family: 'Sansita',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+
+}
+/*2nd paragraph*/
+main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(2){
+    position: absolute;
+    width: 86vw;
+    height: 111px;
+    left: 26px;
+    top: 118px;
+    font-family: 'Irish Grover',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+}
+
+/*Car Parking*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3){
+    position: absolute;
+    width: 44vw;
+    height: 181px;
+    left: 74px;
+    top: 218px;
+    background: url("../../Ellipse 2.png");
+    opacity: 1.8;
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Car Parking Topic*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>dd{
+    position: absolute;
+    width: 46vw;
+    height: 111px;
+    left: 26px;
+    top: 34px;
+    font-family: 'Sigmar One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: white;
+    z-index: 7;
+}
+/*Car Parking View Button*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 50px;
+    left: 182px;
+    top: 93px;
+    background: #0D0D0D;
+    border: 1px solid #22FAD3;
+    z-index: 7;
+    color: whitesmoke;
+    font-family:'Sigmar One',cursive;
+    font-size:20px ;
+}
+
+
+/*Cake Bakery*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4){
+    position: absolute;
+    width: 44vw;
+    height: 181px;
+    left: 74px;
+    top: 447px;
+    background: url("../../Ellipse 3.png");
+    opacity: 1.8;
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Cake Bakery Topic*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>dd{
+    position: absolute;
+    width: 46vw;
+    height: 111px;
+    left: 26px;
+    top: 40px;
+    font-family: 'Sigmar One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: #000000;
+    z-index: 7;
+}
+/*Cake Bakery View Button*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 50px;
+    left: 182px;
+    top: 100px;
+    background: #0D0D0D;
+    border: 1px solid #22FAD3;
+    z-index: 7;
+    color: whitesmoke;
+    font-family:'Sigmar One',cursive;
+    font-size:20px ;
+}
+/*Hostel*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5){
+    position: absolute;
+    width: 44vw;
+    height: 181px;
+    left: 74px;
+    top: 677px;
+    background: url("../../Ellipse 4.png");
+    opacity: 1.8;
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+
+/*Hostel Topic*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>dd{
+    position: absolute;
+    width: 35vw;
+    height: 111px;
+    left: 26px;
+    top: 28px;
+    font-family: 'Sigmar One', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 38px;
+    color: white;
+    z-index: 7;
+}
+/*Hostel View Button*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 50px;
+    left: 182px;
+    top: 107px;
+    background: #0D0D0D;
+    border: 1px solid #22FAD3;
+    z-index: 7;
+    color: whitesmoke;
+    font-family:'Sigmar One',cursive;
+    font-size:20px ;
+}
+
+/*Git Hub rectangle*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6){
+    position: absolute;
+    width: 24vw;
+    height: 393px;
+    left: 61vw;
+    top: 230px;
+    background: #000000;
+    border-radius: 80px;
+    z-index: 6;
+}
+
+/*github paragraph*/
+main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
+    position: absolute;
+    width: 17vw;
+    height: 266px;
+    left: 65vw;
+    top: 230px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 29px;
+    line-height: 46px;
+    color: #FFFFFF;
+    z-index: 7;
+}
+/*github Button*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6)>button{
+    box-sizing: border-box;
+    position: absolute;
+    width: 13vw;
+    height: 117px;
+    left: 6vw;
+    top: 263px;
+    background: #11817A;
+    z-index: 7;
+    color: whitesmoke;
+    border-radius: 100%;
+    font-family: 'Signika', sans-serif;
+    font-size: 31px;
+
+}
+/*Rectangle black */
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
+    position: absolute;
+    width: 49vw;
+    height: 665px;
+    left: 5vw;
+    top: 208px;
+    background: #000000;
+    border-radius: 80px;
+    z-index: 5;
+}
+/*Topic Asssignment*/
+main>section:nth-child(5)>section>div:nth-child(5)>h3:nth-child(9){
+    position: absolute;
+    width: 36vw;
+    height: 111px;
+    left: 56vw;
+    top: 608px;
+    font-family: 'Irish Grover',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #000000;
+}
+/*Case of basic */
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(10) {
+    box-sizing: border-box;
+    position: absolute;
+    width: 21vw;
+    height: 81px;
+    left: 55vw;
+    top: 689px;
+    background: #000000;
+    border: 3px solid #22FAD3;
+    border-radius: 22px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 44px;
+    color: #ebcb12;
+
+}
+/*Case of Transition*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(11){
+    box-sizing: border-box;
+    position: absolute;
+    width: 21vw;
+    height: 81px;
+    right:3vw;
+    top: 748px;
+    background: #000000;
+    border: 3px solid #22FAD3;
+    border-radius: 22px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ebcb12;
+    z-index:7;
+}
+/*Case of Animation*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(12){
+    box-sizing: border-box;
+    position: absolute;
+    width: 21vw;
+    height: 81px;
+    right: 18vw;
+    top: 790px;
+    background: #000000;
+    border: 3px solid #22FAD3;
+    border-radius: 22px;
+    font-family: 'Sigmar One',cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #ebcb12;
+
+}
+/*Arrow*/
+main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+    position: absolute;
+    width: 8vw;
+    height: 42px;
+    right: 6vw;
+    top: 835px;
+    background: url("../../Arrow 2.png");
+    opacity: 1.8;
+    background-size: cover;
+    background-position: center;
+    z-index: 6;
+}
+}
