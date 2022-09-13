@@ -212,9 +212,10 @@ header ul>li:hover a{
 
 }
 
-/*================================== 1440->Laptop large ================================== */
+/*
+!*================================== 1440->Laptop large ================================== *!
 @media all and (min-width: 1025px) and (max-width: 1440px){
-    /* <!--header details-->*/
+    !* <!--header details-->*!
     header{
         background-color: #383636;
         position: fixed;
@@ -224,14 +225,14 @@ header ul>li:hover a{
         z-index: 10;
     }
 
-    /*  <!--header nav-->*/
+    !*  <!--header nav-->*!
     header>nav{
         position: absolute;
         right: 40px;
         top: -32px;
 
     }
-    /*  <!--header li(home,contact....)-->*/
+    !*  <!--header li(home,contact....)-->*!
     header>nav>ul>li{
         display: inline-block;
         cursor: pointer;
@@ -242,4 +243,4 @@ header ul>li:hover a{
         margin-top: 15px;
 
     }
-}
+}*/
