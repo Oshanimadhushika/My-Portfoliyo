@@ -1,10 +1,10 @@
 /*Skill section*/
 main>section:nth-child(4){
     position: relative;
-    height: calc(100vh /6) ;
+    height: 733.55px; ;
     width: 87vw;
-    top: 2758px;
-    left: 22px;
+    top: 754px;
+    left: 0;
     z-index:6;
 }
 /*vector 7 black*/

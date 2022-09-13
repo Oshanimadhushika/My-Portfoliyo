@@ -3,9 +3,14 @@ body>main{
     top: 40px;
     margin-top: -24px;
     width: 100%;
-    height: 894vh;
+    height: 5587.5px;
     background: #BBBABA;
 
+}
+#h{
+    position: relative;
+    width: 100%;
+    height: 6vh;
 }
 /* <!--Home background image ash one-->*/
 #h>div:first-child{
@@ -88,9 +93,9 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(5){
 main>#h>section:nth-child(2)>article>div:first-child{
     position: absolute;
     width: 18vw;
-    height: 42vh;
+    height: 254.1px;
     left: 12vw;
-    top: 21vh;
+    top: 127.05px;
     background: rgba(217, 217, 217, 0.8);
     opacity: 0.8;
     border-radius: 67px;
@@ -106,9 +111,9 @@ main>#h>section:nth-child(2)>article>div:first-child>div{
     background-size:cover;
     background-position: center;
     width: 15vw;
-    height: 53vh;
+    height: 320.65px;
     left: 2vw;
-    top: -11vh;
+    top: -66.55px;
     border-radius: 10%;
     z-index:5;
     opacity: 100%;
@@ -121,7 +126,7 @@ main>#h>section:nth-child(2)>article>h3:nth-child(2){
     width: 57vw;
     height: 24vh;
     right: 5vw;
-    top: -12vh;
+    top: -72.6px;
     font-family:'Irish Grover', cursive;
     /* font-style: normal;*/
     font-weight: 400;
@@ -137,7 +142,7 @@ main>#h>section:nth-child(2)>article>h3:nth-child(3){
     width: 57vw;
     height: 24vh;
     right: 0vw;
-    top: 22vh;
+    top:  133.1px;
     font-family: Irish Grover,serif;
     font-style: normal;
     font-weight: 400;
@@ -153,7 +158,7 @@ main>#h>section:nth-child(2)>article>h4:nth-child(4){
     width: 27vw;
     height: 14vh;
     right: 12vw;
-    top: 18vh;
+    top: 108.9px;
     font-style: italic;
     font-weight: 900;
     font-size: 32px;
@@ -170,7 +175,7 @@ main>#h>section:nth-child(2)>blockquote{
     width: 55vw;
     height: 28vh;
     right: 5vw;
-    top: 86vh;
+    top: 520.3px;
     background: rgba(47, 41, 41, 0.55);
     border-radius: 11%;
     z-index: 5;
@@ -214,7 +219,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(3){
     width: 5vw;
     height: 0;
     left: 19vw;
-    top: 24vh;
+    top: 145.2px;
     border: 2px solid #000000;
     z-index:6;
 }
@@ -224,7 +229,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     width: 5vw;
     height: 0;
     left: 36vw;
-    top: 24vh;
+    top: 145.2px;
     border: 2px solid #000000;
     z-index:6;
 }
@@ -234,7 +239,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     width: 20vw;
     height: 10vh;
     right: 8vw;
-    top: 59vh;
+    top: 356.95px;
     background: #000000;
     border: 4px solid #060606;
     border-radius: 10%;
@@ -260,6 +265,11 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         height: 4538px;
         /*background: #BBBABA;*/
 
+    }
+
+    #h{
+        width: 100%;
+        height: 95vh;
     }
 
     /* <!--Home background image ash one-->*/
@@ -330,9 +340,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     main>#h>section:nth-child(2)>article>div:first-child{
         position: absolute;
         width: 31vw;
-        height: 19vh;
+        height: 91.95px;
         left: 12vw;
-        top: 12vh;
+        top: 72.6px;
         background: rgba(217, 217, 217, 0.8);
         opacity: 0.8;
         border-radius: 26px;
@@ -344,9 +354,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     main>#h>section:nth-child(2)>article>div:first-child>div{
         position: absolute;
         width: 22vw;
-        height: 26vh;
+        height: 129.3px;
         left: 5vw;
-        top: -7vh;
+        top: -35.35px;
         border-radius: 10%;
         z-index:5;
         opacity: 100%;
@@ -500,24 +510,23 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         /*background: #BBBABA;*/
 
     }
+    #h{
+        width: 100%;
+        height: 95vh;
+    }
 
     /* <!--Home background image ash one-->*/
     #h>div:first-child{
-        /* position: absolute;
-         background:url("../../ash background.jpeg") no-repeat center;
-         background-size: 100% 100%;
-         z-index:2;*/
-        height: 64vh;
+
+        height: 387.2px;
         width: 100%;
         margin-top:27px;
     }
 
     /* <!--Home background image black one-->*/
     #h>div:first-child>div{
-        /* position: absolute;
-         background:url("../../Vector 8.png") no-repeat center;
-         background-size: 100% 100%;*/
-        height: 65vh;
+
+        height: 393.25px;
         width: 100%;
         margin-top: -2px;
         top: -2px;
@@ -739,6 +748,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         height: 4538px;
         /*background: #BBBABA;*/
 
+    }
+    #h{
+        width: 100%;
+        height: 95vh;
     }
 
     /* <!--Home background image ash one-->*/
@@ -981,6 +994,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         /*background: #BBBABA;*/
 
     }
+    #h{
+        width: 100%;
+        height: 95vh;
+    }
 
     /* <!--Home background image ash one-->*/
     #h>div:first-child{
@@ -1222,6 +1239,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         height: 870vh;
         background: #BBBABA;
 
+    }
+    #h{
+        width: 100%;
+        height: 95vh;
     }
     /* <!--Home background image ash one-->*/
     #h>div:first-child{

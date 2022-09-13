@@ -1,8 +1,8 @@
 
 /*About me section*/
-main>section:nth-child(2){
+main>section:nth-child(2) {
     position: relative;
-    height: calc(100vh / 6) ;
+    height: 913.55px ;
     width: 87vw;
     top: 720px;
     left: 0;
@@ -211,9 +211,9 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 @media all and (max-width: 320px){
     /*About me section*/
     main>section:nth-child(2){
-        height: calc(100vh / 6) ;
+        height: 642.55px;
         width: 87vw;
-        top: 400px;
+        top: -27px;
         left: 0;
         z-index:6;
         margin-left:0 ;
@@ -289,7 +289,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*1st hexogan*/
     #hexagon {
         width: 26vw;
-        height: 18vh;
+        height:  108.9px;
         background: #2d2727;
         position: relative;
         z-index: 8;
@@ -306,7 +306,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     #hexagon>div{
 
         width: 28vw;
-        height: 19vh;
+        height:  108.9px;
         background: #2d2727;
         position: relative;
         z-index: 8;
@@ -425,9 +425,9 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 @media all and (min-width: 321px) and (max-width: 375px){
     /*About me section*/
     main>section:nth-child(2){
-        height: calc(100vh / 6) ;
+        height:792.55px;
         width: 87vw;
-        top: 400px;
+        top: -27px;
         left: 0;
         z-index:6;
         margin-left:0 ;
@@ -639,9 +639,9 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 @media all and (min-width: 376px) and (max-width: 425px){
     /*About me section*/
     main>section:nth-child(2){
-        height: calc(100vh / 6) ;
+        height: 792.55px;
         width: 87vw;
-        top: 400px;
+        top: -27px;
         left: 0;
         z-index:6;
         margin-left:0 ;
@@ -649,12 +649,11 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     }
 
 
-
     /*vector 7 black*/
     main>section:nth-child(2)>section>div:first-child{
         position: absolute;
         width: 62vw;
-        height: 6vh;
+        height:39.42px;
         left: 1vw;
         top: 31px;
         background: url("../../Vector 7.png");
@@ -854,9 +853,9 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 @media all and (min-width: 426px) and (max-width: 768px){
     /*About me section*/
     main>section:nth-child(2){
-        height: calc(100vh / 6) ;
+        height: 792.55px;
         width: 87vw;
-        top: 400px;
+        top: -27px;
         left: 0;
         z-index:6;
         margin-left:0 ;
@@ -1071,7 +1070,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*About me section*/
     main > section:nth-child(2) {
         position: relative;
-        height: calc(100vh / 6);
+        height: 913.55px;
         width: 87vw;
         top: 794px;
         left: 0;

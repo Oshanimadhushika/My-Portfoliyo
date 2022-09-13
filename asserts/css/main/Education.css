@@ -1,11 +1,18 @@
 /*Education section*/
-main>section:nth-child(3){
+main>section:nth-child(3) {
     position: relative;
-    height: calc(100vh /6) ;
+    height: 1244.55px;
     width: 87vw;
-    top: 900px;
-    left: 22px;
-    z-index:6;
+    top: 737px;
+    left: 0;
+    z-index: 6;
+    margin-top: 5%;
+}
+#sectionEducation{
+    position: absolute;
+    width: 87vw;
+    height: 913.55px;
+    top: -699px;
 }
 
 /*vector 7 black*/
@@ -555,12 +562,19 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*Education section*/
     main>section:nth-child(3){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1244.55px;
         width: 87vw;
         top: 929px;
         left: 0;
         z-index:6;
     }
+    #sectionEducation{
+        position: absolute;
+        width: 87vw;
+        height: 844.55px;
+        top: -1002px;
+    }
+
     /*vector 7 black*/
     main>section:nth-child(3)>section>div:first-child{
         position: absolute;
@@ -1103,12 +1117,19 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*Education section*/
     main>section:nth-child(3){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1244.55px ;
         width: 87vw;
         top: 929px;
         left: 0;
         z-index:6;
     }
+    #sectionEducation{
+        position: absolute;
+        width: 87vw;
+        height: 844.55px;
+        top: -1002px;
+    }
+
     /*vector 7 black*/
     main>section:nth-child(3)>section>div:first-child{
         position: absolute;
@@ -1651,12 +1672,19 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*Education section*/
     main>section:nth-child(3){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1244.55px ;
         width: 87vw;
         top: 929px;
         left: 0;
         z-index:6;
     }
+    #sectionEducation{
+        position: absolute;
+        width: 87vw;
+        height: 844.55px;
+        top: -1002px;
+    }
+
     /*vector 7 black*/
     main>section:nth-child(3)>section>div:first-child{
         position: absolute;
@@ -2200,12 +2228,19 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     /*Education section*/
     main>section:nth-child(3){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1244.55px;
         width: 87vw;
         top: 929px;
         left: 0;
         z-index:6;
     }
+    #sectionEducation{
+        position: absolute;
+        width: 87vw;
+        height: 844.55px;
+        top: -1002px;
+    }
+
     /*vector 7 black*/
     main>section:nth-child(3)>section>div:first-child{
         position: absolute;
@@ -2731,14 +2766,21 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
 /*Education section*/
 main>section:nth-child(3){
     position: relative;
-    height: calc(100vh /6) ;
+    height: 1244.55px ;
     width: 87vw;
     top: 995px;
     left: 0vw;
     z-index:6;
 }
+    #sectionEducation{
+        position: absolute;
+        width: 87vw;
+        height: 844.55px;
+        top: -1002px;
+    }
 
-/*vector 7 black*/
+
+    /*vector 7 black*/
 main>section:nth-child(3)>section>div:first-child{
     position: absolute;
     width: 835px;
