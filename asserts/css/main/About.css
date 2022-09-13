@@ -1032,7 +1032,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         position: absolute;
         width: 44vw;
         height: 16vh;
-        left: -5vw;
+        left: -1vw;
         top: 368px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
@@ -1048,10 +1048,10 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*Download Cv btn*/
     main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         position: absolute;
-        width: 34vw;
+        width: 25vw;
         height: 10vh;
-        left: 52vw;
-        top: 381px;
+        left: 55vw;
+        top: 405px;
         background: #AC1F38;
         border: 4px solid #060606;
         border-radius: 20px;
