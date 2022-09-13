@@ -1063,220 +1063,218 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 
 }
 
-/*
 
-!*================================== 1024->Laptop==================================*!
+/*================================== 1024->Laptop==================================*/
 
-@media all and (min-width: 769px) and (max-width: 1024px){
-    !*About me section*!
-    main>section:nth-child(2){
-        height: calc(100vh / 6) ;
+@media all and (min-width: 769px) and (max-width: 1024px) {
+
+    /*About me section*/
+    main > section:nth-child(2) {
+        position: relative;
+        height: calc(100vh / 6);
         width: 87vw;
-        top: 400px;
+        top: 610px;
         left: 0;
-        z-index:6;
-        margin-left:0 ;
-        margin-right: 0;
+        z-index: 6;
     }
 
-
-
-    !*vector 7 black*!
-    main>section:nth-child(2)>section>div:first-child{
+    /*vector 7 black*/
+    main > section:nth-child(2) > section > div:first-child {
         position: absolute;
-        width: 62vw;
-        height: 6vh;
-        left: 1vw;
+        width: 80vw;
+        height: 11vh;
+        left: 2vw;
         top: 31px;
         background: url("../../Vector 7.png");
-        background-size:cover;
+        background-size: cover;
         background-position: center;
         z-index: 5;
     }
-    !*pink line about me*!
-    main>section:nth-child(2)>section>div:nth-child(2){
+
+    /*pink line about me*/
+    main > section:nth-child(2) > section > div:nth-child(2) {
         position: absolute;
         width: 50vw;
         height: 0vh;
-        right: -3vw;
-        top: 37px;
+        right: 0vw;
+        top: 45px;
         border: 3px solid #AB9697;
         transform: rotate(-0.19deg);
         z-index: 6;
     }
-    !*red line about me*!
-    main>section:nth-child(2)>section>div:nth-child(3){
+
+    /*red line about me*/
+    main > section:nth-child(2) > section > div:nth-child(3) {
         position: absolute;
-        width: 39vw;
+        width: 50vw;
         height: 0vh;
-        right: 2vw;
-        top: 52px;
+        right: -4vw;
+        top: 74px;
         border: 2px solid #AC1F38;
         transform: rotate(-0.19deg);
         z-index: 6;
     }
-    !*About me banner*!
-    main>section:nth-child(2)>section>h1:nth-child(4){
+
+    /*About me banner*/
+    main > section:nth-child(2) > section > h1:nth-child(4) {
         position: absolute;
-        width: 53vw;
+        width: 50vw;
         height: 20vh;
-        left: 1vw;
-        top: 5px;
+        left: 3vw;
+        top: -46px;
         font-family: 'Shippori Mincho', serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 19px;
-        line-height: 53px;
+        font-size: 50px;
+        line-height: 139px;
         color: #FFFFFF;
         z-index: 6;
     }
 
-    !*rectangle about me*!
-    main>section:nth-child(2)>section>div:nth-child(5){
+    /*rectangle about me*/
+    main > section:nth-child(2) > section > div:nth-child(5) {
         position: absolute;
-        width: 88vw;
-        height: 104vh;
-        left: 3vw;
-        top: 86px;
+        width: 92vw;
+        height: 128vh;
+        left: 2vw;
+        top: 124px;
         background: #9A9090;
         opacity: 0.9;
         border-radius: 50px;
         z-index: 5;
     }
 
-
-    !*1st hexogan*!
+    /*1st hexogan*/
     #hexagon {
-        width: 21vw;
-        height: 34vh;
+        width: 25vw;
+        height: 56vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
-        left: 1vw;
-        top: 8vh;
-        background: url("../../Polygon 1.png");
-        background-size: cover;
-        background-position: center;
-        margin-right: 0;
-        margin-left: 0;
-    }
-
-    !*2nd tool behind the photo*!
-    #hexagon>div{
-
-        width: 22vw;
-        height: 36vh;
-        background: #2d2727;
-        position: relative;
-        z-index: 8;
-        left: 6vw;
-        top: 10vh;
+        left: 11vw;
+        top: 18vh;
         background: url("../../Polygon 1.png");
         background-size: cover;
         background-position: center;
     }
-    !*My 2nd 4to*!
-    main>section:nth-child(2)>section>div:nth-child(5)>div:nth-child(2){
-        position: absolute;
-        background:linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
-        background-size:cover;
+
+    /*2nd tool behind the photo*/
+    #hexagon > div {
+
+        width: 25vw;
+        height: 56vh;
+        background: #2d2727;
+        position: relative;
+        z-index: 8;
+        left: -6vw;
+        top: 16vh;
+        background: url("../../Polygon 1.png");
+        background-size: cover;
         background-position: center;
-        width: 21vw;
-        height: 46vh;
-        left: 5vw;
-        top: 12px;
-        border-radius: 20%;
-        opacity: 100%;
-        z-index:8;
     }
 
-    !*Im oshani madhushika red one*!
-    main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(3){
+    /*Im oshani madhushika red one*/
+    main > section:nth-child(2) > section > div:nth-child(5) > h1:nth-child(3) {
 
         position: absolute;
-        width: 38vw;
+        width: 59vw;
         height: 20vh;
-        right: 8vw;
-        top: 8px;
+        right: 4vw;
+        top: 43px;
         font-family: 'Italianno', cursive;
         font-style: normal;
         font-weight: 400;
-        font-size: 39px;
-        line-height: 27px;
+        font-size: 86px;
+        line-height: 51px;
         color: #AC1F38;
         z-index: 6;
         margin-top: 30px;
         margin-bottom: 30px;
+
     }
 
-    !* 1st paragraph about me*!
-    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
+    /*My 2nd 4to*/
+    main > section:nth-child(2) > section > div:nth-child(5) > div:nth-child(2) {
         position: absolute;
-        width: 49vw;
+        background: linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
+        background-size: cover;
+        background-position: center;
+        width: 24vw;
+        height: 70vh;
+        left: 5vw;
+        top: 98px;
+        border-radius: 20%;
+        opacity: 100%;
+        z-index: 8;
+    }
+
+    /* 1st paragraph about me*/
+    main > section:nth-child(2) > section > div:nth-child(5) > p:nth-child(4) {
+        position: absolute;
+        width: 39vw;
         height: 34vh;
-        right: 1vw;
-        top: 67px;
+        right: 3vw;
+        top: 135px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
-        line-height: 20px;
+        font-size: 24px;
+        line-height: 30px;
         color: #0a0a0a;
         z-index: 6;
 
     }
-    !*2nd paragrph*!
-    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
+
+<!-- /* 2st paragraph about me*/
+-->
+    main > section:nth-child(2) > section > div:nth-child(5) > p:nth-child(5) {
         position: absolute;
-        width: 53vw;
+        width: 39vw;
         height: 34vh;
-        right: 10vw;
-        top: 218px;
+        right: 6vw;
+        top: 361px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
-        line-height: 20px;
+        font-size: 24px;
+        line-height: 30px;
         color: #090808;
         z-index: 6;
 
     }
 
-
-    !*list in about me*!
-    main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
+    /*list in about me*/
+    main > section:nth-child(2) > section > div:nth-child(5) > ul:nth-child(6) {
         position: absolute;
-        width: 44vw;
+        width: 30vw;
         height: 16vh;
-        left: -1vw;
-        top: 368px;
+        left: 2vw;
+        top: 553px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 24px;
+        line-height: 26px;
         color: #0a0a0a;
         z-index: 6;
         list-style: none;
 
     }
 
-    !*Download Cv btn*!
-    main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
+    /*Download Cv btn*/
+    main > section:nth-child(2) > section > div:nth-child(5) > button:nth-child(7) {
         position: absolute;
         width: 25vw;
         height: 10vh;
-        left: 55vw;
-        top: 405px;
+        left: 4vw;
+        top: 706px;
         background: #AC1F38;
         border: 4px solid #060606;
         border-radius: 20px;
         transform: rotate(-0.35deg);
-        font-family: Irish Grover,serif;
+        font-family: Irish Grover, serif;
         color: whitesmoke;
-        font-size: 14px;
+        font-size: 25px;
     }
-
 }
 
-*/
