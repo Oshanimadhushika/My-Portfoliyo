@@ -1595,8 +1595,8 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 47vw;
         height: 265px;
-        left: -1vw;
-        top: 34px;
+        left: 1vw;
+        top: 40px;
         font-family: 'IM Fell English', serif;
         font-style: normal;
         font-weight: 400;
@@ -1610,7 +1610,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 26vw;
         height: 265px;
-        left: 14vw;
+        left: 9vw;
         top: -13px;
         font-family: 'IM Fell English', serif;
         font-style: normal;
@@ -1627,7 +1627,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         width: 47vw;
         height: 265px;
         left: 3vw;
-        top: 34px;
+        top: 39px;
         font-family: 'IM Fell English', serif;
         font-style: normal;
         font-weight: 400;
@@ -1639,9 +1639,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*Java icon*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(3){
         position: absolute;
-        width: 7vw;
+        width: 5vw;
         height: 50px;
-        left: 60vw;
+        left: 53vw;
         top: 48px;
         background: url("../../Rectangle 52.png");
         background-size: cover;
