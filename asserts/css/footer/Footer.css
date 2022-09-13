@@ -77,3 +77,24 @@ footer > h4 {
         font-size: 10px;
     }
 }
+
+/*================================== 768->Tablet==================================*/
+
+@media all and (min-width: 426px) and (max-width: 768px){
+    footer {
+        position: absolute;
+        width:100%;
+        height: 47px;
+        left: 0px;
+        top: 4549px;
+        background: rgba(71, 66, 66, 0.46);
+    }
+
+    footer > h4 {
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 4px;
+        color: #0a0a0a;
+        font-size: 10px;
+    }
+}
