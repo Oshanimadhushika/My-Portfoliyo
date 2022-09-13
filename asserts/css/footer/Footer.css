@@ -98,3 +98,23 @@ footer > h4 {
         font-size: 10px;
     }
 }
+
+/*================================== 1020->Laptop==================================*/
+
+@media all and (min-width: 769px) and (max-width: 1020px){
+    footer {
+        position: absolute;
+        width:100%;
+        height: 62px;
+        left: 0px;
+        top: 5604px;
+        background: rgba(71, 66, 66, 0.46);
+    }
+
+    footer > h4 {
+        text-align: center;
+        margin-top: 0px;
+        padding-top: 20px;
+        color: #0a0a0a;
+    }
+}
