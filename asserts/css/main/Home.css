@@ -1062,10 +1062,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
     main>#h>section:nth-child(2)>article>div:first-child>div{
         position: absolute;
-        width: 18vw;
-        height: 26vh;
-        left: 6vw;
-        top: -4vh;
+        width: 13vw;
+        height: 33vh;
+        left: 4vw;
+        top: -9vh;
         border-radius: 10%;
         z-index:5;
         opacity: 100%;
