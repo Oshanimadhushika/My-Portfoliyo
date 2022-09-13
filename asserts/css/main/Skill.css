@@ -1653,9 +1653,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*JS icon*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(4){
         position: absolute;
-        width: 7vw;
-        height: 46px;
-        left: 79vw;
+        width: 6vw;
+        height: 48px;
+        left: 65vw;
         top: 54px;
         background: url("../../Rectangle 53.png");
         background-size: cover;
@@ -1667,10 +1667,10 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*MYSQL icon*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(5){
         position: absolute;
-        width: 11vw;
-        height: 34px;
-        left: 68vw;
-        top: 110px;
+        width: 6vw;
+        height: 45px;
+        left: 76vw;
+        top: 59px;
         background: url("../../Rectangle 56.png");
         background-size: cover;
         background-position: center;
@@ -1681,10 +1681,10 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*CSS icon*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(6){
         position: absolute;
-        width: 10vw;
-        height: 27px;
-        left: 3vw;
-        top: 205px;
+        width: 7vw;
+        height: 49px;
+        left: 51vw;
+        top: 148px;
         background: url("../../Rectangle 54.png");
         background-size: cover;
         background-position: center;
@@ -1697,8 +1697,8 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 11vw;
         height: 50px;
-        left: 20vw;
-        top: 197px;
+        left: 62vw;
+        top: 150px;
         background: url("../../Rectangle 55.png");
         background-size: cover;
         background-position: center;
@@ -1708,10 +1708,10 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*HTML icon*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(8){
         position: absolute;
-        width: 10vw;
-        height: 31px;
-        left: 12vw;
-        top: 250px;
+        width: 7vw;
+        height: 50px;
+        left: 75vw;
+        top: 154px;
         background: url("../../Rectangle 57.png");
         background-size: cover;
         background-position: center;
