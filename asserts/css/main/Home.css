@@ -1467,10 +1467,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 /*================================== 1440->Laptop-Large ==================================*/
 
-@media all and (min-width: 769px) and (max-width: 1024px){
+@media all and (min-width: 1025px) and (max-width: 1440px){
     body>main{
         position: relative;
-        top: 40px;
+        top: 33px;
         margin-top: -24px;
         width: 100%;
         height: 894vh;
@@ -1591,7 +1591,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         width: 57vw;
         height: 24vh;
         right: 5vw;
-        top: -12vh;
+        top: -6vh;
         font-family:'Irish Grover', cursive;
         /* font-style: normal;*/
         font-weight: 400;
@@ -1604,9 +1604,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     /*Madhushika*/
     main>#h>section:nth-child(2)>article>h3:nth-child(3){
         position: absolute;
-        width: 57vw;
+        width: 46vw;
         height: 24vh;
-        right: 0vw;
+        right: 3vw;
         top: 22vh;
         font-family: Irish Grover,serif;
         font-style: normal;
@@ -1622,8 +1622,8 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         position: absolute;
         width: 27vw;
         height: 14vh;
-        right: 12vw;
-        top: 18vh;
+        right: 9vw;
+        top: 21vh;
         font-style: italic;
         font-weight: 900;
         font-size: 32px;
@@ -1716,3 +1716,4 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
     }
 }
+

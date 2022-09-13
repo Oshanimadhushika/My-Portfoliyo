@@ -1278,3 +1278,217 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     }
 }
 
+
+/*================================== 1440->Laptop-L==================================*/
+
+@media all and (min-width: 1025px) and (max-width: 1440px) {
+
+
+    /*About me section*/
+    main>section:nth-child(2){
+        position: relative;
+        height: calc(100vh / 6) ;
+        width: 87vw;
+        top: 889px;
+        left: 0;
+        z-index:6;
+    }
+
+    /*vector 7 black*/
+    main>section:nth-child(2)>section>div:first-child{
+        position: absolute;
+        width: 80vw;
+        height: 11vh;
+        left: 2vw;
+        top: 31px;
+        background: url("../../Vector 7.png");
+        background-size:cover;
+        background-position: center;
+        z-index: 5;
+    }
+
+    /*pink line about me*/
+    main>section:nth-child(2)>section>div:nth-child(2){
+        position: absolute;
+        width: 50vw;
+        height: 0vh;
+        right: 0vw;
+        top: 45px;
+        border: 3px solid #AB9697;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+    /*red line about me*/
+    main>section:nth-child(2)>section>div:nth-child(3){
+        position: absolute;
+        width: 50vw;
+        height: 0vh;
+        right: -4vw;
+        top: 74px;
+        border: 2px solid #AC1F38;
+        transform: rotate(-0.19deg);
+        z-index: 6;
+    }
+
+    /*About me banner*/
+    main>section:nth-child(2)>section>h1:nth-child(4){
+        position: absolute;
+        width: 50vw;
+        height: 20vh;
+        left: 3vw;
+        top: -46px;
+        font-family: 'Shippori Mincho', serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 139px;
+        color: #FFFFFF;
+        z-index: 6;
+    }
+
+    /*rectangle about me*/
+    main>section:nth-child(2)>section>div:nth-child(5){
+        position: absolute;
+        width: 92vw;
+        height: 128vh;
+        left: 2vw;
+        top: 124px;
+        background: #9A9090;
+        opacity: 0.9;
+        border-radius: 50px;
+        z-index: 5;
+    }
+
+    /*1st hexogan*/
+    #hexagon {
+        width: 29vw;
+        height: 56vh;
+        background: #2d2727;
+        position: relative;
+        z-index: 8;
+        left: 11vw;
+        top: 18vh;
+        background: url("../../Polygon 1.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    /*2nd tool behind the photo*/
+    #hexagon>div{
+
+        width: 29vw;
+        height: 56vh;
+        background: #2d2727;
+        position: relative;
+        z-index: 8;
+        left: -6vw;
+        top: 16vh;
+        background: url("../../Polygon 1.png");
+        background-size: cover;
+        background-position: center;
+    }
+
+    /*Im oshani madhushika red one*/
+    main>section:nth-child(2)>section>div:nth-child(5)>h1:nth-child(3){
+
+        position: absolute;
+        width: 59vw;
+        height: 20vh;
+        right: 4vw;
+        top: 43px;
+        font-family: 'Italianno', cursive;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 86px;
+        line-height: 51px;
+        color: #AC1F38;
+        z-index: 6;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
+    }
+
+    /*My 2nd 4to*/
+    main>section:nth-child(2)>section>div:nth-child(5)>div:nth-child(2){
+        position: absolute;
+        background:linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
+        background-size:cover;
+        background-position: center;
+        width: 24vw;
+        height: 70vh;
+        left: 7vw;
+        top: 98px;
+        border-radius: 20%;
+        opacity: 100%;
+        z-index:8;
+    }
+
+    /* 1st paragraph about me*/
+    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(4){
+        position: absolute;
+        width: 39vw;
+        height: 34vh;
+        right: 3vw;
+        top: 135px;
+        font-family:'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #0a0a0a;
+        z-index: 6;
+
+    }
+
+<!-- /* 2st paragraph about me*/-->
+    main>section:nth-child(2)>section>div:nth-child(5)>p:nth-child(5){
+        position: absolute;
+        width: 39vw;
+        height: 34vh;
+        right: 6vw;
+        top: 361px;
+        font-family: 'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 30px;
+        color: #090808;
+        z-index: 6;
+
+    }
+
+    /*list in about me*/
+    main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
+        position: absolute;
+        width: 30vw;
+        height: 16vh;
+        left: 2vw;
+        top: 553px;
+        font-family: 'Sansita', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 26px;
+        color: #0a0a0a;
+        z-index: 6;
+        list-style: none;
+
+    }
+
+    /*Download Cv btn*/
+    main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
+        position: absolute;
+        width: 25vw;
+        height: 10vh;
+        left: 4vw;
+        top: 706px;
+        background: #AC1F38;
+        border: 4px solid #060606;
+        border-radius: 20px;
+        transform: rotate(-0.35deg);
+        font-family: Irish Grover,serif;
+        color: whitesmoke;
+        font-size: 25px;
+    }
+}
+
