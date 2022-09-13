@@ -1337,7 +1337,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         width: 57vw;
         height: 24vh;
         right: 5vw;
-        top: -12vh;
+        top: -17vh;
         font-family:'Irish Grover', cursive;
         /* font-style: normal;*/
         font-weight: 400;
@@ -1368,11 +1368,11 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         position: absolute;
         width: 27vw;
         height: 14vh;
-        right: 12vw;
-        top: 18vh;
+        right: 13vw;
+        top: 23vh;
         font-style: italic;
         font-weight: 900;
-        font-size: 32px;
+        font-size: 26px;
         line-height: 39px;
         color: #d0b1b2;
         z-index: 5;
@@ -1439,8 +1439,8 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         position: absolute;
         width: 5vw;
         height: 0;
-        left: 36vw;
-        top: 24vh;
+        left: 39vw;
+        top: 26vh;
         border: 2px solid #000000;
         z-index:6;
     }
