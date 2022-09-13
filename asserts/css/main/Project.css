@@ -1639,7 +1639,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         width: 54vw;
         height: 144px;
         left: 16vw;
-        top: 190px;
+        top: 177px;
         background: url("../../Ellipse 2.png");
         opacity: 1.8;
         background-size: cover;
@@ -1650,11 +1650,11 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Car Parking Topic*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(3)>dd{
         position: absolute;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 33px;
-        width: 61vw;
+        width: 31vw;
         height: 111px;
-        left: 3vw;
+        left: 10vw;
         top: 12px;
         font-family: 'Sigmar One', cursive;
         font-style: normal;
@@ -1682,10 +1682,10 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Cake Bakery*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4){
         position: absolute;
-        width: 54vw;
-        height: 144px;
+        width: 53vw;
+        height: 155px;
         left: 16vw;
-        top: 317px;
+        top: 328px;
         background: url("../../Ellipse 3.png");
         opacity: 1.8;
         background-size: cover;
@@ -1696,11 +1696,11 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Cake Bakery Topic*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(4)>dd{
         position: absolute;
-        font-size: 15px;
+        font-size: 18px;
         line-height: 33px;
-        width: 61vw;
+        width: 31vw;
         height: 111px;
-        left: 3vw;
+        left: 10vw;
         top: 8px;
         font-family: 'Sigmar One', cursive;
         font-style: normal;
@@ -1727,10 +1727,10 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Hostel*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5){
         position: absolute;
-        width: 54vw;
+        width: 53vw;
         height: 144px;
         left: 16vw;
-        top: 438px;
+        top: 491px;
         background: url("../../Ellipse 4.png");
         opacity: 1.8;
         background-size: cover;
@@ -1741,11 +1741,11 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Hostel Topic*/
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(5)>dd{
         position: absolute;
-        font-size: 11px;
+        font-size: 18px;
         line-height: 33px;
-        width: 61vw;
+        width: 31vw;
         height: 111px;
-        left: -1vw;
+        left: 10vw;
         top: 17px;
         font-family: 'Sigmar One', cursive;
         font-style: normal;
@@ -1773,9 +1773,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6){
         position: absolute;
         width: 75vw;
-        height: 232px;
+        height: 154px;
         left: 7vw;
-        top: 571px;
+        top: 649px;
         background: #000000;
         border-radius: 50px;
         z-index: 6;
@@ -1785,9 +1785,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>p:nth-child(7){
         position: absolute;
         width: 60vw;
-        height: 266px;
+        height: 79px;
         left: 18vw;
-        top: 561px;
+        top: 635px;
         font-family: 'Sigmar One',cursive;
         font-style: normal;
         font-weight: 400;
@@ -1800,23 +1800,24 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(6)>button{
         box-sizing: border-box;
         position: absolute;
-        width: 23vw;
-        height: 84px;
-        left: 26vw;
-        top: 137px;
+        width: 14vw;
+        height: 79px;
+        left: 33vw;
+        top: 69px;
         background: #11817A;
         z-index: 7;
         color: whitesmoke;
         border-radius: 100%;
         font-family: 'Signika', sans-serif;
-        font-size: 19px;
+        font-size: 21px;
+
 
     }
     /*Rectangle black */
     main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(8){
         position: absolute;
         width: 81vw;
-        height: 394px;
+        height: 472px;
         left: 4vw;
         top: 166px;
         background: #000000;
@@ -1843,9 +1844,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
         font-size: 14px;
         line-height: 26px;
-        width: 32vw;
+        width: 29vw;
         height: 66px;
-        left: 10vw;
+        left: 14vw;
         top: 845px;
         background: #000000;
         border: 3px solid #22FAD3;
@@ -1862,7 +1863,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
         font-size: 14px;
         line-height: 26px;
-        width: 32vw;
+        width: 29vw;
         height: 66px;
         right: 20vw;
         top: 884px;
@@ -1881,7 +1882,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
         font-size: 14px;
         line-height: 26px;
-        width: 32vw;
+        width: 29vw;
         height: 66px;
         right: 45vw;
         top: 931px;
