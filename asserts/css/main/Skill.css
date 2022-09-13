@@ -1724,12 +1724,12 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 14vw;
         height: 72px;
-        left: 38vw;
-        top: 364px;
+        left: 42vw;
+        top: 359px;
         font-family: 'Candal', sans-serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 30px;
+        font-size: 33px;
         line-height: 83px;
         color: #000000;
     }
@@ -1738,9 +1738,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*VS*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(10){
         position: absolute;
-        width: 12vw;
-        height: 32px;
-        left: 42vw;
+        width: 8vw;
+        height: 48px;
+        left: 44vw;
         top: 344px;
         background: url("../../Ellipse 20.png");
         background-size: cover;
@@ -1751,9 +1751,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*Figma*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(11){
         position: absolute;
-        width: 10vw;
-        height: 28px;
-        left: 22vw;
+        width: 7vw;
+        height: 46px;
+        left: 25vw;
         top: 359px;
         background: url("../../Ellipse 21.png");
         background-size: cover;
@@ -1764,7 +1764,7 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(12){
         position: absolute;
         width: 12vw;
-        height: 52px;
+        height: 54px;
         left: 71vw;
         top: 401px;
         background: url("../../Ellipse 22.png");
@@ -1776,8 +1776,8 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*LightRoom*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(13){
         position: absolute;
-        width: 11vw;
-        height: 30px;
+        width: 8vw;
+        height: 51px;
         left: 61vw;
         top: 458px;
         background: url("../../Ellipse 23.png");
@@ -1789,10 +1789,10 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*WireFrame*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(14){
         position: absolute;
-        width: 10vw;
-        height: 37px;
+        width: 8vw;
+        height: 50px;
         left: 43vw;
-        top: 470px;
+        top: 480px;
         background: url("../../Ellipse 18.png");
         background-size: cover;
         background-position: center;
@@ -1802,8 +1802,8 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*IJ*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(15){
         position: absolute;
-        width: 11vw;
-        height: 32px;
+        width: 7vw;
+        height: 46px;
         left: 62vw;
         top: 355px;
         background: url("../../Ellipse 17.png");
@@ -1814,10 +1814,10 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*SceneBuilder*/
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(16){
         position: absolute;
-        width: 11vw;
-        height: 31px;
-        left: 23vw;
-        top: 456px;
+        width: 8vw;
+        height: 50px;
+        left: 25vw;
+        top: 458px;
         background: url("../../Ellipse 16.png");
         background-size: cover;
         background-position: center;
@@ -1828,9 +1828,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
         position: absolute;
         width: 13vw;
-        height: 55px;
-        left: 11vw;
-        top: 397px;
+        height: 60px;
+        left: 12vw;
+        top: 400px;
         background: url("../../Ellipse 19.png");
         background-size: cover;
         background-position: center;
