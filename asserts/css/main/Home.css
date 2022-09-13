@@ -1140,7 +1140,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     main>#h>section:nth-child(2)>blockquote{
 
         position: absolute;
-        width: 77vw;
+        width: 66vw;
         height: 25vh;
         right: 2vw;
         top: 59vh;
@@ -1154,15 +1154,15 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     /* <!--the quote of niklaus-->*/
     main>#h>section:nth-child(2)>blockquote>cite>q:first-child{
         position: absolute;
-        width: 71vw;
+        width: 64vw;
         height: 27vh;
         right: 0;
         top: 5px;
         font-family: 'IM FELL Great Primer SC',serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 17px;
-        line-height: 12px;
+        font-size: 20px;
+        line-height: 15px;
         color: #000000;
         z-index: 6;
     }
@@ -1198,7 +1198,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         position: absolute;
         width: 7vw;
         height: 0;
-        left: 51vw;
+        left: 40vw;
         top: 20vh;
         border: 2px solid #000000;
         z-index:6;
