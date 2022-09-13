@@ -971,6 +971,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 @media all and (min-width: 426px) and (max-width: 768px){
 
+
     body>main{
 
         top: 67px;
@@ -1171,7 +1172,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     main>#h>section:nth-child(2)>blockquote>cite>h4{
 
         position: absolute;
-        width: 45vw;
+        width: 30vw;
         height: 10vh;
         left: 25vw;
         top: 11vh;
