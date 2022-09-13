@@ -13,7 +13,7 @@ header>nav{
     position: absolute;
     right: 40px;
     top: -32px;
-
+    width: 44vw;
 }
 /*  <!--header li(home,contact....)-->*/
 header>nav>ul>li{
@@ -86,8 +86,8 @@ header ul>li:hover a{
 
     /*  <!--header nav-->*/
     header>nav{
-        width: 95vw;
-        left: -2vw;
+        width: 102vw;
+        left: -10vw;
         top: -20px;
     }
     /*  <!--header li(home,contact....)-->*/
@@ -157,8 +157,8 @@ header ul>li:hover a{
 
     /*  <!--header nav-->*/
     header>nav{
-        width: 48vw;
-        left: 47vw;
+        width: 75vw;
+        left: 17vw;
         top: -20px;
     }
     /*  <!--header li(home,contact....)-->*/
@@ -193,8 +193,8 @@ header ul>li:hover a{
 
     /*  <!--header nav-->*/
     header>nav{
-        width: 43vw;
-        left: 53vw;
+        width: 56vw;
+        left: 37vw;
         top: -24px;
     }
     /*  <!--header li(home,contact....)-->*/
