@@ -1,12 +1,13 @@
 /*contact section*/
 main>section:nth-child(6){
     position: relative;
-    height: calc(100vh /6) ;
+    height: 726.55px;
+    top: 900px;
     width: 87vw;
-    top: 4380px;
     left: 22px;
     z-index:6;
 }
+
 /*vector 7 black*/
 main>section:nth-child(6)>section>div:first-child{
     position: absolute;
@@ -416,9 +417,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*contact section*/
     main>section:nth-child(6){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 771.55px;
+        top: -343px;
         width: 87vw;
-        top: 3356px;
         left: 0;
         z-index:6;
     }
@@ -820,9 +821,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*contact section*/
     main > section:nth-child(6) {
         position: relative;
-        height: calc(100vh / 6);
+        height: 771.55px;
+        top: -459px;
         width: 87vw;
-        top: 3356px;
         left: 0;
         z-index: 6;
     }
@@ -1245,9 +1246,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*contact section*/
     main > section:nth-child(6) {
         position: relative;
-        height: calc(100vh / 6);
+        height: 771.55px;
+        top: -343px;
         width: 87vw;
-        top: 3356px;
         left: 0;
         z-index: 6;
     }
@@ -1670,9 +1671,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
     /*contact section*/
     main > section:nth-child(6) {
         position: relative;
-        height: calc(100vh / 6);
+        height: 771.55px;
+        top: -343px;
         width: 87vw;
-        top: 3356px;
         left: 0;
         z-index: 6;
     }
@@ -2096,9 +2097,9 @@ main>section:nth-child(6)>section>div:nth-child(7)>section:nth-child(7)>form>but
 /*contact section*/
 main>section:nth-child(6){
     position: relative;
-    height: calc(100vh /6) ;
+    height: 771.55px;
+    top: -343px;
     width: 87vw;
-    top: 4510px;
     left: 0vw;
     z-index:6;
 }

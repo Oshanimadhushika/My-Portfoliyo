@@ -1,7 +1,7 @@
 /*Skill section*/
 main>section:nth-child(4){
     position: relative;
-    height: 733.55px; ;
+    height: 733.55px;
     width: 87vw;
     top: 754px;
     left: 0;
@@ -368,9 +368,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*Skill section*/
     main>section:nth-child(4){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 675.55px;
+        top: -466px;
         width: 87vw;
-        top: 1692px;
         left: 0;
         z-index:6;
     }
@@ -737,9 +737,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*Skill section*/
     main>section:nth-child(4){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 646.55px;
+        top: -613px;
         width: 87vw;
-        top: 1692px;
         left: 0;
         z-index:6;
     }
@@ -1107,9 +1107,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*Skill section*/
     main>section:nth-child(4){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 675.55px;
+        top: -466px;
         width: 87vw;
-        top: 1692px;
         left: 0;
         z-index:6;
     }
@@ -1477,9 +1477,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
     /*Skill section*/
     main>section:nth-child(4){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 675.55px;
+        top: -466px;
         width: 87vw;
-        top: 1692px;
         left: 0;
         z-index:6;
     }
@@ -1848,9 +1848,9 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(17){
 /*Skill section*/
 main>section:nth-child(4){
     position: relative;
-    height: calc(100vh /6) ;
+    height: 675.55px;
+    top: -466px;
     width: 87vw;
-    top: 2860px;
     left: 0vw;
     z-index:6;
 }

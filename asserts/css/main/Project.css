@@ -1,10 +1,10 @@
 /*Project section*/
 main>section:nth-child(5){
     position: relative;
-    height: calc(100vh /6) ;
+    height: 1023.55px;
+    top: 786px;
     width: 87vw;
-    top: 3412px;
-    left: 22px;
+    left: 0;
     z-index:6;
 }
 
@@ -393,9 +393,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Project section*/
     main>section:nth-child(5){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1050.55px;
+        top: -454px;
         width: 87vw;
-        top: 2293px;
         left: 0;
         z-index:6;
     }
@@ -773,9 +773,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Project section*/
     main>section:nth-child(5){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1050.55px;
+        top: -571px;
         width: 87vw;
-        top: 2293px;
         left: 0;
         z-index:6;
     }
@@ -1154,9 +1154,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Project section*/
     main>section:nth-child(5){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1050.55px;
+        top: -454px;
         width: 87vw;
-        top: 2293px;
         left: 0;
         z-index:6;
     }
@@ -1535,9 +1535,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
     /*Project section*/
     main>section:nth-child(5){
         position: relative;
-        height: calc(100vh /6) ;
+        height: 1050.55px;
+        top: -454px;
         width: 87vw;
-        top: 2293px;
         left: 0;
         z-index:6;
     }
@@ -1916,9 +1916,9 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
 /*Project section*/
 main>section:nth-child(5){
     position: relative;
-    height: calc(100vh /6) ;
+    height: 1050.55px;
+    top: -454px;
     width: 87vw;
-    top: 3506px;
     left: 0vw;
     z-index:6;
 }
