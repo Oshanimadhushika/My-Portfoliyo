@@ -629,7 +629,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 145vh;
+        height:  877.25px;
         left: 3vw;
         top: 96px;
         background: #9A9090;
@@ -1124,7 +1124,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
         z-index:6;
     }
     #sectionEducation{
-        position: absolute;
+        position: relative;
         width: 87vw;
         height: 844.55px;
         top: -1151px;
@@ -1184,7 +1184,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 145vh;
+        height: 740.25px;
         left: 3vw;
         top: 96px;
         background: #9A9090;
@@ -1739,7 +1739,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 145vh;
+        height:  877.25px;
         left: 3vw;
         top: 96px;
         background: #9A9090;
@@ -2295,7 +2295,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 148vh;
+        height: 895.4px;
         left: 3vw;
         top: 96px;
         background: #9A9090;
