@@ -918,7 +918,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     main>section:nth-child(2)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 629.2px;
+        height: 540.2px;
         left: 3vw;
         top: 86px;
         background: #9A9090;
@@ -1072,7 +1072,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         position: relative;
         height: 913.55px;
         width: 87vw;
-        top: 794px;
+        top: 194px;
         left: 0;
         z-index: 6;
     }
@@ -1145,8 +1145,8 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
 
     /*1st hexogan*/
     #hexagon {
-        width: 31vw;
-        height: 49vh;
+        width: 29vw;
+        height: 62vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
@@ -1160,8 +1160,8 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
     /*2nd tool behind the photo*/
     #hexagon > div {
 
-        width: 31vw;
-        height: 49vh;
+        width: 29vw;
+        height: 62vh;
         background: #2d2727;
         position: relative;
         z-index: 8;
@@ -1198,10 +1198,10 @@ main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
         background: linear-gradient(rgba(24, 23, 22, -81.5), rgba(100, 100, 100, -74.5)), url("../../PicsArt_07-22-08.08.12.png");
         background-size: cover;
         background-position: center;
-        width: 29vw;
-        height: 63vh;
+        width: 28vw;
+        height: 78vh;
         left: 5vw;
-        top: 79px;
+        top: 57px;
         border-radius: 20%;
         opacity: 100%;
         z-index: 8;

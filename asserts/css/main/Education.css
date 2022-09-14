@@ -2295,7 +2295,7 @@ main>section:nth-child(3)>section>div:nth-child(5)>p:nth-child(34) {
     main>section:nth-child(3)>section>div:nth-child(5){
         position: absolute;
         width: 88vw;
-        height: 895.4px;
+        height: 843.4px;
         left: 3vw;
         top: 96px;
         background: #9A9090;
@@ -2768,17 +2768,17 @@ main>section:nth-child(3){
     position: relative;
     height: 1244.55px ;
     width: 87vw;
-    top: 995px;
+    top: 308px;
     left: 0vw;
     z-index:6;
 }
-    #sectionEducation{
-        position: absolute;
+    /*#sectionEducation{
+        position: relative;
         width: 87vw;
         height: 844.55px;
-        top: -1151px;
+        top: -811px;
     }
-
+*/
 
     /*vector 7 black*/
 main>section:nth-child(3)>section>div:first-child{
