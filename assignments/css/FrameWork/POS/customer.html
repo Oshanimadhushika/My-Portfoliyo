@@ -38,6 +38,123 @@
 
 </header>
 
+<main>
+    <div class="container-fluid position-relative" style="top: -52px;">
+        <div class="page-title p-3">
+            <img src="assets/images/consumer%20(1).png" alt="customer" width="32" height="32" class="d-inline-block">
+            <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Customer</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid position-relative" style="bottom: 34px;">
+        <div class="d-sm-table-row flex-row mb-3 justify-content-between d-md-flex">
+            <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow: 0 1px 10px 1px;">
+                <div class="title-bar" style="background-color: #FFCA40; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                    <h3 class="fw-semibold fs-5 m-0" style="padding: 10px;">Add New Customer</h3>
+                </div>
+
+                <div class="mb-3 w-25 px-4 pt-2 d-inline-block">
+                    <label for="id" class="form-label">Customer Id:</label>
+                    <input type="text" class="form-control" id="id" placeholder="ID">
+                </div>
+                <div class="mb-3 px-4 pt-2 d-inline-block" style="width: 445px;">
+                    <label for="name" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Your name">
+                </div>
+                <div class="mb-3 px-4 pt-2 d-inline-block">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                </div>
+                <div class="mb-3 px-4 pt-2 d-inline-block" style="width: 333px;">
+                    <label for="address" class="form-label">Address:</label>
+                    <input type="text" class="form-control" id="address" placeholder="Enter your home address">
+                </div>
+                <button type="button" class="btn mx-4 mt-4 fw-semibold" style="width: 550px; background-color: #FFCA40;">Save Customer</button>
+            </div>
+
+            <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow: 0 1px 10px 1px;">
+                <div class="title-bar" style="background-color: #FFCA40; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                    <h3 class="fw-semibold fs-5 m-0" style="padding: 10px;">Renew | Delete | Search Customer</h3>
+                </div>
+
+                <form class="d-flex pt-3 ps-4" role="search" style="width: 557px">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="true" style="margin-right: 7px">
+                            ID's
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">C-001</a></li>
+                            <li><a class="dropdown-item" href="#">C-002</a></li>
+                            <li><a class="dropdown-item" href="#">C-003</a></li>
+                        </ul>
+                    </div>
+                    <button class="btn" type="submit" style="background-color: #FFCA40; left: 22px">Search</button>
+                </form>
+                <div class="mb-3 w-25 px-4 pt-2 d-inline-block">
+                    <label for="cusId" class="form-label">Customer Id:</label>
+                    <input type="text" class="form-control" id="cusId" placeholder="ID">
+                </div>
+
+                <div class="mb-3 px-4 pt-2 d-inline-block" style="width: 445px;">
+                    <label for="cusName" class="form-label">Name:</label>
+                    <input type="text" class="form-control" id="cusName" placeholder="Your name">
+                </div>
+
+                <div class="mb-3 px-4 pt-2 d-inline-block">
+                    <label for="cusEmail" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="cusEmail" placeholder="Enter your email">
+                </div>
+
+                <div class="mb-3 px-4 pt-2 d-inline-block" style="width: 333px;">
+                    <label for="cusAddress" class="form-label">Address:</label>
+                    <input type="text" class="form-control" id="cusAddress" placeholder="Enter your home address">
+                </div>
+
+                <button type="button" class="btn mx-4 mt-2 fw-semibold d-inline-block" style="width: 260px; background-color: #FFCA40;">Save Customer</button>
+                <button type="button" class="btn mt-2 btn-danger fw-semibold" style="width: 260px;">Delete Customer</button>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid position-relative" style="bottom: 20px">
+        <table class="table table-hover">
+            <thead class="table-warning">
+            <th scope="col">Customer ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Email</th>
+            <th scope="col">Address</th>
+            </thead>
+            <tbody>
+            <tr>
+                <th scope="row">C-001</th>
+                <td>Oshi</td>
+                <td>oshi@gmail.com</td>
+                <td>Panadura</td>
+            </tr>
+            <tr>
+                <th scope="row">C-002</th>
+                <td>Achini</td>
+                <td>achini@gmail.com</td>
+                <td>Panadura</td>
+            </tr>
+            <tr>
+                <th scope="row">C-003</th>
+                <td >Hesh</td>
+                <td>hesh@gmail.com</td>
+                <td>Panadura</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+
+</main>
+
+<!-- import js for bootstrap -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
 
 </body>
 </html>
