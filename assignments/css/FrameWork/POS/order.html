@@ -30,11 +30,185 @@
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link" href="../../../../assignments/css/FrameWork/POS/index.html">Dashboard</a>
-                    <a class="nav-link active" aria-current="page"  href="#">Orders</a>
-                    <a class="nav-link" href="item.html">Items</a>
+                    <a class="nav-link active" aria-current="page"  href="../../../../assignments/css/FrameWork/POS/order.html">Orders</a>
+                    <a class="nav-link" href="../../../../assignments/css/FrameWork/POS/item.html">Items</a>
                     <a class="nav-link" href="customer.html">Customers</a>
                 </div>
             </div>
         </div>
     </nav>
 </header>
+<main>
+    <!--Order Form-->
+    <div class="container-fluid position-relative" style="top: -52px;">
+        <div class="page-title p-3">
+            <img src="../../../../assignments/css/FrameWork/POS/assets/images/orders.png" alt="orders" width="32" height="32" class="d-inline-block">
+            <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Orders</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid position-relative" style="bottom: 35px">
+        <div class="row">
+            <div class="col-lg-4 mt-2">
+                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+
+                    <div class="title-bar" style="background-color: #529595; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                        <h3 class="fw-semibold fs-5 m-0" style="padding: 10px;">Invoice Detail</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Order ID</label>
+                                        <input class="form-control" id="orderID" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Order Date</label>
+                                        <input class="form-control" id="orderDate" type="date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Customer ID</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Name</label>
+                                        <input class="form-control" id="orderCusName" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <div>
+                                        <label>Email</label>
+                                        <input class="form-control" id="orderEmail" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <div>
+                                        <label>Address</label>
+                                        <input class="form-control" id="orderAddress" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-2">
+                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+                    <div class="card-header bg-warning fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px; background-color: #529595;">Select Item </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Item Code</label>
+                                        <select class="form-select" aria-label="Default select example">
+                                            <option selected></option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Item Name</label>
+                                        <input class="form-control" id="orderItemCode" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Price</label>
+                                        <input class="form-control" id="orderPrice" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Qty. on Hand</label>
+                                        <input class="form-control" id="orderQtyOnHand" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <div>
+                                        <label>Order Quantity</label>
+                                        <input class="form-control" id="orderQty" min="1" type="number">
+                                    </div>
+                                </div>
+                                <div class="col-12" style="padding-top: 32px;">
+                                    <button class="btn btn-warning w-100" style="background-color: #529595">Add Item</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-2">
+                <section class="other-detail-section p-4" style="border-radius: 12px; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;">
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="txt-total fw-normal fs-4">Total</span>
+                        </div>
+                        <div class="col-6 text-end">
+                            <span class="txt-total fw-normal fs-4">8000LKR</span>
+                        </div>
+                        <div class="col-12 border w-100 mt-2"></div>
+                        <div class="col-6 pt-2">
+                            <span class="txt-total fw-normal fs-4">Subtotal</span>
+                        </div>
+                        <div class="col-6 text-end pt-2">
+                            <span class="txt-total fw-normal fs-4">560LKR</span>
+                        </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-6">
+                            <div>
+                                <label>Cash</label>
+                                <input class="form-control" id="cash" type="text">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <label>Discount</label>
+                                <input class="form-control" id="discount" min="0" type="number">
+                            </div>
+                        </div>
+                        <div class="col-12 pt-2">
+                            <div>
+                                <label>Balance</label>
+                                <input class="form-control" id="balance" type="text">
+                            </div>
+                        </div>
+                        <div class="col-12" style="padding-top: 30px;">
+                            <button class="btn btn-danger w-100" style="background-color: #5AC816">Purchase</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!--Item table-->
+        <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
+            <table class="table table-hover">
+                <thead class="table-warning">
+                <th scope="col">Item Code</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</main>
