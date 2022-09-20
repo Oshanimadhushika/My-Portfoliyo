@@ -23,8 +23,6 @@
     <nav class="navbar navbar-expand-lg bg-light shadow-sm p-3 mb-5 bg-body rounded">
         <div class="container-fluid">
             <a class="navbar-brand fw-bold" href="#">
-                <img src="../../../../assignments/css/FrameWork/POS/assets/images/logo.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
-                Smart<span class="text-danger">POS</span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -53,8 +51,10 @@
     <div class="container-fluid position-relative" style="bottom: 35px">
         <div class="row">
             <div class="col-lg-6 mt-3">
-                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
-                    <div class="card-header bg-warning fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Add New Item</div>
+                <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow: 0 1px 10px 1px;">
+                    <div class="title-bar" style="background-color: #529595; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                        <h3 class="fw-semibold fs-5 m-0" style="padding: 10px;">Add New Item</h3>
+                    </div>
                     <div class="card-body">
                         <form>
                             <div class="row">
@@ -85,7 +85,7 @@
                                     </div>
                                 </div>
                                 <div class="col-12 pt-4">
-                                    <button class="btn btn-warning w-100">Save Item</button>
+                                    <button class="btn btn-warning w-100" style="background-color: #529595">Save Item</button>
                                 </div>
                             </div>
                         </form>
@@ -94,8 +94,11 @@
             </div>
 
             <div class="col-lg-6 mg-lg-0 mt-3">
-                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
-                    <div class="card-header bg-warning fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Renew | Delete | Search Item</div>
+
+                <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow: 0 1px 10px 1px;">
+                    <div class="title-bar" style="background-color: #529595; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                        <h3 class="fw-semibold fs-5 m-0" style="padding: 10px;">Renew | Delete | Search Item</h3>
+                    </div>
                     <div class="card-body">
                         <form>
                             <!--Search-->
@@ -109,7 +112,7 @@
                                     </select>
                                 </div>
                                 <div class="col-3">
-                                    <button type="button" class="btn btn-warning w-100">Search</button>
+                                    <button type="button" class="btn btn-warning w-100" style="background-color: #529595">Search</button>
                                 </div>
                             </div>
                             <!--Search end-->
@@ -143,10 +146,10 @@
                             </div>
                             <div class="row pt-4">
                                 <div class="col-6">
-                                    <button type="button" class="btn btn-warning w-100">Update Item</button>
+                                    <button type="button" class="btn btn-warning w-100" style="background-color: #529595">Update Item</button>
                                 </div>
                                 <div class="col-6">
-                                    <button type="button" class="btn btn-danger w-100">Delete Item</button>
+                                    <button type="button" class="btn btn-danger w-100" style="background-color:  #5AC816">Delete Item</button>
                                 </div>
                             </div>
                         </form>
@@ -169,3 +172,10 @@
         </div>
     </div>
 </main>
+
+<!-- import js for bootstrap -->
+<script src="../../../../asserts/bootstrap/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+</body>
+</html>
