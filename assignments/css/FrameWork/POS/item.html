@@ -17,3 +17,155 @@
 
     <title>Smart POS</title>
 </head>
+
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg bg-light shadow-sm p-3 mb-5 bg-body rounded">
+        <div class="container-fluid">
+            <a class="navbar-brand fw-bold" href="#">
+                <img src="../../../../assignments/css/FrameWork/POS/assets/images/logo.png" alt="Logo" width="32" height="32" class="d-inline-block align-text-top">
+                Smart<span class="text-danger">POS</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link" href="../../../../assignments/css/FrameWork/POS/index.html">Dashboard</a>
+                    <a class="nav-link" href="order.html">Orders</a>
+                    <a class="nav-link active" aria-current="page" href="item.html">Items</a>
+                    <a class="nav-link" href="customer.html">Customers</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- Item Form -->
+    <div class="container-fluid position-relative" style="top: -52px;">
+        <div class="page-title p-3">
+            <img src="../../../../assignments/css/FrameWork/POS/assets/images/item.png" alt="items" width="32" height="32" class="d-inline-block">
+            <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Item</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid position-relative" style="bottom: 35px">
+        <div class="row">
+            <div class="col-lg-6 mt-3">
+                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+                    <div class="card-header bg-warning fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Add New Item</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Item Code</label>
+                                        <input class="form-control" id="itemCode" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Name</label>
+                                        <input class="form-control" id="itemName" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Quantity</label>
+                                        <input class="form-control" id="quantity" min="1" type="number">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Price</label>
+                                        <input class="form-control" id="itemPrice" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    <button class="btn btn-warning w-100">Save Item</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mg-lg-0 mt-3">
+                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+                    <div class="card-header bg-warning fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Renew | Delete | Search Item</div>
+                    <div class="card-body">
+                        <form>
+                            <!--Search-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                </div>
+                                <div class="col-3">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Code</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-warning w-100">Search</button>
+                                </div>
+                            </div>
+                            <!--Search end-->
+                            <div class="row pt-4">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Item Code</label>
+                                        <input class="form-control" id="update-itemCode" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Name</label>
+                                        <input class="form-control" id="update-itemName" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Quantity</label>
+                                        <input class="form-control" id="update-quantity" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Price</label>
+                                        <input class="form-control" id="update-itemPrice" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-warning w-100">Update Item</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-danger w-100">Delete Item</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Item table-->
+        <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
+            <table class="table table-hover">
+                <thead class="table-warning">
+                <th scope="col">Item Code</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity On Hand</th>
+                <th scope="col">Price</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+</main>
