@@ -269,6 +269,142 @@
             </table>
         </div>
     </div>
+
+    <!--Item content-->
+
+    <div class="container-fluid position-relative" style="top: -28px;">
+        <div class="page-title p-3">
+            <img src="../../../assignments/css/FrameWork/POS/assets/images/item.png" alt="items" width="32" height="32" class="d-inline-block">
+            <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Item</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid position-relative" style="bottom: 35px">
+        <div class="row">
+            <div class="col-lg-6 mt-3">
+                <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow: 0 1px 10px 1px;">
+                    <div class="title-bar" style="background-color: #529595; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                        <h3 class="fw-semibold fs-5 m-0" style="padding: 10px;">Add New Item</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Item Code</label>
+                                        <input class="form-control" id="itemCode" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Name</label>
+                                        <input class="form-control" id="itemName" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Quantity</label>
+                                        <input class="form-control" id="quantity" min="1" type="number">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Price</label>
+                                        <input class="form-control" id="itemPrice" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-4">
+                                    <button class="btn btn-warning w-100" style="background-color: #529595">Save Item</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 mg-lg-0 mt-3">
+
+                <div style="width: 600px; border-radius: 12px; height: 350px; box-shadow: 0 1px 10px 1px;">
+                    <div class="title-bar" style="background-color: #529595; height: 45px; border-top-left-radius: 12px; border-top-right-radius: 12px;">
+                        <h3 class="fw-semibold fs-5 m-0" style="padding: 10px;">Renew | Delete | Search Item</h3>
+                    </div>
+                    <div class="card-body">
+                        <form>
+                            <!--Search-->
+                            <div class="row">
+                                <div class="col-6">
+                                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                                </div>
+                                <div class="col-3">
+                                    <select class="form-select" aria-label="Default select example">
+                                        <option selected>Select Code</option>
+                                    </select>
+                                </div>
+                                <div class="col-3">
+                                    <button type="button" class="btn btn-warning w-100" style="background-color: #529595">Search</button>
+                                </div>
+                            </div>
+                            <!--Search end-->
+                            <div class="row pt-4">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Item Code</label>
+                                        <input class="form-control" id="update-itemCode" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Name</label>
+                                        <input class="form-control" id="update-itemName" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-3">
+                                    <div class="form-group">
+                                        <label>Quantity</label>
+                                        <input class="form-control" id="update-quantity" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-9">
+                                    <div class="form-group">
+                                        <label>Item Price</label>
+                                        <input class="form-control" id="update-itemPrice" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-4">
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-warning w-100" style="background-color: #529595">Update Item</button>
+                                </div>
+                                <div class="col-6">
+                                    <button type="button" class="btn btn-danger w-100" style="background-color:  #5AC816">Delete Item</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Item table-->
+        <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
+            <table class="table table-hover">
+                <thead class="table-warning">
+                <th scope="col">Item Code</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity On Hand</th>
+                <th scope="col">Price</th>
+                </thead>
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <!--Customer Content-->
+
 </main>
 </body>
 </html>
