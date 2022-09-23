@@ -40,7 +40,7 @@
 
 <main>
     <!--DashBoard-->
-    <div class="container text-center">
+    <div class="container text-center dashboard">
         <div class="row gap-2 p-2">
             <div class="col">
                 <div class="p-3 content">
@@ -98,7 +98,7 @@
 
 <!--Order Content-->
 
-    <div class="container-fluid position-relative" style="top: -40px;">
+    <div class="container-fluid position-relative order" style="top: -40px;">
         <div class="page-title p-3">
             <img src="../../../assignments/css/FrameWork/POS/assets/images/orders.png" alt="orders" width="32" height="32" class="d-inline-block">
             <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Orders</h1>
@@ -272,7 +272,7 @@
 
     <!--Item content-->
 
-    <div class="container-fluid position-relative" style="top: -28px;">
+    <div class="container-fluid position-relative item" style="top: -28px;">
         <div class="page-title p-3">
             <img src="../../../assignments/css/FrameWork/POS/assets/images/item.png" alt="items" width="32" height="32" class="d-inline-block">
             <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Item</h1>
@@ -405,7 +405,7 @@
 
     <!--Customer Content-->
 
-    <div class="container-fluid position-relative" style="top: -52px;">
+    <div class="container-fluid position-relative customer" style="top: -52px;">
         <div class="page-title p-3">
             <img src="../../../assignments/css/FrameWork/POS/assets/images/consumer%20(1).png" alt="customer" width="32" height="32" class="d-inline-block">
             <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Customer</h1>
@@ -515,5 +515,47 @@
         </table>
     </div>
 </main>
+<!-- import js for bootstrap -->
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+
+<!-- import jquery-->
+<script src="assets/bootstrap/js/jquery-3.6.1.min.js"></script>
+<script>
+
+    $("#order-btn").click(function () {
+        $(".order").css("display", "inline-block");
+        $(".dashboard").css("display", "none");
+        $(".item").css("display", "none");
+        $(".customer").css("display", "none");
+    });
+
+    $("#item-btn").click(function () {
+        $(".order").css("display", "none");
+        $(".dashboard").css("display", "none");
+        $(".item").css("display", "inline-block");
+        $(".customer").css("display", "none");
+    });
+
+    $("#customer-btn").click(function () {
+        $(".order").css("display", "none");
+        $(".dashboard").css("display", "none");
+        $(".item").css("display", "none");
+        $(".customer").css("display", "inline-block");
+    });
+
+    $("#dashboard-btn").click(function () {
+        $(".order").css("display", "none");
+        $(".dashboard").css("display", "block");
+        $(".item").css("display", "none");
+        $(".customer").css("display", "none");
+    });
+
+</script>
 </body>
 </html>
+
+
+
+
+
+
