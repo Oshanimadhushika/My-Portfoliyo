@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <!--link Bootstrap Framework-->
+    <link href="../../../asserts/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../asserts/fonts/css/all.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+
+<main class="container-fluid row justify-content-center align-items-center mx-0 px-0 pt-5">
+
+
+    <section class="col-12 col-sm-8 col-md-7 col-lg-5 col-xl-4 rounded-4" style="border: 1px solid black;background-color: #490a0a;">
+        <div class="row gx-4 mt-4 mx-2">
+            <div class="col-3 ">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnClear" style="background-color: #fad390;cursor: pointer;
+                width:4rem; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">C</h2>
+                </div>
+            </div>
+
+
+            <div class="col-9 ">
+                <div class="d-flex justify-content-end rounded-3 shadow-lg" id="finalResultDiv" style="background-color: whitesmoke; height: 75%;
+            font-size: 2rem">
+
+                </div>
+            </div>
+        </div>
+        <!--    ==============7 - (+) butons==========-->
+        <div class="row gx-4 mt-1 mx-2">
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn7" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">7</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn8" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">8</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn9" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">9</h2>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnAddition" style="background-color: #f7d794;cursor: pointer;
+               width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">+</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <!--    ==============4 - (-) butons==========-->
+        <div class="row gx-4 mt-1 mx-2">
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn4" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">4</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn5" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">5</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn6" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">6</h2>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnMinus" style="background-color: #f7d794;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">-</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <!--    ==============1 - (/) butons==========-->
+        <div class="row gx-4 mt-1 mx-2">
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn1" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">1</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn2" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">2</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn3" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">3</h2>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnDivition" style="background-color: #f7d794;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">/</h2>
+                </div>
+            </div>
+
+        </div>
+
+        <!--    ==============0- (*) butons==========-->
+        <div class="row gx-4 mt-1 mx-2">
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btn0" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">0</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnDot" style="background-color: whitesmoke;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">.</h2>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnEqual" style="background-color: #25cdb4;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">=</h2>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="rounded-3 d-flex justify-content-center shadow-lg" id="btnMulti" style="background-color: #f7d794;cursor: pointer;
+                width:100%; height: 75%">
+                    <h2 class="pt-2 pb-4 text-center">*</h2>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+</main>
+<script src="../../../assignments/JS/Calculator/assets/bootstrap/js/jquery-3.6.1.min.js"></script>
+<script>
+    //click for clear
+    $('#btnClear').click(function () {
+        $('#finalResultDiv').text('');
+
+    });
+
+    //click for btn7
+    $('#btn7').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('7');
+        } else {
+            $('#finalResultDiv').text(finalResult + '7');
+        }
+    });
+
+    //click for btn8
+    $('#btn8').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('8');
+        } else {
+            $('#finalResultDiv').text(finalResult + '8');
+        }
+    });
+
+    //click for btn9
+    $('#btn9').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('9');
+        } else {
+            $('#finalResultDiv').text(finalResult + '9');
+        }
+    });
+
+    //click for btn4
+    $('#btn4').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('4');
+        } else {
+            $('#finalResultDiv').text(finalResult + '4');
+        }
+    });
+
+
+    //click for btn5
+    $('#btn5').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('5');
+        } else {
+            $('#finalResultDiv').text(finalResult + '5');
+        }
+    });
+
+
+    //click for btn6
+    $('#btn6').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('6');
+        } else {
+            $('#finalResultDiv').text(finalResult + '6');
+        }
+    });
+
+
+    //click for btn1
+    $('#btn1').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('1');
+        } else {
+            $('#finalResultDiv').text(finalResult + '1');
+        }
+    });
+
+
+    //click for btn2
+    $('#btn2').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('2');
+        } else {
+            $('#finalResultDiv').text(finalResult + '2');
+        }
+    });
+
+
+    //click for btn3
+    $('#btn3').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('3');
+        } else {
+            $('#finalResultDiv').text(finalResult + '3');
+        }
+    });
+
+    //click for btn3
+    $('#btn0').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        if (finalResult === '0') {
+            $('#finalResultDiv').text('0');
+        } else {
+            $('#finalResultDiv').text(finalResult + '0');
+        }
+    });
+
+    var calculation={
+        firstValue:"",
+        symbol:"",
+        secondValue:""
+    }
+
+    // click for btnDot
+    $('#btnDot').click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        $('#finalResultDiv').text(finalResult + '.');
+    });
+
+    // click for " btnDivision "
+    $("#btnDivition").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "/";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click for " btnAddition "
+    $("#btnAddition").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "+";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click for " btnMinus "
+    $("#btnMinus").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "-";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click for " btnMultiplication "
+    $("#btnMulti").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.firstValue = finalResult;
+        calculation.symbol = "*";
+
+        $('#finalResultDiv').text('');
+    });
+
+    // click for " btnEqual "
+    $("#btnEqual").click(function () {
+        let finalResult = $('#finalResultDiv').text();
+
+        calculation.secondValue = finalResult;
+
+        getFinalResult();
+    });
+
+    // getFinal Count
+    function getFinalResult() {
+        let finalCount = null;
+
+        if (calculation.symbol === '/') {
+            var firstNum = parseFloat(calculation.firstValue);
+            var secondNum = parseFloat(calculation.secondValue);
+            finalCount = firstNum / secondNum;
+            $('#finalResultDiv').text(finalCount);
+        }
+
+        if (calculation.symbol === '+') {
+            var firstNum = parseFloat(calculation.firstValue);
+            var secondNum = parseFloat(calculation.secondValue);
+            finalCount = firstNum + secondNum;
+            $('#finalResultDiv').text(finalCount);
+        }
+
+        if (calculation.symbol === '-') {
+            var firstNum = parseFloat(calculation.firstValue);
+            var secondNum = parseFloat(calculation.secondValue);
+            finalCount = firstNum / secondNum;
+            $('#finalResultDiv').text(finalCount);
+        }
+
+        if (calculation.symbol === '*') {
+            var firstNum = parseFloat(calculation.firstValue);
+            var secondNum = parseFloat(calculation.secondValue);
+            finalCount = firstNum * secondNum;
+            $('#finalResultDiv').text(finalCount);
+        }
+
+    }
+
+</script>
+
+</body>
+<script src="../../../asserts/bootstrap/js/bootstrap.min.js"></script>
+</html>
