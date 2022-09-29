@@ -361,7 +361,7 @@
         if (calculation.symbol === '-') {
             var firstNum = parseFloat(calculation.firstValue);
             var secondNum = parseFloat(calculation.secondValue);
-            finalCount = firstNum / secondNum;
+            finalCount = firstNum - secondNum;
             $('#finalResultDiv').text(finalCount);
         }
 
