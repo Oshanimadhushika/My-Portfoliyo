@@ -51,7 +51,7 @@ main>section:first-child>section:nth-child(3)>h3:first-child{
     position: absolute;
     width: 391px;
     height: 70px;
-    left: 39vw;
+    left: 38vw;
     top: 43px;
     font-family: 'Sigmar One',sans-serif;
     font-style: normal;
@@ -66,7 +66,7 @@ main>section:first-child>section:nth-child(3)>a:nth-child(2)>div{
     box-sizing: border-box;
     position: absolute;
     width: 18vw;
-    height: 120px;
+    height: 25vh;
     left: 9vw;
     top: 165px;
     background: url("../../../asserts/AssignmentImages/Basic1.PNG");
@@ -80,7 +80,7 @@ main>section:first-child>section:nth-child(3)>a:nth-child(3)>div{
     box-sizing: border-box;
     position: absolute;
     width: 18vw;
-    height: 120px;
+    height: 25vh;
     left: 21vw;
     top: 249px;
     background: url("../../../asserts/AssignmentImages/Basic3.PNG");
@@ -95,10 +95,73 @@ main>section:first-child>section:nth-child(3)>a:nth-child(4)>div{
     box-sizing: border-box;
     position: absolute;
     width: 18vw;
-    height: 120px;
-    left: 21vw;
-    top: 249px;
+    height: 25vh;
+    left: 35vw;
+    top: 315px;
     background: url("../../../asserts/AssignmentImages/Basic4.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 5;
+}
+
+
+/*Basic 5*/
+main>section:first-child>section:nth-child(3)>a:nth-child(5)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 25vh;
+    left: 51vw;
+    top: 256px;
+    background: url("../../../asserts/AssignmentImages/Basic5.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 4;
+}
+
+
+/*Basic 6*/
+main>section:first-child>section:nth-child(3)>a:nth-child(6)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 25vh;
+    left: 64vw;
+    top: 174px;
+    background: url("../../../asserts/AssignmentImages/Basic6.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+    z-index: 3;
+}
+
+/*Transition cases topic*/
+main>section:first-child>section:nth-child(4)>h3:first-child{
+    position: absolute;
+    width: 391px;
+    height: 70px;
+    left: 35vw;
+    top: 457px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
+
+
+/*Transition 2*/
+main>section:first-child>section:nth-child(4)>a:nth-child(2)>div{
+    box-sizing: border-box;
+    position: absolute;
+    width: 40vw;
+    height: 29vh;
+    left: 29vw;
+    top: 562px;
+    background: url("../../../asserts/AssignmentImages/Transition2.PNG");
     background-size:cover;
     background-position: center;
     border: 3px solid #000000;
