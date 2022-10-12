@@ -1,0 +1,19 @@
+main{
+    background-color: grey;
+    width: 100vw;
+    height: 5647.5px;
+}
+
+main>section:first-child>h3{
+    position: absolute;
+    width: 442px;
+    height: 58px;
+    left: 86px;
+    top: 78px;
+    font-family: 'Irish Grover',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    color: #000000;
+}
