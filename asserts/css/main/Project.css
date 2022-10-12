@@ -361,7 +361,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(12){
 
 }
 /*Arrow*/
-main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+main>section:nth-child(5)>section>div:nth-child(5)>a:nth-child(13)>div{
     position: absolute;
     width: 8vw;
     height: 42px;
@@ -753,7 +753,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
 
     }
     /*Arrow*/
-    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+    main>section:nth-child(5)>section>div:nth-child(5)>a:nth-child(13)>div{
         position: absolute;
         width: 13vw;
         height: 18px;
@@ -1133,7 +1133,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
 
     }
     /*Arrow*/
-    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+    main>section:nth-child(5)>section>div:nth-child(5)>a:nth-child(13)>div{
         position: absolute;
         width: 13vw;
         height: 18px;
@@ -1514,7 +1514,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
 
     }
     /*Arrow*/
-    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+    main>section:nth-child(5)>section>div:nth-child(5)>a:nth-child(13)>div{
         position: absolute;
         width: 13vw;
         height: 18px;
@@ -1896,7 +1896,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
 
     }
     /*Arrow*/
-    main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+    main>section:nth-child(5)>section>div:nth-child(5)>a:nth-child(13)>div{
         position: absolute;
         width: 11vw;
         height: 34px;
@@ -2276,7 +2276,7 @@ main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(12){
 
 }
 /*Arrow*/
-main>section:nth-child(5)>section>div:nth-child(5)>div:nth-child(13){
+main>section:nth-child(5)>section>div:nth-child(5)>a:nth-child(13)>div{
     position: absolute;
     width: 9vw;
     height: 42px;
