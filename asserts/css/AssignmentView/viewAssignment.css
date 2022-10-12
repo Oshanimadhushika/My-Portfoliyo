@@ -167,3 +167,17 @@ main>section:first-child>section:nth-child(4)>a:nth-child(2)>div{
     border: 3px solid #000000;
     z-index: 3;
 }
+/*Animation cases topic*/
+main>section:first-child>section:nth-child(5)>h3:first-child{
+    position: absolute;
+    width: 391px;
+    height: 70px;
+    left: 35vw;
+    top: 697px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
