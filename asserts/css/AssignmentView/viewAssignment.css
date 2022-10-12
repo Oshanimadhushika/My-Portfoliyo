@@ -1,19 +1,90 @@
 main{
-    background-color: grey;
+    position: relative;
     width: 100vw;
     height: 5647.5px;
+    background: rgba(255, 255, 255, 0.8);
+    opacity: 1.56;
+    border-radius: 30px;
 }
 
+main>section:first-child{
+    position: absolute;
+    width: 100vw;
+    height: 5647.5px;
+    background: rgba(154, 144, 144, 0.8);
+    opacity: 1.56;
+    border-radius: 30px;
+}
+
+/*Assignment of css*/
 main>section:first-child>h3{
     position: absolute;
     width: 442px;
     height: 58px;
-    left: 86px;
-    top: 78px;
+    left: 3vw;
+    top: -16px;
     font-family: 'Irish Grover',sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 48px;
+    font-size: 25px;
     line-height: 58px;
     color: #000000;
+}
+
+/*Black line*/
+main>section:first-child>div:nth-child(2){
+
+    position: absolute;
+    width: 10vw;
+    height: 0px;
+    left: 8vw;
+    top: 64px;
+    border: 3px solid #0D0D0D;
+    transform: rotate(-0.95deg);
+    background: url("../../../asserts/AssignmentImages/Line 34.png");
+    background-size:cover;
+    background-position: center;
+}
+
+/*Basic cases topic*/
+main>section:first-child>section:nth-child(3)>h3:first-child{
+    position: absolute;
+    width: 391px;
+    height: 70px;
+    left: 39vw;
+    top: 43px;
+    font-family: 'Sigmar One',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 79px;
+    color: #AC1F38;
+}
+
+/*Basic 1*/
+main>section:first-child>section:nth-child(3)>div:nth-child(2){
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 120px;
+    left: 9vw;
+    top: 165px;
+    background: url("../../../asserts/AssignmentImages/Basic1.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
+}
+
+/*Basic 3*/
+main>section:first-child>section:nth-child(3)>div:nth-child(3){
+    box-sizing: border-box;
+    position: absolute;
+    width: 18vw;
+    height: 120px;
+    left: 9vw;
+    top: 165px;
+    background: url("../../../asserts/AssignmentImages/Basic3.PNG");
+    background-size:cover;
+    background-position: center;
+    border: 3px solid #000000;
 }
