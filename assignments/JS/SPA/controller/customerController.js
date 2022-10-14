@@ -138,6 +138,7 @@ function setCusTextField(id,name,salary,address){
 }
 
 /****** Customer regular expressions ******/
+
 const regExId = /^(C00-)[0-9]{1,3}$/;
 const regCusName = /^[A-z ]{5,20}$/;
 const regExSalary = /^\d{0,9}(\.\d{1,4})?$/;
