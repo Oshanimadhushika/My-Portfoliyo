@@ -98,10 +98,11 @@
         </div>
     </div>
 
-    <!--Order Content-->
+
+
+    <!--&lt;!&ndash;Order Content&ndash;&gt;
     <div  class="container-fluid position-relative order" style="top: -52px; display: none">
         <div class="page-title p-3">
-            <img src="../../../assignments/css/FrameWork/POS/assets/images/orders.png" alt="orders" width="32" height="32" class="d-inline-block">
             <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Orders</h1>
         </div>
     </div>
@@ -253,7 +254,7 @@
             </div>
         </div>
 
-        <!--order table-->
+        &lt;!&ndash;order table&ndash;&gt;
         <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
             <table class="table table-hover">
                 <thead class="table-warning">
@@ -267,7 +268,177 @@
             </table>
         </div>
     </div>
+-->
+    <!--Order Content-->
+    <div class="container-fluid position-relative order" style="top: -52px; display: none">
+        <div class="page-title p-3">
+            <img src="../../../assignments/css/FrameWork/POS/assets/images/orders.png" alt="orders" width="32" height="32" class="d-inline-block">
 
+            <h1 class="d-inline-block fw-bold fs-3 m-0 position-relative" style="top: 8px;">Orders</h1>
+        </div>
+    </div>
+
+    <div class="container-fluid position-relative order" style="bottom: 35px; display: none">
+        <div class="row">
+            <div class="col-lg-4 mt-2">
+                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+                    <div class="card-header bg-warning fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Invoice Details </div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Order ID</label>
+                                        <input class="form-control" id="orderID" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Order Date</label>
+                                        <input class="form-control" id="currentOrderDate" type="date">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Customer ID</label>
+                                        <select class="form-select" id="orderCusOpt">
+                                            <option>Customer ID's</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Name</label>
+                                        <input class="form-control" id="orderCusName" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <div>
+                                        <label>Salary</label>
+                                        <input class="form-control" id="orderSalary" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <div>
+                                        <label>Address</label>
+                                        <input class="form-control" id="orderAddress" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-2">
+                <div class="card" style="border: none; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px; border-radius: 12px;">
+                    <div class="card-header bg-warning fw-bold" style="border: none; border-top-left-radius: 12px; border-top-right-radius: 12px;">Item Select</div>
+                    <div class="card-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Item Code</label>
+                                        <select id="orderItemOpt" class="form-select" aria-label="Default select example"></select>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Item Name</label>
+                                        <input class="form-control" id="orderItemName" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row pt-2">
+                                <div class="col-6">
+                                    <div>
+                                        <label>Unit Price</label>
+                                        <input class="form-control" id="orderUPrice" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div>
+                                        <label>Qty. on Hand</label>
+                                        <input class="form-control" id="orderQtyOnHand" type="text">
+                                    </div>
+                                </div>
+                                <div class="col-12 pt-2">
+                                    <div>
+                                        <label>Order Quantity</label>
+                                        <input class="form-control" id="orderQty" min="1" type="number">
+                                    </div>
+                                </div>
+                                <div class="col-12" style="padding-top: 32px;">
+                                    <button id="addItemBtn" type="button" class="btn btn-warning w-100">Add Item</button>
+
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 mt-2">
+                <section class="other-detail-section p-4" style="border-radius: 12px; box-shadow: rgba(50, 50, 93, 0.25) 0 13px 27px -5px, rgba(0, 0, 0, 0.3) 0 8px 16px -8px;">
+                    <div class="row">
+                        <div class="col-6">
+                            <span class="txt-total fw-normal fs-4">Total</span>
+                        </div>
+                        <div class="col-6 text-end">
+                            <span id="total" class="txt-total fw-normal fs-4">5000LKR</span>
+                        </div>
+                        <div class="col-12 border w-100 mt-2"></div>
+                        <div class="col-6 pt-2">
+                            <span class="txt-total fw-normal fs-4">Subtotal</span>
+                        </div>
+                        <div class="col-6 text-end pt-2">
+                            <span id="subTot" class="txt-total fw-normal fs-4">450LKR</span>
+                        </div>
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-6">
+                            <div>
+                                <label>Cash</label>
+                                <input id="cash" class="form-control" id="cash" type="text">
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div>
+                                <label>Discount</label>
+                                <input id="discount" class="form-control" id="discount" min="0" type="number">
+                            </div>
+                        </div>
+                        <div class="col-12 pt-2">
+                            <div>
+                                <label>Balance</label>
+                                <input id="balance" class="form-control" id="balance" type="text">
+                            </div>
+                        </div>
+                        <div class="col-12" style="padding-top: 30px;">
+                            <button id="placeOrder" class="btn btn-danger w-100">Purchase</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!--order table-->
+        <div class="col-md-12 mt-4" style="overflow-y: scroll; height: 164px">
+            <table class="table table-hover">
+                <thead class="table-warning">
+                <th scope="col">Order ID</th>
+                <th scope="col">Item Code</th>
+                <th scope="col">Name</th>
+                <th scope="col">Quantity</th>
+                <th scope="col">Price</th>
+                <th scope="col">Total</th>
+                </thead>
+                <tbody id="tblOrder"></tbody>
+            </table>
+        </div>
+    </div>
     <!-- Item content -->
     <div  class="container-fluid position-relative item" style="top: -52px; display: none">
         <div class="page-title p-3">
