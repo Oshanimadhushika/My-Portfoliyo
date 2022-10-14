@@ -117,6 +117,10 @@ main>#h>section:nth-child(2)>article>div:first-child>div{
     border-radius: 10%;
     z-index:5;
     opacity: 100%;
+    animation-name: my-photo1;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+    animation-direction: alternate;
 
 
 }
@@ -250,6 +254,15 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     font-size:20px ;
 
 }
+
+/*@keyframes my-photo1 {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
+}*/
 /*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
