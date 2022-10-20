@@ -37,7 +37,7 @@ body>main{
 
 /* <!--1st page another items without backgrount image-->*/
 
-main>#h>section:nth-child(2)>nav>nav{
+main>#h>section:nth-child(2)>nav>a{
     position: absolute;
     top: 0;
     z-index: 4;
@@ -49,14 +49,24 @@ main>#h>section:nth-child(2)>nav>nav{
 
 }
 /*facebook icon*/
-main>#h>section:nth-child(2)>nav>nav:first-child{
+main>#h>section:nth-child(2)>nav>a:nth-child(1){
+
     background: url("../../../asserts/icons/facebook (2).png");
     background-position: center;
     background-size: cover;
     padding: 1%;
+    z-index: 3;
 }
+
+/*.icons>a:first-child>nav{
+    background: url("../../../asserts/icons/facebook (2).png");
+    background-position: center;
+    background-size: cover;
+    padding: 1%;
+    z-index: 3;
+}*/
 /*instagram icon*/
-main>#h>section:nth-child(2)>nav>nav:nth-child(2){
+main>#h>section:nth-child(2)>nav>a:nth-child(2){
     background: url("../../../asserts/icons/instagram (1).png");
     background-position: center;
     background-size: cover;
@@ -65,7 +75,7 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(2){
 
 }
 /*twitter icon*/
-main>#h>section:nth-child(2)>nav>nav:nth-child(3){
+main>#h>section:nth-child(2)>nav>a:nth-child(3){
     background: url("../../../asserts/icons/twitter-sign.png");
     background-position: center;
     background-size: cover;
@@ -73,7 +83,7 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(3){
     top: 18vh;
 }
 /*whatsapp icon*/
-main>#h>section:nth-child(2)>nav>nav:nth-child(4){
+main>#h>section:nth-child(2)>nav>a:nth-child(4){
     background: url("../../../asserts/icons/whatsapp (2).png");
     background-position: center;
     background-size: cover;
@@ -81,7 +91,7 @@ main>#h>section:nth-child(2)>nav>nav:nth-child(4){
     top: 27vh;
 }
 /*telegram icon*/
-main>#h>section:nth-child(2)>nav>nav:nth-child(5){
+main>#h>section:nth-child(2)>nav>a:nth-child(5){
     background: url("../../../asserts/icons/telegram (1).png");
     background-position: center;
     background-size: cover;
@@ -242,7 +252,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     position: absolute;
     width: 20vw;
     height: 10vh;
-    right: 8vw;
+    right: -72vw;
     top: 356.95px;
     background: #000000;
     border: 4px solid #060606;
@@ -251,7 +261,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     color: whitesmoke;
     font-family:'Inter', sans-serif;
     z-index: 6;
-    font-size:20px ;
+    font-size:23px ;
 
 }
 
@@ -425,10 +435,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     }
     .btnHireme{
         position: absolute;
-        width: 28vw;
+        width: 48vw;
         height: 8vh;
-        right: 4vw;
-        top: 40vh;
+        right: -42vw;
+        top: 45vh;
         background: #000000;
         border: 4px solid #060606;
         border-radius: 10%;
@@ -663,10 +673,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     }
     .btnHireme{
         position: absolute;
-        width: 28vw;
+        width: 45vw;
         height: 8vh;
-        right: 4vw;
-        top: 40vh;
+        right: -42vw;
+        top: 48vh;
         background: #000000;
         border: 4px solid #060606;
         border-radius: 10%;
@@ -907,10 +917,10 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     }
     .btnHireme{
         position: absolute;
-        width: 28vw;
+        width: 40vw;
         height: 8vh;
-        right: 4vw;
-        top: 40vh;
+        right: -54vw;
+        top: 43vh;
         background: #000000;
         border: 4px solid #060606;
         border-radius: 10%;
@@ -1153,9 +1163,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     }
     .btnHireme{
         position: absolute;
-        width: 17vw;
-        height: 8vh;
-        right: 4vw;
+        width: 21vw;
+        height: 11vh;
+        right: -70vw;
         top: 40vh;
         background: #000000;
         border: 4px solid #060606;
@@ -1483,7 +1493,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         position: absolute;
         width: 20vw;
         height: 10vh;
-        right: 8vw;
+        right: -72vw;
         top: 59vh;
         background: #000000;
         border: 4px solid #060606;

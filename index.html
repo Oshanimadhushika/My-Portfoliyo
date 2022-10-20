@@ -19,7 +19,7 @@
     <title>Oshani Madhushika WebSite</title>
     <link href="asserts/css/normalize.css" rel="stylesheet">
     <meta content="width=device-width initial-scale=1" name="viewport">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com" rel="preconnect">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com" rel="preconnect">
     <link crossorigin href="https://fonts.gstatic.com" rel="preconnect">
@@ -33,6 +33,7 @@
     <link href="asserts/css/main/Project.css" rel="stylesheet">
     <link href="asserts/css/main/Skill.css" rel="stylesheet">
     <link href="asserts/css/main/Contact.css" rel="stylesheet">
+    <link href="asserts/css/AnimationForStyle/btnHireMe.css" rel="stylesheet">
 
 
     <style>
@@ -49,6 +50,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Share:ital@1&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC&display=swap');
+
         /* ::-webkit-scrollbar {
             width: 0px;
         }
@@ -65,12 +67,12 @@
         <!--header ul-->
         <ul>
             <!--header li-->
-        <li><a href="#h">Home</a></li>
-        <li><a href="#a">About</a></li>
-        <li><a href="#e">Education</a></li>
-        <li><a href="#s">Skills</a></li>
-        <li><a href="#p">Projects</a></li>
-        <li><a href="#c">Contact me</a></li>
+            <li><a href="#h">Home</a></li>
+            <li><a href="#a">About</a></li>
+            <li><a href="#e">Education</a></li>
+            <li><a href="#s">Skills</a></li>
+            <li><a href="#p">Projects</a></li>
+            <li><a href="#c">Contact me</a></li>
         </ul>
     </nav>
 
@@ -90,63 +92,81 @@
         <!--1st page another items without backgrount image-->
         <section>
             <!--facebook,instagram...icons-->
-            <nav>
-            <nav></nav>
-            <nav></nav>
-            <nav></nav>
-            <nav></nav>
-            <nav></nav>
+            <nav class="icons">
+                <a href="https://www.facebook.com/oshani.egodhawaththaa" target="_blank">
+                    <nav ></nav>
+                </a>
+
+                <a href="https://www.instagram.com/_oshi.girl_/" target="_blank">
+                    <nav></nav>
+                </a>
+                <a href="https://twitter.com/oshani0000" target="_blank">
+                    <nav></nav>
+                </a>
+                <a href="http://wa.me/+94723416674?text=Hiii_Oshani.." target="_blank">
+                    <nav></nav>
+                </a>
+                <a href="https://t.me/oshi_grl" target="_blank">
+                    <nav></nav>
+                </a>
 
             </nav>
 
             /*rectangle behind the photo--article-->div*/
-        <article>
+            <article>
 
-            <div>
+                <div>
 
-                <div></div>
+                    <div></div>
 
-            </div>
-
-
-            <h3>I'm Oshani</h3>
+                </div>
 
 
-            <h3> Madhushika</h3>
+                <h3>I'm Oshani</h3>
 
 
-            <h4>full stack developer</h4>
+                <h3> Madhushika</h3>
 
-        </article>
+
+                <h4> full stack developer</h4>
+
+            </article>
 
             <!--rectangle behind the quote of niklaus-->
-        <blockquote>
-            <!--the quote of niklaus-->
+            <blockquote>
+                <!--the quote of niklaus-->
 
-            <cite>
-               <q>Indeed, the woes of software Engineering are not due to lack of tools, or proper
-                   management, but largely due to lack of sufficient technical  competence.</q>
+                <cite>
+                    <q>Indeed, the woes of software Engineering are not due to lack of tools, or proper
+                        management, but largely due to lack of sufficient technical competence.</q>
 
-            <h4>Niklaus Wirth</h4>
+                    <h4>Niklaus Wirth</h4>
 
-                <!--Line before niklaus-->
-                <div></div>
+                    <!--Line before niklaus-->
+                    <div></div>
 
-                <!--Line after niklaus-->
-                <div></div>
-            </cite>
-        </blockquote>
+                    <!--Line after niklaus-->
+                    <div></div>
+                </cite>
+            </blockquote>
 
-            <button class="btnHireme" type="button">Hire Me</button>
+           <!-- <button class="btnHireme" type="button">Hire Me</button>-->
+            <button class="btnHireme">
+                Hire Me
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+            </button>
 
         </section>
 
     </section>
 
     <!--About Me-->
-    <section id="sectionAboutMe" >
+    <section id="sectionAboutMe">
 
-        <section id="a" >
+        <section id="a">
             <!--vector 7-->
             <div></div>
 
@@ -156,170 +176,174 @@
             <!--line red-->
             <div></div>
 
-     <h1><b><dfn >ABOUT ME</dfn></b></h1>
+            <h1><b><dfn>ABOUT ME</dfn></b></h1>
 
 
-     <div>
+            <div>
 
 
-         <div id="hexagon">
-             <div>
+                <div id="hexagon">
+                    <div>
 
-             </div>
-         </div>
+                    </div>
+                </div>
 
-         <!--my 2nd photo-->
-         <div></div>
+                <!--my 2nd photo-->
+                <div></div>
 
-    <h1><span >I'm Oshani Madhushika</span></h1>
+                <h1><span>I'm Oshani Madhushika</span></h1>
 
-        <!-- /* 1st paragraph about me*/-->
-    <p>I’m a undergraduate student who is currently studying BCs(Hons) in Computer Sceince Via GDSE at <abbr
-            title="Institute Of Software Engineering"><a href="http://ijse.lk">IJSE</a></abbr> ..
-        I’m a SriLankan girl who is using Mother language and English.. I’m  Also Searching more about programming from internet for my self-studying.
-    </p>
+                <!-- /* 1st paragraph about me*/-->
+                <p>I’m a undergraduate student who is currently studying BCs(Hons) in Computer Sceince Via GDSE at <abbr
+                        title="Institute Of Software Engineering"><a href="http://ijse.lk">IJSE</a></abbr> ..
+                    I’m a SriLankan girl who is using Mother language and English.. I’m Also Searching more about
+                    programming from internet for my self-studying.
+                </p>
 
-         <!-- /* 2st paragraph about me*/-->
-    <p >I’ve mostly worked professionally with Java. I also have knowledge of web development, UI / UX designing, database management and frameworks.. If you have to make any project or
-        develop a software for your bussiness,<a href="mailto:oshanimadhushika12@gmail.com">Drop a E-mail </a> or <a
-                href="tel:0704541195">Contact me</a>. I would like to make your one as u dreaming it  soon as possible. i’ll definitely give a satisfication
-        you all after making  your one.
+                <!-- /* 2st paragraph about me*/-->
+                <p>I’ve mostly worked professionally with Java. I also have knowledge of web development, UI / UX
+                    designing, database management and frameworks.. If you have to make any project or
+                    develop a software for your bussiness,<a href="mailto:oshanimadhushika12@gmail.com">Drop a
+                        E-mail </a> or <a
+                            href="tel:0704541195">Contact me</a>. I would like to make your one as u dreaming it soon as
+                    possible. i’ll definitely give a satisfication
+                    you all after making your one.
 
-    </p>
+                </p>
 
-     <ul>
-           <li> I’m Oshani Madhushika</li>
-           <li> Lives In  Rathnapura</li>
-           <li>Contact:<a href="tel:070-4541195" >0704541195 </a></li>
-            <li> <a href="mailto:oshanimadhushika12@gmail.com">oshanimadhushika12@gmail.com</a></li>
-      </ul>
-         <!--Download CV btn-->
-         <button class="btnDownloadcv" type="button">Download CV</button>
-     </div>
+                <ul>
+                    <li> I’m Oshani Madhushika</li>
+                    <li> Lives In Rathnapura</li>
+                    <li>Contact:<a href="tel:070-4541195">0704541195 </a></li>
+                    <li><a href="mailto:oshanimadhushika12@gmail.com">oshanimadhushika12@gmail.com</a></li>
+                </ul>
+                <!--Download CV btn-->
+                <button class="btnDownloadcv" type="button">Download CV</button>
+            </div>
         </section>
     </section>
 
     <!--Education-->
-    <section  >
+    <section>
 
         <section id="sectionEducation">
-        <!--vector 7-->
-        <div ></div>
+            <!--vector 7-->
+            <div></div>
 
-        <!--line pink-->
-        <div></div>
+            <!--line pink-->
+            <div></div>
 
-        <!--line red-->
-        <div></div>
+            <!--line red-->
+            <div></div>
 
-        <h1 id="e"><b><dfn >EDUCATION</dfn></b></h1>
+            <h1 id="e"><b><dfn>EDUCATION</dfn></b></h1>
 
-       <div>
-           <!--Line y-->
-           <div></div>
+            <div>
+                <!--Line y-->
+                <div></div>
 
-           <!--Line x-->
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
+                <!--Line x-->
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
 
-           <!--circle-->
-           <div></div>
-           <div></div>
-           <div></div>
-           <div></div>
+                <!--circle-->
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
 
-           <!--graduation icon-->
-           <div></div>
+                <!--graduation icon-->
+                <div></div>
 
-           <!--Years of Education-->
-           <h3>2021</h3>
-           <h3>2019</h3>
-           <h3>2019</h3>
-           <h3>2016</h3>
-           <h3>2013</h3>
-           <h3>2011</h3>
-           <h3>2006</h3>
-
-
-           <!--IJSE -->
-         <div> </div>
+                <!--Years of Education-->
+                <h3>2021</h3>
+                <h3>2019</h3>
+                <h3>2019</h3>
+                <h3>2016</h3>
+                <h3>2013</h3>
+                <h3>2011</h3>
+                <h3>2006</h3>
 
 
-           <!--IJSE details-->
-        <p>BCs(Hons) in Computer Science
-             via GDSE  at <a href="http://ijse.lk">IJSE</a>
-             Batch No 59
-             2021</p>
+                <!--IJSE -->
+                <div></div>
 
 
-           <!--Britishway-->
-         <div>  </div>
-
-           <!--Britishway Details-->
-           <p>
-             BritishWay English Acedemy
-             Diploma  in  English
-             2019
-           </p>
+                <!--IJSE details-->
+                <p>BCs(Hons) in Computer Science
+                    via GDSE at <a href="http://ijse.lk">IJSE</a>
+                    Batch No 59
+                    2021</p>
 
 
-           <!--Al GCC-->
-         <div></div>
+                <!--Britishway-->
+                <div></div>
 
-             <p>
-             R/ Gankanda Central College
-             Doing my Advance Level(A/L)
-             2019</p>
+                <!--Britishway Details-->
+                <p>
+                    BritishWay English Acedemy
+                    Diploma in English
+                    2019
+                </p>
 
 
-           <!--OL GCC-->
-         <div> </div>
+                <!--Al GCC-->
+                <div></div>
 
-           <!--OL details-->
-             <p>
+                <p>
+                    R/ Gankanda Central College
+                    Doing my Advance Level(A/L)
+                    2019</p>
 
-             R/ Gankanda Central College
-             Doing my Ordinry Level(O/L)
-             2016
-           </p>
 
-           <!--Secondary GCC-->
-         <div> </div>
+                <!--OL GCC-->
+                <div></div>
 
-           <!--Secondary details GCC-->
-            <p>
+                <!--OL details-->
+                <p>
 
-             R/ Gankanda Central College
-             Secondary Education
-             2013-2019
-           </p>
+                    R/ Gankanda Central College
+                    Doing my Ordinry Level(O/L)
+                    2016
+                </p>
 
-           <!--Secondary VMV-->
-         <div> </div>
+                <!--Secondary GCC-->
+                <div></div>
 
-           <!--Secondary details VMV-->
-             <p>
-             R/ Vidyakara Maha  Vidyalaya
-            Secondary Education
-             2011-2013
-           </p>
+                <!--Secondary details GCC-->
+                <p>
 
-           <!--Primary-->
-         <div> </div>
+                    R/ Gankanda Central College
+                    Secondary Education
+                    2013-2019
+                </p>
 
-           <!--Primary details-->
-            <p>
-             R/ Vidyakara Primary School
-             Primary Education
-             2006-2010
-           </p>
+                <!--Secondary VMV-->
+                <div></div>
 
-       </div>
+                <!--Secondary details VMV-->
+                <p>
+                    R/ Vidyakara Maha Vidyalaya
+                    Secondary Education
+                    2011-2013
+                </p>
+
+                <!--Primary-->
+                <div></div>
+
+                <!--Primary details-->
+                <p>
+                    R/ Vidyakara Primary School
+                    Primary Education
+                    2006-2010
+                </p>
+
+            </div>
         </section>
 
     </section>
@@ -327,94 +351,94 @@
     <!--Skills-->
     <section>
         <section>
-        <!--vector 7-->
-        <div ></div>
+            <!--vector 7-->
+            <div></div>
 
-        <!--line pink-->
-        <div></div>
+            <!--line pink-->
+            <div></div>
 
-        <!--line red-->
-        <div></div>
+            <!--line red-->
+            <div></div>
 
 
-        <h1><b><dfn id="s">MY SKILLS</dfn></b></h1>
+            <h1><b><dfn id="s">MY SKILLS</dfn></b></h1>
 
             <!--Rectangle behind the my skills-->
-        <div>
+            <div>
 
-        <div>
-        <dt>Design</dt>
+                <div>
+                    <dt>Design</dt>
 
-        <div>
-        <dd>UI/UX  Designing</dd>
-        <dd>Website Designing</dd>
-        <dd>Web Development</dd>
-        <dd>MokeUp</dd>
-        <dd>Wireframe</dd>
-        <dd>Prototype</dd>
-        </div>
+                    <div>
+                        <dd>UI/UX Designing</dd>
+                        <dd>Website Designing</dd>
+                        <dd>Web Development</dd>
+                        <dd>MokeUp</dd>
+                        <dd>Wireframe</dd>
+                        <dd>Prototype</dd>
+                    </div>
 
-        </div>
+                </div>
 
-        <div>
-        <dt>Others</dt>
+                <div>
+                    <dt>Others</dt>
 
-        <div>
-        <dd>MySQL</dd>
-        <dd>Hibernate</dd>
-        <dd>Java Language</dd>
-        <dd>HTML</dd>
-        <dd>CSS</dd>
-        <dd>Java Script</dd>
-        </div>
+                    <div>
+                        <dd>MySQL</dd>
+                        <dd>Hibernate</dd>
+                        <dd>Java Language</dd>
+                        <dd>HTML</dd>
+                        <dd>CSS</dd>
+                        <dd>Java Script</dd>
+                    </div>
 
-       </div>
+                </div>
 
-            <!--Language icon-->
-            <!--Java-->
-            <div></div>
+                <!--Language icon-->
+                <!--Java-->
+                <div></div>
 
-            <!--JS-->
-            <div></div>
+                <!--JS-->
+                <div></div>
 
-            <!--MYSQL-->
-            <div></div>
+                <!--MYSQL-->
+                <div></div>
 
-            <!--CSS-->
-            <div></div>
+                <!--CSS-->
+                <div></div>
 
-            <!--Hibernate-->
-            <div></div>
+                <!--Hibernate-->
+                <div></div>
 
-            <!--HTML-->
-            <div></div>
+                <!--HTML-->
+                <div></div>
 
-            <h1>Tools</h1>
+                <h1>Tools</h1>
 
-            <!--VS-->
-            <div></div>
+                <!--VS-->
+                <div></div>
 
-            <!--Figma-->
-            <div></div>
+                <!--Figma-->
+                <div></div>
 
-            <!--git hub-->
-            <div></div>
+                <!--git hub-->
+                <div></div>
 
-            <!--LightRoom-->
-            <div></div>
+                <!--LightRoom-->
+                <div></div>
 
-            <!--WireFrame-->
-            <div></div>
+                <!--WireFrame-->
+                <div></div>
 
-            <!--Intelj-->
-            <div></div>
+                <!--Intelj-->
+                <div></div>
 
-            <!--SceneBuilder-->
-            <div></div>
+                <!--SceneBuilder-->
+                <div></div>
 
-            <!--NetBeans-->
-            <div></div>
-        </div>
+                <!--NetBeans-->
+                <div></div>
+            </div>
         </section>
     </section>
 
@@ -424,7 +448,7 @@
         <section>
 
             <!--vector 7-->
-            <div ></div>
+            <div></div>
 
             <!--line pink-->
             <div></div>
@@ -432,160 +456,166 @@
             <!--line red-->
             <div></div>
 
-        <h1><b><dfn id="p">PROJECTS</dfn></b></h1>
+            <h1><b><dfn id="p">PROJECTS</dfn></b></h1>
 
             <!--rectangle of project-->
- <div>
+            <div>
 
-        <p>I’m  sharing some of project which I have done with you.You can get a bit idea of  my capabilities from these project ..
-            And also you can get my source code of all project from my Git Hub...</p>
-        <h3>Project  I  have done ......</h3>
-
-
-     <!--Car Parking-->
-        <div>
-            <dd>Car parking System</dd>
-            <button>View </button>
-        </div>
-
-     <!--Cake Bakery-->
-          <div>
-            <dd>Cake Bakery System</dd>
-            <button>View </button>
-          </div>
-
-     <!--Hostel-->
-         <div>
-            <dd>Hostel Management System</dd>
-            <button>View </button>
-         </div>
+                <p>I’m sharing some of project which I have done with you.You can get a bit idea of my capabilities from
+                    these project ..
+                    And also you can get my source code of all project from my Git Hub...</p>
+                <h3>Project I have done ......</h3>
 
 
-     <!--GitHub-->
-           <div>
+                <!--Car Parking-->
+                <div>
+                    <dd>Car parking System</dd>
+                    <button>View</button>
+                </div>
 
-                <button>Git Hub</button>
-             </div>
+                <!--Cake Bakery-->
+                <div>
+                    <dd>Cake Bakery System</dd>
+                    <button>View</button>
+                </div>
 
-     <p> You can
-         refer more
-         & get codes
-         from my
-         github.. </p>
+                <!--Hostel-->
+                <div>
+                    <dd>Hostel Management System</dd>
+                    <button>View</button>
+                </div>
 
-     <!--Rectangle behind the projects of here-->
-     <div></div>
 
-     <h3>Assignments I have Done...</h3>
+                <!--GitHub-->
+                <div>
 
-     <!--case 2 in Basic-->
-     <div><a id="caseBasic" href="assignments/css/Basics/Case_02.html" target="_blank">Case Of Basic</a></div>
+                    <button>Git Hub</button>
+                </div>
 
-     <!--case 1 in transition-->
-     <div><a id="caseTrans" href="assignments/css/Transitions/Case_01.html" target="_blank">Case Of Transition</a></div>
+                <p> You can
+                    refer more
+                    & get codes
+                    from my
+                    github.. </p>
 
-     <!--case 4 in  animation-->
-     <div><a id="caseAni" href="assignments/css/Animation/Case_04.html" target="_blank">Case Of Animation</a></div>
+                <!--Rectangle behind the projects of here-->
+                <div></div>
 
-     <!--Arrrow-->
-     <a href="projects/AssignmentView.html"target="_blank"><div> </div></a>
+                <h3>Assignments I have Done...</h3>
 
-         </div>
+                <!--case 2 in Basic-->
+                <div><a href="assignments/css/Basics/Case_02.html" id="caseBasic" target="_blank">Case Of Basic</a>
+                </div>
+
+                <!--case 1 in transition-->
+                <div><a href="assignments/css/Transitions/Case_01.html" id="caseTrans" target="_blank">Case Of
+                    Transition</a></div>
+
+                <!--case 4 in  animation-->
+                <div><a href="assignments/css/Animation/Case_04.html" id="caseAni" target="_blank">Case Of Animation</a>
+                </div>
+
+                <!--Arrrow-->
+                <a href="projects/AssignmentView.html" target="_blank">
+                    <div></div>
+                </a>
+
+            </div>
         </section>
     </section>
 
     <!--Contact me-->
     <section>
         <section id="sectionContactMe">
-        <!--vector 7-->
-        <div ></div>
+            <!--vector 7-->
+            <div></div>
 
-        <!--line pink-->
-        <div></div>
+            <!--line pink-->
+            <div></div>
 
-        <!--line red-->
-        <div></div>
+            <!--line red-->
+            <div></div>
 
-        <h1><b><dfn id="c">CONTACT ME</dfn></b></h1>
+            <h1><b><dfn id="c">CONTACT ME</dfn></b></h1>
 
             <!--Top-->
-            <div><a id="top" href="#h">TOP</a></div>
+            <div><a href="#h" id="top">TOP</a></div>
 
             <!--Arrow white-->
-           <div></div>
+            <div></div>
 
             <!--Rectangle contact-->
-       <div>
+            <div>
 
-    <!--My Location-->
-        <div>
+                <!--My Location-->
+                <div>
 
-        <dt>Location</dt>
-        <div></div>
+                    <dt>Location</dt>
+                    <div></div>
 
-        <div>
-        <dd>Wijitha stores,</dd>
-        <dd>Dandeniya,</dd>
-        <dd>Opanayaka</dd>
-        </div>
-       </div>
+                    <div>
+                        <dd>Wijitha stores,</dd>
+                        <dd>Dandeniya,</dd>
+                        <dd>Opanayaka</dd>
+                    </div>
+                </div>
 
-   <!--My Email-->
-       <div>
+                <!--My Email-->
+                <div>
 
-        <dt>E-mail</dt>
-        <div></div>
-        <dd><a id="mail" href="mailto:oshanimadhushika12@gmail.com">oshanimadhushika12@gmail.com</a></dd>
-           </div>
+                    <dt>E-mail</dt>
+                    <div></div>
+                    <dd><a href="mailto:oshanimadhushika12@gmail.com" id="mail">oshanimadhushika12@gmail.com</a></dd>
+                </div>
 
-   <!--My contact-->
-       <div>
+                <!--My contact-->
+                <div>
 
-        <dt>Contact</dt>
-        <div></div>
-       <div >
-        <dd><a id="number1" href="tel:070-4541195">070-4541195</a></dd>
-        <dd><a id="number2" href="tel:072-3416674">072-3416674</a></dd>
-       </div>
-       </div>
+                    <dt>Contact</dt>
+                    <div></div>
+                    <div>
+                        <dd><a href="tel:070-4541195" id="number1">070-4541195</a></dd>
+                        <dd><a href="tel:072-3416674" id="number2">072-3416674</a></dd>
+                    </div>
+                </div>
 
-           <!--Home icon-->
-           <div></div>
+                <!--Home icon-->
+                <div></div>
 
-           <!--Mail Icon-->
-           <div></div>
+                <!--Mail Icon-->
+                <div></div>
 
-           <!--Pfone-->
-           <div></div>
+                <!--Pfone-->
+                <div></div>
 
-           <section>
-               <div><b><span >Contact Me</span></b></div>
+                <section>
+                    <div><b><span>Contact Me</span></b></div>
 
-               <form action="mail" method="post">
-                   <input name="name" placeholder="Your Name"  type="text">
+                    <form action="mail" method="post">
+                        <input name="name" placeholder="Your Name" type="text">
 
-                   <input name="email" placeholder="Email"  type="text">
+                        <input name="email" placeholder="Email" type="text">
 
-                   <input name="subject" placeholder="Subject"  type="text">
+                        <input name="subject" placeholder="Subject" type="text">
 
-                   <textarea cols="50" name="msg" placeholder="Message" rows="10"></textarea>
+                        <textarea cols="50" name="msg" placeholder="Message" rows="10"></textarea>
 
-                   <button>DONE</button>
-               </form>
+                        <button>DONE</button>
+                    </form>
 
-           </section>
+                </section>
 
-       </div>
+            </div>
         </section>
     </section>
-
 
 
 </main>
 
 <footer>
 
-<h4>Copyright <img src="asserts/Ellipse 8.png"  width="19vw" height="-65px"  alt="">2022 Oshani Madhushika.All Right Reserved</h4>
+    <h4>Copyright <img alt="" height="-65px" src="asserts/Ellipse 8.png" width="19vw">2022 Oshani Madhushika.All Right
+        Reserved</h4>
 </footer>
 </body>
 </html>
