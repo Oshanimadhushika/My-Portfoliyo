@@ -262,7 +262,12 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     font-family:'Inter', sans-serif;
     z-index: 6;
     font-size:23px ;
+    text-decoration: none;
 
+}
+.btnHireme>a{
+    color: rgba(253, 251, 251, 0.96);
+    text-decoration: none;
 }
 
 /*@keyframes my-photo1 {
@@ -435,9 +440,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     }
     .btnHireme{
         position: absolute;
-        width: 48vw;
+        width: 51vw;
         height: 8vh;
-        right: -42vw;
+        right: -40vw;
         top: 45vh;
         background: #000000;
         border: 4px solid #060606;

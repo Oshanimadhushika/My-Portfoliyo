@@ -191,20 +191,21 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
 }
 
 /*Download Cv btn*/
-main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
+/*main>section:nth-child(2)>section>div:nth-child(5)>div:nth-child(7)>label:nth-child(2)>div>span:nth-child(2){*/
+/*.button_inner {
     position: absolute;
     width: 25vw;
     height: 10vh;
-    left: 4vw;
-    top: 706px;
-    background: #AC1F38;
+    left: 57vw;
+    top: 669px;
+    background: #0a0a0a;
     border: 4px solid #060606;
     border-radius: 20px;
     transform: rotate(-0.35deg);
     font-family: Irish Grover,serif;
     color: whitesmoke;
     font-size: 25px;
-}
+}*/
 
 /*================================== 320->Mobile -S ==================================*/
 
