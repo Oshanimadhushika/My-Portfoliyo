@@ -11,7 +11,7 @@ main>section:nth-child(3) {
 #sectionEducation{
     position: absolute;
     width: 87vw;
-    height: 913.55px;
+   /* height: 913.55px;*/
     top: -699px;
 }
 

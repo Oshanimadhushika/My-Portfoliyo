@@ -135,7 +135,8 @@ main>#h>section:nth-child(2)>article>div:first-child>div{
 
 }
 /*I'm Oshani*/
-main>#h>section:nth-child(2)>article>h3:nth-child(2){
+/*main>#h>section:nth-child(2)>article>h3:nth-child(2){*/
+#oshani{
     position: absolute;
     width: 57vw;
     height: 24vh;
@@ -151,7 +152,8 @@ main>#h>section:nth-child(2)>article>h3:nth-child(2){
 }
 
 /*Madhushika*/
-main>#h>section:nth-child(2)>article>h3:nth-child(3){
+/*main>#h>section:nth-child(2)>article>h3:nth-child(3){*/
+#madhushika{
     position: absolute;
     width: 57vw;
     height: 24vh;
@@ -161,7 +163,7 @@ main>#h>section:nth-child(2)>article>h3:nth-child(3){
     font-style: normal;
     font-weight: 400;
     font-size: 106px;
-    line-height: 44px;
+    line-height: 90px;
     color: #3E3E3E;
     z-index: 5;
 }
@@ -172,12 +174,12 @@ main>#h>section:nth-child(2)>article>h4:nth-child(4){
     width: 27vw;
     height: 14vh;
     right: 12vw;
-    top: 108.9px;
+    top: 125.9px;
     font-style: italic;
     font-weight: 900;
     font-size: 32px;
     line-height: 39px;
-    color: #d0b1b2;
+    color: #ffffff;
     z-index: 5;
 
 }
@@ -270,14 +272,6 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     text-decoration: none;
 }
 
-/*@keyframes my-photo1 {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
-}*/
 /*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
@@ -392,7 +386,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
     }
     /*I'm Oshani*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(2){
+/*    main>#h>section:nth-child(2)>article>h3:nth-child(2){*/
+
+      #oshani{
         position: absolute;
         width: 47vw;
         height: 24vh;
@@ -408,7 +404,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 
     /*Madhushika*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(3){
+   /* main>#h>section:nth-child(2)>article>h3:nth-child(3){*/
+       #madhushika{
+
         position: absolute;
         width: 32vw;
         height: 14vh;
@@ -434,7 +432,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         font-weight: 900;
         font-size: 11px;
         line-height: 39px;
-        color: #d0b1b2;
+        color: #ffffff;
         z-index: 5;
 
     }
@@ -630,7 +628,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
     }
     /*I'm Oshani*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(2){
+   /* main>#h>section:nth-child(2)>article>h3:nth-child(2){*/
+    #oshani{
+
         position: absolute;
         width: 47vw;
         height: 24vh;
@@ -646,7 +646,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 
     /*Madhushika*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(3){
+   /* main>#h>section:nth-child(2)>article>h3:nth-child(3){*/
+    #madhushika{
+
         position: absolute;
         width: 32vw;
         height: 14vh;
@@ -672,7 +674,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         font-weight: 900;
         font-size: 11px;
         line-height: 39px;
-        color: #d0b1b2;
+        color: #ffffff;
         z-index: 5;
 
     }
@@ -874,7 +876,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
     }
     /*I'm Oshani*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(2){
+  /*  main>#h>section:nth-child(2)>article>h3:nth-child(2){*/
+    #oshani{
+
         position: absolute;
         width: 47vw;
         height: 24vh;
@@ -890,7 +894,8 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 
     /*Madhushika*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(3){
+   /* main>#h>section:nth-child(2)>article>h3:nth-child(3){*/
+    #madhushika{
         position: absolute;
         width: 32vw;
         height: 14vh;
@@ -916,7 +921,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         font-weight: 900;
         font-size: 11px;
         line-height: 39px;
-        color: #d0b1b2;
+        color: #ffffff;
         z-index: 5;
 
     }
@@ -1120,7 +1125,8 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
     }
     /*I'm Oshani*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(2){
+   /* main>#h>section:nth-child(2)>article>h3:nth-child(2){*/
+    #oshani{
         position: absolute;
         width: 47vw;
         height: 24vh;
@@ -1136,7 +1142,8 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
 
     /*Madhushika*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(3){
+  /*  main>#h>section:nth-child(2)>article>h3:nth-child(3){*/
+    #madhushika{
         position: absolute;
         width: 32vw;
         height: 14vh;
@@ -1162,7 +1169,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         font-weight: 900;
         font-size: 17px;
         line-height: 39px;
-        color: #d0b1b2;
+        color: #ffffff;
         z-index: 5;
 
     }
@@ -1381,7 +1388,8 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 
     }
     /*I'm Oshani*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(2){
+   /* main>#h>section:nth-child(2)>article>h3:nth-child(2){*/
+    #oshani{
         position: absolute;
         width: 57vw;
         height: 24vh;
@@ -1397,7 +1405,8 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
     }
 
     /*Madhushika*/
-    main>#h>section:nth-child(2)>article>h3:nth-child(3){
+   /* main>#h>section:nth-child(2)>article>h3:nth-child(3){*/
+    #madhushika{
         position: absolute;
         width: 57vw;
         height: 24vh;
@@ -1423,7 +1432,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         font-weight: 900;
         font-size: 26px;
         line-height: 39px;
-        color: #d0b1b2;
+        color: #ffffff;
         z-index: 5;
 
     }

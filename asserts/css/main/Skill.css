@@ -245,20 +245,29 @@ main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(8){
 }
 
 /*Title Tools*/
+/*
 main>section:nth-child(4)>section>div:nth-child(5)>h1:nth-child(9){
-    position: absolute;
+*/
+
+   #tools{
+   /* position: absolute;
     width: 14vw;
     height: 72px;
     left: 70vw;
     top: 198px;
-    font-family: 'Candal', sans-serif;
+
     font-style: normal;
     font-weight: 400;
     font-size: 50px;
     line-height: 83px;
-    color: #000000;
-}
+    color: #000000;*/
 
+       left: 75vw;
+       width: 18vw;
+       top: 266px;
+       font-size: 10px;
+       font-family: 'Candal', sans-serif;
+}
 
 /*VS*/
 main>section:nth-child(4)>section>div:nth-child(5)>div:nth-child(10){

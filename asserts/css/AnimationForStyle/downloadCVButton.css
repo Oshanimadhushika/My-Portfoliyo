@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,700,500,400italic,500italic,700italic,300italic);
 
+
 body a:hover {
     opacity: 1;
 }
@@ -9,6 +10,20 @@ body a i.l {
 
 input {
     display: none;
+}
+.button{
+    position: relative;
+    z-index: 50;
+}
+
+.fa-arrow-up-right-from-square {
+    margin-right: 100px;
+
+}
+
+.fa-download {
+    margin-right: 100px;
+
 }
 
 input:checked + label .button_inner {
@@ -856,49 +871,49 @@ input:checked + label .button_spots:nth-of-type(60) {
 }
 .button .button_spots:nth-of-type(1) {
     transform-origin: 88px 16px;
-    background: #9178d3;
+    background: #4616c6;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.4s;
 }
 .button .button_spots:nth-of-type(2) {
     transform-origin: 88px 14px;
-    background: #ccd477;
+    background: #d1e310;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.5s;
 }
 .button .button_spots:nth-of-type(3) {
     transform-origin: 80px 17px;
-    background: #9bd279;
+    background: #65e813;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.1s;
 }
 .button .button_spots:nth-of-type(4) {
     transform-origin: 86px 18px;
-    background: #bfd17b;
+    background: #0f1301;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.2s;
 }
 .button .button_spots:nth-of-type(5) {
     transform-origin: 88px 11px;
-    background: #87d775;
+    background: #3dd51b;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.6s;
 }
 .button .button_spots:nth-of-type(6) {
     transform-origin: 87px 11px;
-    background: #d67694;
+    background: #e51a59;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.8s;
 }
 .button .button_spots:nth-of-type(7) {
     transform-origin: 83px 18px;
-    background: #d8bf74;
+    background: #090909;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 2s;
 }
 .button .button_spots:nth-of-type(8) {
     transform-origin: 84px 16px;
-    background: #9ad279;
+    background: #5bd216;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.1s;
 }
@@ -910,7 +925,7 @@ input:checked + label .button_spots:nth-of-type(60) {
 }
 .button .button_spots:nth-of-type(10) {
     transform-origin: 86px 17px;
-    background: #d57678;
+    background: #ce171b;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.6s;
 }
@@ -934,127 +949,127 @@ input:checked + label .button_spots:nth-of-type(60) {
 }
 .button .button_spots:nth-of-type(14) {
     transform-origin: 88px 17px;
-    background: #7c8bd0;
+    background: #173be0;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.6s;
 }
 .button .button_spots:nth-of-type(15) {
     transform-origin: 82px 19px;
-    background: #d5768b;
+    background: #971834;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.7s;
 }
 .button .button_spots:nth-of-type(16) {
     transform-origin: 83px 17px;
-    background: #7578d7;
+    background: #1218de;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.5s;
 }
 .button .button_spots:nth-of-type(17) {
     transform-origin: 83px 10px;
-    background: #d07ccd;
+    background: #db22d4;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(18) {
     transform-origin: 85px 15px;
-    background: #d17b85;
+    background: #45030a;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.3s;
 }
 .button .button_spots:nth-of-type(19) {
     transform-origin: 88px 13px;
-    background: #b0d874;
+    background: #40610c;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.4s;
 }
 .button .button_spots:nth-of-type(20) {
     transform-origin: 81px 17px;
-    background: #b6d17a;
+    background: #6a9509;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.3s;
 }
 .button .button_spots:nth-of-type(21) {
     transform-origin: 88px 19px;
-    background: #cdd775;
+    background: #788412;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.7s;
 }
 .button .button_spots:nth-of-type(22) {
     transform-origin: 84px 14px;
-    background: #d1a37b;
+    background: #864711;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.8s;
 }
 .button .button_spots:nth-of-type(23) {
     transform-origin: 82px 10px;
-    background: #d17b7a;
+    background: #a11d1b;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.2s;
 }
 .button .button_spots:nth-of-type(24) {
     transform-origin: 87px 12px;
-    background: #7b85d1;
+    background: #162382;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.2s;
 }
 .button .button_spots:nth-of-type(25) {
     transform-origin: 83px 17px;
-    background: #8277d4;
+    background: #271a89;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(26) {
     transform-origin: 87px 10px;
-    background: #d79275;
+    background: #923913;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(27) {
     transform-origin: 88px 16px;
-    background: #78d3a3;
+    background: #107640;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 2s;
 }
 .button .button_spots:nth-of-type(28) {
     transform-origin: 80px 19px;
-    background: #c6d676;
+    background: #c5e522;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(29) {
     transform-origin: 86px 15px;
-    background: #74d8c4;
+    background: #0b725e;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.6s;
 }
 .button .button_spots:nth-of-type(30) {
     transform-origin: 88px 19px;
-    background: #d3ac78;
+    background: #090908;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 2s;
 }
 .button .button_spots:nth-of-type(31) {
     transform-origin: 89px 14px;
-    background: #d28179;
+    background: #791b11;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.2s;
 }
 .button .button_spots:nth-of-type(32) {
     transform-origin: 80px 16px;
-    background: #76d5aa;
+    background: #0e7948;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.2s;
 }
 .button .button_spots:nth-of-type(33) {
     transform-origin: 82px 14px;
-    background: #d874c2;
+    background: #7d0e64;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.4s;
 }
 .button .button_spots:nth-of-type(34) {
     transform-origin: 89px 18px;
-    background: #d5a676;
+    background: #ce6d0a;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
@@ -1072,116 +1087,116 @@ input:checked + label .button_spots:nth-of-type(60) {
 }
 .button .button_spots:nth-of-type(37) {
     transform-origin: 82px 15px;
-    background: #d3d477;
+    background: #acad13;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(38) {
     transform-origin: 86px 18px;
-    background: #a4d279;
+    background: #53a308;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(39) {
     transform-origin: 84px 11px;
-    background: #d17a8a;
+    background: #d21a3c;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(40) {
     transform-origin: 87px 15px;
-    background: #d0877c;
+    background: #74190c;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.4s;
 }
 .button .button_spots:nth-of-type(41) {
     transform-origin: 89px 15px;
-    background: #9cd477;
+    background: #418b10;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.9s;
 }
 .button .button_spots:nth-of-type(42) {
     transform-origin: 84px 12px;
-    background: #b5d07c;
+    background: #65900a;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.5s;
 }
 .button .button_spots:nth-of-type(43) {
     transform-origin: 84px 13px;
-    background: #b3d874;
+    background: #70a31a;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.5s;
 }
 .button .button_spots:nth-of-type(44) {
     transform-origin: 88px 14px;
-    background: #76d6ab;
+    background: #06663b;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.6s;
 }
 .button .button_spots:nth-of-type(45) {
     transform-origin: 86px 17px;
-    background: #d378a0;
+    background: #c14078;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.6s;
 }
 .button .button_spots:nth-of-type(46) {
     transform-origin: 82px 14px;
-    background: #76d6a1;
+    background: #10321f;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 2s;
 }
 .button .button_spots:nth-of-type(47) {
     transform-origin: 86px 14px;
-    background: #d4b177;
+    background: #573b0e;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.3s;
 }
 .button .button_spots:nth-of-type(48) {
     transform-origin: 81px 16px;
-    background: #d39b78;
+    background: #db5b0c;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.8s;
 }
 .button .button_spots:nth-of-type(49) {
     transform-origin: 88px 18px;
-    background: #89d378;
+    background: #32ad16;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.8s;
 }
 .button .button_spots:nth-of-type(50) {
     transform-origin: 88px 14px;
-    background: #7bd1bf;
+    background: #0a6a56;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.7s;
 }
 .button .button_spots:nth-of-type(51) {
     transform-origin: 83px 18px;
-    background: #78d3cd;
+    background: #2f938d;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.4s;
 }
 .button .button_spots:nth-of-type(52) {
     transform-origin: 82px 17px;
-    background: #7ad18a;
+    background: #0e0e0e;
     box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.12);
     transition: all 1.5s;
 }
 .button_inner {
     /*border-radius: 2px;*/
     position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 0;
+    width: 19vw;
+    height: 53px;
+    left: -22vw;
     right: 0;
-    top: 50%;
+    top: 42%;
     margin: auto;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.04);
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 4%);
     font-weight: 100;
-    font-size: 12px;
+    font-size: 28px;
     cursor: pointer;
-    border: 2px solid #FFFFFF;
+    border: 2px solid #f8f7f7;
     border-radius: 20px;
-    color: white;
+    color: #f3f0f0;
     text-align: Center;
     transition: all 0.3s, box-shadow 0.2s, transform 0.2s 0.2s;
 }
