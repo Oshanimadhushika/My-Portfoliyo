@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Que Process</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <style>
+        #colourFiled{
+            width: 200px;
+        }
+        #container{
+            display: flex;
+        }
+        #container>div{
+            width: 120px;
+            height: 90px;
+            border: 1px solid black;
+            position: relative;
+        }
+        #container>div>h1{
+            font-size: 20px;
+            position: absolute;
+            margin: auto;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            width: max-content;
+            height: max-content;
+
+
+        }
+    </style>
+</head>
+<body>
+<main class="container-fluid">
+    <div class="row">
+        <div class="form-group mt-2">
+            <label for="name">Name</label>
+            <input class="form-control" id="name" required type="text">
+        </div>
+    </div>
+
+    <div class="row">
+        <div id="colourFiled" class="form-group mt-2">
+            <label for="color">Colour</label>
+            <input class="form-control" id="color" required type="color">
+        </div>
+    </div>
+    <div class="row">
+        <div class="btn-group">
+            <button class="btn btn-success" id="btnAdd">Add To Que</button>
+        </div>
+    </div>
+</main>
+<main class="container-fluid">
+    <section id="container" class="mt-5">
+
+    </section>
+</main>
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/Que.js"></script>
+</body>
+</html>
