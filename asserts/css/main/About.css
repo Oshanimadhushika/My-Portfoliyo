@@ -405,13 +405,16 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
     }
 
     /*Download Cv btn*/
-    main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
+   /* main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){*/
+    #downloadcvBtn {
         position: absolute;
-        width: 34vw;
-        height: 10vh;
-        left: 52vw;
-        top: 381px;
-        background: #AC1F38;
+        width: 60vw;
+        height: 6vh;
+        left: 6vw;
+        top: 185px;
+        line-height: 5px;
+        text-align: center;
+        background: #030303;
         border: 4px solid #060606;
         border-radius: 20px;
         transform: rotate(-0.35deg);
@@ -606,7 +609,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
         width: 44vw;
         height: 16vh;
         left: -5vw;
-        top: 368px;
+        top: 339px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -619,13 +622,16 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
     }
 
     /*Download Cv btn*/
-    main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
+  /*  main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){*/
+    #downloadcvBtn{
         position: absolute;
-        width: 34vw;
-        height: 10vh;
-        left: 52vw;
-        top: 381px;
-        background: #AC1F38;
+        width: 60vw;
+        height: 9vh;
+        left: -8vw;
+        top: 168px;
+        line-height: 5px;
+        text-align: center;
+        background: #0a0102;
         border: 4px solid #060606;
         border-radius: 20px;
         transform: rotate(-0.35deg);
@@ -819,7 +825,7 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
         width: 44vw;
         height: 16vh;
         left: -5vw;
-        top: 368px;
+        top: 321px;
         font-family: 'Sansita', sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -832,13 +838,16 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
     }
 
     /*Download Cv btn*/
-    main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
+   /* main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7)*/
+    #downloadcvBtn{
         position: absolute;
-        width: 34vw;
-        height: 10vh;
-        left: 52vw;
-        top: 381px;
-        background: #AC1F38;
+        width: 60vw;
+        height: 9vh;
+        left: -14vw;
+        top: 163px;
+        line-height: 5px;
+        text-align: center;
+        background: #0a0a0a;
         border: 4px solid #060606;
         border-radius: 20px;
         transform: rotate(-0.35deg);
@@ -1047,13 +1056,16 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
     }
 
     /*Download Cv btn*/
-    main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7){
+   /* main>section:nth-child(2)>section>div:nth-child(5)>button:nth-child(7)*/
+    #downloadcvBtn{
         position: absolute;
-        width: 25vw;
-        height: 10vh;
-        left: 55vw;
-        top: 405px;
-        background: #AC1F38;
+        width: 60vw;
+        height: 9vh;
+        left: -4vw;
+        top: 163px;
+        line-height: 5px;
+        text-align: center;
+        background: #000000;
         border: 4px solid #060606;
         border-radius: 20px;
         transform: rotate(-0.35deg);
@@ -1263,13 +1275,19 @@ main>section:nth-child(2)>section>div:nth-child(5)>ul:nth-child(6){
     }
 
     /*Download Cv btn*/
-    main > section:nth-child(2) > section > div:nth-child(5) > button:nth-child(7) {
+    /*
+    main > section:nth-child(2) > section > div:nth-child(5) > button:nth-child(7)
+    */
+    #downloadcvBtn{
         position: absolute;
         width: 25vw;
-        height: 10vh;
-        left: 4vw;
-        top: 706px;
-        background: #AC1F38;
+        height: 53px;
+        left: -22vw;
+        right: 0;
+        top: 51%;
+        line-height: 5px;
+        text-align: center;
+        background: #070707;
         border: 4px solid #060606;
         border-radius: 20px;
         transform: rotate(-0.35deg);

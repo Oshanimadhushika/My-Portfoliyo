@@ -43,9 +43,9 @@ main>#h>section:nth-child(2)>nav>a{
     z-index: 4;
     margin-top: 50px;
     margin-left: 10px;
-    width: 2vw;
+    width: 3vw;
     height: 3vh;
-    left: 0;
+    left: -4px;
 
 }
 /*facebook icon*/
@@ -162,7 +162,7 @@ main>#h>section:nth-child(2)>article>div:first-child>div{
     font-family: Irish Grover,serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 106px;
+    font-size: 94px;
     line-height: 90px;
     color: #3E3E3E;
     z-index: 5;
@@ -275,10 +275,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
 /*================================== 320->Mobile -S ==================================*/
 
 @media all and (max-width: 320px){
-/*
     body{
         overflow-x: hidden;
-    }*/
+    }
     body>main{
 
         top: 67px;
@@ -408,9 +407,9 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
        #madhushika{
 
         position: absolute;
-        width: 32vw;
+        width: 51vw;
         height: 14vh;
-        right: 15vw;
+        right: 0vw;
         top: 15vh;
         font-family: Irish Grover,serif;
         font-style: normal;
@@ -1415,7 +1414,7 @@ main>#h>section:nth-child(2)>blockquote>cite>div:nth-child(4){
         font-family: Irish Grover,serif;
         font-style: normal;
         font-weight: 400;
-        font-size: 106px;
+        font-size: 92px;
         line-height: 44px;
         color: #3E3E3E;
         z-index: 5;
