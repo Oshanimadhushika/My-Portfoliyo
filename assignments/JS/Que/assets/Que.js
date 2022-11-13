@@ -1,6 +1,6 @@
 var cueData = {
     person: [
-        {name: "Oshani", color: "red"},
+        {name: "Oshani", color: "pink"},
         {name: "Achini", color: "yellow"},
         {name: "Hesh", color: "green"}
     ]
