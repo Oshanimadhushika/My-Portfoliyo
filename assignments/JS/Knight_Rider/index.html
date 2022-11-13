@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Knight Rider</title>
+    <style>
+        body{
+            background-color: black;
+        }
+
+        h1{
+            right: 0;
+            left: 0;
+            top: 28px;
+            margin: auto;
+            position: absolute;
+            border-bottom: 2px solid white;
+            color: white;
+            font-size: 35px;
+            width: max-content;
+        }
+
+        #knight {
+            display: flex;
+            position: absolute;
+            width: 95vw;
+            left: 60px;
+            right: 0;
+            margin: auto;
+            top: 200px;
+
+        }
+
+        #knight>div {
+            width: 200px;
+            height: 70px;
+            border: 1px solid crimson;
+        }
+
+        #btnStart{
+            position: absolute;
+            left: 618px;
+            top: 482px;
+        }
+
+        #btnEnd{
+            position: absolute;
+            left: 715px;
+            top: 482px;
+        }
+    </style>
+</head>
+<body>
+<h1>Knight Rider</h1>
+
+<section id="knight">
+
+</section>
+
+<section id="btnContainer">
+    <button id="btnStart" type="button">Start</button>
+    <button id="btnEnd" type="button">End</button>
+</section>
+
+<script src="assets/js/jquery-3.6.1.min.js"></script>
+<script src="assets/js/KnightRider.js"></script>
+</body>
+</html>
