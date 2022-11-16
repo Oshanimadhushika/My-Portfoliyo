@@ -27,8 +27,8 @@
     width: 100px;
     height: 174px;
     left: 2vw;
-    margin-top: 281px;
-    background-image: url("resourses/images/Idle__000.png");
+    top: 370px;
+    background-image: url("resourses/images/Idle(1).png");
     background-size: cover;
     z-index: 2;
 }
