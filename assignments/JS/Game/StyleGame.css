@@ -9,6 +9,19 @@
     background-size: cover;
 
 }
+.ninjagirlTopic{
+    position:absolute;
+    width: 36vw;
+    height: 19vh;
+    right: 0vw;
+    top: -80.6px;
+    font-family: 'Irish Grover', cursive;
+    font-weight: 400;
+    font-size: 61px;
+    line-height: 155px;
+    color: #e8c40c;
+    z-index: 2;
+}
 .ninjagirl{
     position: absolute;
     width: 100px;
