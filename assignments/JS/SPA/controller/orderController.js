@@ -23,7 +23,11 @@ $('#addItemBtn').click( function () {
             loadAllOrders();
             calculateTotal();
         }
+    } else {
+        alert("Enter Order Quantity")
     }
+
+    $("#placeOrder").attr("disabled", false);
 });
 
 $("#cash").on('keyup',function (event) {
@@ -121,7 +125,15 @@ function calculateTotal() {
 }
 
 $('#placeOrder').click(function () {
+    purchaseOrder();
+    generateOrderId();
+    cart.splice(0,cart.length);
+    $("#tblOrder").empty();
 
+    $('#orderItemName,#orderUPrice,#orderQtyOnHand,#orderCusName,#orderSalary,#orderAddress,#cash,#balance,#discount').val("");
+    $('#total,#subTot').text("00")
+
+    $("#placeOrder").attr('disabled',true);
 });
 
 function saveOrder(){
@@ -144,6 +156,28 @@ function saveOrder(){
     }
 }
 
+function purchaseOrder() {
+    if(saveOrder()){
+        let date;
+        if($('#orderDate').val() === ""){
+
+        } else {
+            date = $("#orderDate").val();
+        }
+        let discount = $('#discount').val();
+        let cname = $('#orderCusName').val();
+        let cid = $('#orderCusOpt').val();
+
+        for (let cus of cart) {
+            let orderDet = orderDetail(cus.orderCId,date,cid,cname,cus.orderCItemCode,cus.orderCItemName,cus.orderCQty,discount,cus.orderCTotal);
+            orderDetails.push(orderDet);
+        }
+        alert("Successfully place order..");
+    } else {
+        alert("Failed..Something went Wrong !!!")
+    }
+}
+
 $('#orderItemOpt').change(function () {
     let code = $('#orderItemOpt').val();
     let item = searchItem(code);
@@ -152,6 +186,8 @@ $('#orderItemOpt').change(function () {
         $('#orderUPrice').val(item.price);
         $('#orderQtyOnHand').val(item.quantity);
     }
+    updatedQty();
+    $('#addItemBtn').attr("disabled", false)
 });
 
 $('#orderCusOpt').change(function () {
