@@ -48,8 +48,29 @@ function runAnimationStart() {
 
 jumpAnimationNumber=0;
 jumpImageNumber=1;
+girlTop=399;
 function jumpAnimation() {
 
+    jumpImageNumber=jumpImageNumber+1;
+
+    if (jumpImageNumber<=6){
+        girlTop=girlTop-20;
+        girl.style.top=girlTop+"px";
+    }
+
+    if (jumpImageNumber>=7){
+        girlTop=girlTop+20;
+        girl.style.top=girlTop+"px";
+    }
+
+
+    if (jumpImageNumber==11){
+        jumpImageNumber=1;
+        clearInterval(jumpAnimationNumber);
+        jumpAnimationNumber=0;
+        runImageNumber=0;
+        runAnimationStart();
+    }
     girl.src="resourses/images/Jump("+jumpImageNumber+").png"
 }
 function jumpAnimationStart() {
@@ -63,7 +84,8 @@ function jumpAnimationStart() {
 
 function keyCheck(event) {
     /*alert(event.which);
-    enter=13*/
+    enter=13
+    space=32*/
 
     var keyCode=event.which;
 
@@ -74,9 +96,18 @@ function keyCheck(event) {
 
 
     if (moveBackgroundAnimationId==0){
-        moveBackgroundAnimationId=setInterval(moveBackground,150)
+        moveBackgroundAnimationId=setInterval(moveBackground,180)
     }
 }
+    if (keyCode==32){
+        if (jumpAnimationNumber==0)
+        {
+            jumpAnimationStart();
+        }
+        if (moveBackgroundAnimationId==0){
+            moveBackgroundAnimationId=setInterval(moveBackground,180)
+        }
+    }
 }
 
 var backgroundImagePositionX=0;
