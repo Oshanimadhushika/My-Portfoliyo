@@ -25,11 +25,9 @@
 }
 .ninjagirl{
     position: absolute;
-    width: 100px;
-    height: 174px;
+    width: 107px;
+    height: 178px;
     left: 2vw;
-    top: 370px;
-    background-image: url("resourses/images/Idle(1).png");
-    background-size: cover;
+    top: 399px;
     z-index: 2;
 }

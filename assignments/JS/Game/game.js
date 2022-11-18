@@ -1,5 +1,5 @@
 var girl=document.getElementById("girl");
-idleImageNumber=0;
+idleImageNumber=1;
 idleAnimationNumber=0;
 
 function idleAnimation() {
@@ -24,7 +24,7 @@ function idleAnimationStart() {
 
 
 
-runImageNumber=0;
+runImageNumber=1;
 runAnimationNumber=0;
 
 function runAnimation() {
@@ -39,9 +39,24 @@ function runAnimation() {
 }
 
 function runAnimationStart() {
-    clearInterval(idleAnimationNumber);
+
     runAnimationNumber=setInterval(runAnimation,150);
 
+    clearInterval(idleAnimationNumber);
+
+}
+
+jumpAnimationNumber=0;
+jumpImageNumber=1;
+function jumpAnimation() {
+
+    girl.src="resourses/images/Jump("+jumpImageNumber+").png"
+}
+function jumpAnimationStart() {
+    clearInterval(idleAnimationNumber);
+    runImageNumber=0;
+    clearInterval(runAnimationNumber);
+    jumpAnimationNumber=setInterval(jumpAnimation,150);
 
 }
 
@@ -57,12 +72,11 @@ function keyCheck(event) {
             runAnimationStart();
         }
 
-    }
 
     if (moveBackgroundAnimationId==0){
         moveBackgroundAnimationId=setInterval(moveBackground,150)
     }
-
+}
 }
 
 var backgroundImagePositionX=0;
