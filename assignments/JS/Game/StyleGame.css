@@ -8,6 +8,8 @@
     background-image: url("resourses/images/background2.jpg");
     background-size: cover;
     background-repeat: repeat-x;
+    position:absolute;
+    overflow-x:hidden;
 
 }
 .ninjagirlTopic{
@@ -37,6 +39,6 @@
     height: 150px;
     background-color: rgba(146, 86, 68, 0.83);
     position: absolute;
-    top: 460px;
+    top: 475px;
    /* left: 4vw;*/
 }

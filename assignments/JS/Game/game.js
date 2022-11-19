@@ -81,7 +81,7 @@ function jumpAnimationStart() {
 
 }
 
-boxLeft=500;
+boxLeft=1400;
 function createBoxes() {
 
     for (var i=0; i<=10; i++) {
