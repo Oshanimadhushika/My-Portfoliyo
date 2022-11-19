@@ -27,18 +27,20 @@
 }
 .ninjagirl{
     position: absolute;
-    width: 107px;
-    height: 178px;
+    width: 149px;
+    height: 220px;
     left: 2vw;
-    top: 399px;
+    top: 366px;
     z-index: 2;
 }
 
 .box{
-    width: 100px;
-    height: 150px;
-    background-color: rgba(146, 86, 68, 0.83);
+    width: 326px;
+    height: 193px;
+    /*background-color: rgba(146, 86, 68, 0.83);*/
     position: absolute;
-    top: 475px;
-   /* left: 4vw;*/
+    top: 428px;
+    background-image: url("resourses/images/tiger.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
 }

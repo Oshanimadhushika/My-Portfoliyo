@@ -48,7 +48,7 @@ function runAnimationStart() {
 
 jumpAnimationNumber=0;
 jumpImageNumber=1;
-girlTop=399;
+girlTop=366;
 function jumpAnimation() {
 
     jumpImageNumber=jumpImageNumber+1;
@@ -81,7 +81,7 @@ function jumpAnimationStart() {
 
 }
 
-boxLeft=1400;
+boxLeft=500;
 function createBoxes() {
 
     for (var i=0; i<=10; i++) {
@@ -89,6 +89,7 @@ function createBoxes() {
         box.className = "box";
         document.getElementById("backgroundID").appendChild(box);
         box.style.left = boxLeft + "px";
+        box.id="box"+i;
 
        // boxLeft=boxLeft+500;
         if (i<5){
@@ -98,6 +99,12 @@ function createBoxes() {
             boxLeft=boxLeft+250;
         }
     }
+}
+
+
+var boxAnimationID=0;
+function boxAnimation() {
+
 }
 
 
