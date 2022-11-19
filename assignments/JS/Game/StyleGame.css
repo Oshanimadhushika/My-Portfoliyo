@@ -31,3 +31,12 @@
     top: 399px;
     z-index: 2;
 }
+
+.box{
+    width: 100px;
+    height: 150px;
+    background-color: rgba(146, 86, 68, 0.83);
+    position: absolute;
+    top: 460px;
+   /* left: 4vw;*/
+}

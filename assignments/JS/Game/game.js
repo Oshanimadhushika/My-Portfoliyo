@@ -81,6 +81,39 @@ function jumpAnimationStart() {
 
 }
 
+boxLeft=500;
+function createBoxes() {
+
+    for (var i=0; i<=10; i++) {
+        var box = document.createElement("div");
+        box.className = "box";
+        document.getElementById("backgroundID").appendChild(box);
+        box.style.left = boxLeft + "px";
+
+       // boxLeft=boxLeft+500;
+        if (i<5){
+            boxLeft=boxLeft+500;
+        }
+        if (i>=5){
+            boxLeft=boxLeft+250;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function keyCheck(event) {
     /*alert(event.which);
