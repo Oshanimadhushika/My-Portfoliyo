@@ -40,7 +40,7 @@ function runAnimation() {
 
 function runAnimationStart() {
 
-    runAnimationNumber=setInterval(runAnimation,150);
+    runAnimationNumber=setInterval(runAnimation,120);
 
     clearInterval(idleAnimationNumber);
 
@@ -54,12 +54,12 @@ function jumpAnimation() {
     jumpImageNumber=jumpImageNumber+1;
 
     if (jumpImageNumber<=6){
-        girlTop=girlTop-20;
+        girlTop=girlTop-45;
         girl.style.top=girlTop+"px";
     }
 
     if (jumpImageNumber>=7){
-        girlTop=girlTop+20;
+        girlTop=girlTop+45;
         girl.style.top=girlTop+"px";
     }
 
@@ -77,11 +77,11 @@ function jumpAnimationStart() {
     clearInterval(idleAnimationNumber);
     runImageNumber=0;
     clearInterval(runAnimationNumber);
-    jumpAnimationNumber=setInterval(jumpAnimation,150);
+    jumpAnimationNumber=setInterval(jumpAnimation,200);
 
 }
 
-boxLeft=500;
+boxLeft=1700;
 function createBoxes() {
 
     for (var i=0; i<=10; i++) {
@@ -93,10 +93,10 @@ function createBoxes() {
 
        // boxLeft=boxLeft+500;
         if (i<5){
-            boxLeft=boxLeft+500;
+            boxLeft=boxLeft+2000;
         }
         if (i>=5){
-            boxLeft=boxLeft+250;
+            boxLeft=boxLeft+1000;
         }
     }
 }
@@ -105,8 +105,46 @@ function createBoxes() {
 var boxAnimationID=0;
 function boxAnimation() {
 
+    for (var i=0; i<10; i++){
+        var box=document.getElementById("box"+i);
+        var currentLeft=getComputedStyle(box).left;
+        var newLeft=parseInt(currentLeft)-35;
+        box.style.left=newLeft+"px";
+
+        if (newLeft>= -110 && newLeft<=100){
+            if (girlTop>300){
+                clearInterval(boxAnimationID);
+
+                clearInterval(runAnimationNumber);
+                runAnimationNumber=-1;
+
+                clearInterval(jumpAnimationNumber);
+                jumpAnimationNumber=-1;
+
+                clearInterval(moveBackgroundAnimationId);
+                moveBackgroundAnimationId=-1;
+
+                deadAnimationNumber=setInterval(girlDeadAnimation,150);
+            }
+        }
+
+    }
 }
 
+deadImageNumber=1;
+deadAnimationNumber=0;
+function girlDeadAnimation() {
+
+    deadImageNumber=deadImageNumber+1;
+
+    if (deadImageNumber==11){
+        deadImageNumber=10;
+    }
+
+
+    girl.src="resourses/images/Dead("+deadImageNumber+").png";
+
+}
 
 
 
@@ -138,6 +176,9 @@ function keyCheck(event) {
     if (moveBackgroundAnimationId==0){
         moveBackgroundAnimationId=setInterval(moveBackground,180)
     }
+        if (boxAnimationID==0){
+            boxAnimationID=setInterval(boxAnimation,180);
+        }
 }
     if (keyCode==32){
         if (jumpAnimationNumber==0)
@@ -145,7 +186,10 @@ function keyCheck(event) {
             jumpAnimationStart();
         }
         if (moveBackgroundAnimationId==0){
-            moveBackgroundAnimationId=setInterval(moveBackground,180)
+            moveBackgroundAnimationId=setInterval(moveBackground,180);
+        }
+        if (boxAnimationID==0){
+            boxAnimationID=setInterval(boxAnimation,180);
         }
     }
 }
