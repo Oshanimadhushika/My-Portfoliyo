@@ -44,3 +44,16 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.score{
+    background-color:darkgoldenrod;
+    font-size:59px ;
+    top: -80.6px;
+    font-family: 'Irish Grover', cursive;
+    width: 3vw;
+    height: 3vh;
+    font-weight: bold;
+    left: 2vw;
+    z-index: 3;
+    position: absolute;
+}
