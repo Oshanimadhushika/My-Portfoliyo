@@ -146,20 +146,6 @@ function girlDeadAnimation() {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 function keyCheck(event) {
     /*alert(event.which);
     enter=13
@@ -205,4 +191,6 @@ function moveBackground() {
 
     document.getElementById("backgroundID").style.backgroundPositionX=backgroundImagePositionX+"px";
 
+    score=score+1;
+    document.getElementById("score").innerHTML=score;
 }

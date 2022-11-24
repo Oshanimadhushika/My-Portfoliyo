@@ -46,14 +46,18 @@
 }
 
 .score{
-    background-color:darkgoldenrod;
-    font-size:59px ;
-    top: -80.6px;
+    background-color: #908207;
+    font-size:45px ;
+    top: 9.4px;
     font-family: 'Irish Grover', cursive;
-    width: 3vw;
-    height: 3vh;
+    width: 12vw;
+    height: 7vh;
+    text-align: center;
     font-weight: bold;
     left: 2vw;
-    z-index: 3;
+   /* z-index: 3;*/
     position: absolute;
+    color: #0a0102;
+    border-radius: 15%;
+    border-color: #0a0102;
 }
