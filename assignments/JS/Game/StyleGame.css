@@ -103,3 +103,43 @@
     transition-duration: 0.5s;
 
 }
+
+.sd{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.body1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.startTopic{
+    position: relative;
+    font-family: 'Irish Grover', sans-serif;
+    text-transform: uppercase;
+    font-size:4em;
+    letter-spacing: 2px;
+    background: linear-gradient(90deg, rgb(95, 22, 4),#f0f0f0, rgb(193, 31, 147));
+    background-repeat: no-repeat;
+    background-size: 500px;
+    animation: animate 3s linear infinite;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+@keyframes animate {
+    0%{
+        background-position: -100%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
+
