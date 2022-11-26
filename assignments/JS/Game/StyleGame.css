@@ -117,8 +117,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("resourses/images/StartBackground.jpg");
+    background-size: cover;
+    background-position: center;
     height: 100vh;
-    background-color: black;
+   /* background-color: black;*/
 }
 
 .startTopic{
@@ -127,7 +130,7 @@
     text-transform: uppercase;
     font-size:4em;
     letter-spacing: 2px;
-    background: linear-gradient(90deg, rgb(95, 22, 4),#f0f0f0, rgb(193, 31, 147));
+    background: linear-gradient(90deg, rgb(95, 22, 4), #6dc72c, rgb(3, 1, 3));
     background-repeat: no-repeat;
     background-size: 500px;
     animation: animate 3s linear infinite;
@@ -161,6 +164,32 @@
     cursor: pointer;
     font-family:'IM Fell English', serif;
     transition-duration: 0.5s;
+}
+.instructionBox{
+    position: absolute;
+    width: 26vw;
+    height: 200px;
+    background-color: #010e11;
+    border-radius: 30%;
+    top: 28px;
+}
+.topicInstruction{
+    font-size: 50px;
+    color:snow;
+    text-align: center;
+    font-family:'IM Fell English', serif;
 
 }
+
+.list{
+    font-size: 25px;
+    color: whitesmoke;
+    font-family: 'IM Fell English', serif;
+}
+
+.win{
+
+}
+
+
 
