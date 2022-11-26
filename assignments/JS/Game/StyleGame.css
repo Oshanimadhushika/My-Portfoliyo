@@ -78,3 +78,16 @@
     visibility: hidden;
 }
 
+.go{
+    color: #c4c408;
+}
+
+.btnTry{
+    width: 4vw;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #0b4452;
+    border: none;
+    border-radius: 20%;
+}
