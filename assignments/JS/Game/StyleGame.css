@@ -61,3 +61,20 @@
     border-radius: 15%;
     border-color: #0a0102;
 }
+
+.end{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family:'Shippori Mincho', serif ;
+    visibility: hidden;
+}
+
