@@ -143,3 +143,24 @@
     }
 }
 
+.btnStart{
+    width: 4vw;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #0b4452;
+    color: whitesmoke;
+    border: none;
+    border-radius: 30%;
+
+}
+
+.btnStart:hover{
+    background-color:#490a0a;
+    width: 250px;
+    cursor: pointer;
+    font-family:'IM Fell English', serif;
+    transition-duration: 0.5s;
+
+}
+
