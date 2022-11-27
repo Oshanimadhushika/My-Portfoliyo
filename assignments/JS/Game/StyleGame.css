@@ -82,6 +82,29 @@
     color: #c4c408;
 }
 
+.level{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40vw;
+    color:black;
+    margin-top: 10px;
+    position: absolute;
+    font-family: 'Irish Grover', cursive;
+
+}
+
+#levelTopic{
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 29vw;
+    margin-top:10px;
+    position: absolute;
+    width: 176px;
+    color:black;
+    font-family: 'Irish Grover', sans-serif;
+
+}
+
 .btnTry{
     width: 15vw;
     height: 50px;
