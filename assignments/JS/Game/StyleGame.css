@@ -96,7 +96,8 @@
 .btnTry:hover{
     background-color: #a3839c;
     color: #0a0102;
-    width: 4vw;
+    width: 15vw;
+    height: 50px;
     cursor: pointer;
   /*  background-color:rgb();*/
     font-family:'Shippori Mincho', serif ;

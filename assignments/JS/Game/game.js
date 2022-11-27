@@ -198,7 +198,7 @@ function moveBackground() {
     score=score+1;
     document.getElementById("score").innerHTML=score;
 
-    if (score==200){
+    if (score==300){
         document.getElementById("win").style.visibility="visible";
 
         clearInterval(boxAnimationID);
@@ -210,4 +210,14 @@ function moveBackground() {
         jumpAnimationNumber=-1;
 
     }
+}
+
+function reload() {
+    location.reload();
+
+}
+
+function reload1() {
+
+    location.reload();
 }
