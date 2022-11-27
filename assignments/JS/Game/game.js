@@ -40,7 +40,7 @@ function runAnimation() {
 
 function runAnimationStart() {
 
-    runAnimationNumber=setInterval(runAnimation,120);
+    runAnimationNumber=setInterval(runAnimation,100);
 
     clearInterval(idleAnimationNumber);
 
@@ -139,6 +139,10 @@ function girlDeadAnimation() {
 
     if (deadImageNumber==11){
         deadImageNumber=10;
+
+
+        document.getElementById("end").style.visibility="visible";
+        document.getElementById("endscore").innerHTML=score;
     }
 
 
@@ -193,4 +197,17 @@ function moveBackground() {
 
     score=score+1;
     document.getElementById("score").innerHTML=score;
+
+    if (score==200){
+        document.getElementById("win").style.visibility="visible";
+
+        clearInterval(boxAnimationID);
+
+        clearInterval(runAnimationNumber);
+        runAnimationNumber=-1;
+
+        clearInterval(jumpAnimationNumber);
+        jumpAnimationNumber=-1;
+
+    }
 }

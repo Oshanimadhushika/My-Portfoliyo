@@ -83,7 +83,7 @@
 }
 
 .btnTry{
-    width: 4vw;
+    width: 15vw;
     height: 50px;
     font-size: 30px;
     font-weight: bold;
@@ -204,6 +204,9 @@
 .wi{
     width: 175px;
     height: 165px;
+    background-image: url("resourses/images/Ninja Girl Logo.jpg");
+    background-size: cover;
+    background-position: center;
 
 }
 .btnPlay{
@@ -227,9 +230,9 @@
     position: relative;
     font-family:'IM Fell English', serif;
     text-transform: uppercase;
-    font-size:4em;
+    font-size:2em;
     letter-spacing: 2px;
-    background: linear-gradient(90deg, rgb(95, 22, 4), #6dc72c, rgb(3, 1, 3));
+    background: linear-gradient(90deg, rgb(234, 222, 219), #e79811, rgb(101, 77, 101));
     background-repeat: no-repeat;
     background-size: 500px;
     animation: animate 3s linear infinite;
