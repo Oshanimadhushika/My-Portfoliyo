@@ -105,6 +105,7 @@
 
 }
 
+
 .btnTry{
     width: 15vw;
     height: 50px;
@@ -209,6 +210,14 @@
     font-size: 25px;
     color: whitesmoke;
     font-family: 'IM Fell English', serif;
+}
+
+
+#nextLevelQuote{
+    color: whitesmoke;
+    font-family: 'Irish Grover', sans-serif;
+    font-size: 35px;
+    align-items: center;
 }
 
 .win{
